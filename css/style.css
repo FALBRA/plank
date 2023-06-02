@@ -243,6 +243,40 @@ body {
 
 
 /*footer*/
+.footer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 20% 10% auto auto 20%;
+    max-height: 140px;
+}
+.footer .footer-logo {
+    max-width: 88px;
+    max-height: 88px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.footer .footer-logo img {
+    max-width: 70px;
+    float: right;
+    padding: 10px 9px 10px 10px;
+}
+.footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.footer-copy p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 0.83em;
+}
 /*--------------------fin footer----------------*/
 /*--------------------fin index-----------------------------*/
