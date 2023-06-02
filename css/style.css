@@ -1,0 +1,250 @@
+/*body*/
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/*header*/
+.header {
+    display: grid;
+    grid-template-columns: 15% auto;
+    max-height: 150px;
+
+}
+
+.header .logo {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header .logo img {
+    max-width: 80px;
+    float: right;
+    padding: 10px 20px 10px 5px;
+
+
+}
+
+  .header .opciones-header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: right;
+
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.header .opciones-header a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 120%;
+}
+
+/*fin header*/
+
+/*index*/
+.index .principal {
+    background-color: #171717;
+    display: grid;
+    grid-template-columns: 5% 50% 45%;
+    margin-top: 5px;
+    padding: 20px;
+    height: 600px;
+}
+
+.principal_redes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.principal_redes a {
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.principal_titulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.principal_titulo h1 {
+    margin-block-start: 40px;
+    margin-block-end: 0px;
+    font-size: 350%;
+
+}
+
+.principal_titulo h2 {
+    margin-block-start: 0px;
+    margin-block-end: 30px;
+    font-size: 250%;
+    font-weight: 100;
+
+
+}
+
+.principal_titulo a {
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 60px;
+    font-size: 150%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-weight: bolder;
+    width: min(90%, 300px);
+}
+
+.principal_titulo i {
+    font-size: 200%;
+    margin-left: 20px;
+    color: black;
+    padding-bottom: 1px;
+
+}
+
+.principal_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_imagen img {
+    max-width: 600px;
+}
+
+
+/*SERVICIOS POPULARES*/
+.servicios_populares {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios_populares-servicios {
+    display: flex;
+}
+
+.servicio_popular {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.servicio_popular img {
+    width: 300px;
+}
+
+.servicio_popular-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicio_popular-nombre h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 110%;
+
+}
+
+.servicio_popular-nombre li {
+    display: inline;
+}
+
+.servicio_popular-descripcion h2 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 90%;
+}
+
+.servicio_popular-opciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio_popular-opciones .icono img {
+    width: 60px;
+}
+
+.servicio_popular-opciones .informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.servicio_popular-opciones .informacion a {
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-style: solid;
+    margin: 4px;
+    padding: 0px 5px 0px 5px;
+    box-shadow: 2px 2px;
+
+}
+
+/*-------------------FIN SERVICIOS POPULARES*------------------*/
+
+/*BIENVENIDOS*/
+.linea_separacion{
+    
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
+    margin: 20px 0;
+}
+.bienvenidos {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+/*----------FIN BIENVENIDOS---------------*/
+
+
+/*footer*/
+
+/*--------------------fin footer----------------*/
+/*--------------------fin index-----------------------------*/
