@@ -244,7 +244,7 @@ body {
 
 /*footer*/
 .footer {
-    
+  
     display: grid;
     gap: 1rem;
     grid-template-columns: 20% 10% auto auto 20%;
