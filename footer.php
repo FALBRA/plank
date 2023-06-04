@@ -10,7 +10,7 @@
         </div>
         <div class="footer-gmail">
             <p><i class="fa-regular fa-envelope"></i> plankservice@gmail.com</p>
-            <p><i class="fa-regular fa-map"></i> HUÀNUCO</p>
+            <p><i class="fa-regular fa-map"></i> HUÁNUCO</p>
         </div>
         <div></div>
     </section>
