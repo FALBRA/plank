@@ -2,7 +2,7 @@
     <section class="footer">
         <div></div>
         <div class="footer-logo">
-            <img src="img/logo.png" alt="" srcset="">
+            <img src="img/logo bn.png" alt="" srcset="">
         </div>
         <div class="footer-phone">
             <p><i class="fa-solid fa-phone"></i> +51 912 841 899</p>
