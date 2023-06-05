@@ -1,4 +1,4 @@
-</section>
+
     <section class="footer">
         <div></div>
         <div class="footer-logo">

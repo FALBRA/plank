@@ -55,7 +55,7 @@ body {
 .index .principal {
     background-color: #171717;
     display: grid;
-    grid-template-columns: 5% 50% 45%;
+    grid-template-columns: 5% 55% 40%;
     margin-top: 5px;
     padding: 20px;
     height: 600px;
@@ -92,7 +92,7 @@ body {
 .principal_titulo h1 {
     margin-block-start: 40px;
     margin-block-end: 0px;
-    font-size: 350%;
+    font-size: Clamp(24px, 5vw, 55px);
 
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .principal_imagen img {
-    max-width: 600px;
+    max-width: 330px;
 }
 
 

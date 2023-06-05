@@ -14,7 +14,7 @@ include("header.php");
             <div class="principal_titulo">
                 <h1>Soluciones tecnológicas</h1>
                 <h2>a su alcance</h2>
-                <a href="">Descubre nuestros servicios</a>
+                <a href="todos-servicios.php">Descubre nuestros servicios</a>
             </div>
             <div class="principal_imagen">
                 <img src="img/R.png" alt="" srcset="">
@@ -153,7 +153,7 @@ include("header.php");
             </div>
         </div>
         <hr class="linea_separacion">
-
+    </section>
 <?php
 include("footer.php");
 ?>
