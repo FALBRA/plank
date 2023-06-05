@@ -1,9 +1,52 @@
-/*Buscador*/
-.buscador{
+/*todos-servicios*/
+.todos-servicios {
     background-color: #171717;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-}
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buscador {
+    text-align: center;
+  }
+  
+  .servicios-plak {
+    margin-bottom: 20px;
+  }
+  
+  .servicios-plak h1 {
+    font-size: 24px;
+    margin: 2px;
+  }
+  
+  .servicios-plak p {
+    font-size: 16px;
+    color: #888;
+    margin: 2px;
+  }
+  
+  .filtro-botones{
+    margin-bottom: 20px;
+  }
+  .filtro-botones a {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: white;
+    color: #171717;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .filtro-barra input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
