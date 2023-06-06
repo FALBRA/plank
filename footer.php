@@ -1,4 +1,4 @@
-
+    <hr class="linea_separacion">
     <section class="footer">
         <div></div>
         <div class="footer-logo">

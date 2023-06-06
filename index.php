@@ -45,7 +45,7 @@ include("header.php");
                         <ul>
                             <li>Laptops</li>
                             <li>Computadoras</li>
-                            <li>etc</li>
+                            <li>etc.</li>
                         </ul>
                     </div>
                     <div class="servicio_popular-opciones">
@@ -73,11 +73,11 @@ include("header.php");
                         </ul>
                     </div>
                     <div class="servicio_popular-descripcion">
-                        <h2>Reparación de dispositivos electrónicos como:</h2>
+                        <h2>Instalación de programas y dispositivos electrónicos como:</h2>
                         <ul>
-                            <li>Laptops</li>
-                            <li>Computadoras</li>
-                            <li>etc</li>
+                            <li>Repetidores</li>
+                            <li>Cámaras</li>
+                            <li>etc.</li>
                         </ul>
                     </div>
                     <div class="servicio_popular-opciones">
@@ -105,11 +105,11 @@ include("header.php");
                         </ul>
                     </div>
                     <div class="servicio_popular-descripcion">
-                        <h2>Reparación de dispositivos electrónicos como:</h2>
+                        <h2>Diseño, desarrollo e implementación de paginas web en:</h2>
                         <ul>
-                            <li>Laptops</li>
-                            <li>Computadoras</li>
-                            <li>etc</li>
+                            <li>PHP</li>
+                            <li>Java Script</li>
+                            <li>etc.</li>
                         </ul>
                     </div>
                     <div class="servicio_popular-opciones">
@@ -152,7 +152,6 @@ include("header.php");
                 <p>En PLANK, creemos que la tecnología debería ser fácil de entender y utilizar para todos. </p>
             </div>
         </div>
-        <hr class="linea_separacion">
     </section>
 <?php
 include("footer.php");
