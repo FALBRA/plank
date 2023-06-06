@@ -17,7 +17,7 @@ include("header.php");
             <a href="">Desarrollo Web</a>
             <a href="">Casas Inteligentes</a>
             <a href="">Arduino</a>
-            <a href="">Consejerìa</a>
+            <a href="">Consejería</a>
             <a href="">IA's</a>
         </div>
         <div class="filtro-barra">
@@ -65,7 +65,7 @@ include("header.php");
             <img src="img/servicios/servicio.jpg" alt="" srcset="">
         </div>
         <div class="servicio-nombre">
-            <h1>Instalación </h1>
+            <h1>Instalación</h1>
             <ul>
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
@@ -166,7 +166,7 @@ include("header.php");
             <img src="img/servicios/servicio.jpg" alt="" srcset="">
         </div>
         <div class="servicio-nombre">
-            <h1>Arduino </h1>
+            <h1>Arduino</h1>
             <ul>
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
