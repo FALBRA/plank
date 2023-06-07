@@ -48,7 +48,18 @@ body {
     text-decoration: none;
     float: right;
     font-size: 120%;
+    transition: transform 0.2s;
 }
+
+.header .opciones-header a:hover {
+    text-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
+.header .opciones-header a.neon {
+    text-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
+
 
 /*fin header*/
 

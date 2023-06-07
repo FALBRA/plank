@@ -24,9 +24,10 @@
             <img src="img/logo.png" alt="" srcset="">
         </div>
         <div class="opciones-header">
-            <a href="todos-servicios.php" class="servicios">SERVICIOS</a>
+            <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
             <a href="" class="plank">PLANK</a>
             <a href="" class="noticias">NOTICIAS</a>
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
     </section>
+    <script src="js/headerjs.js"></script>
