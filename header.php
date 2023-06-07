@@ -25,7 +25,7 @@
         </div>
         <div class="opciones-header">
             <a href="" class="servicios">SERVICIOS</a>
-            <a href="" class="plank">PLANK</a>
+            <a href="" class="nosotros">NOSOTROS</a>
             <a href="" class="noticias">NOTICIAS</a>
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
