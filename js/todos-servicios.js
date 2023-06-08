@@ -50,3 +50,13 @@ function filtrarServicios(event) {
 for (var i = 0; i < botonesFiltro.length; i++) {
   botonesFiltro[i].addEventListener('click', filtrarServicios);
 }
+
+function toggleSelected(event) {
+  event.preventDefault();
+  const link = event.target;
+  const links = document.querySelectorAll(".filtro-botones a");
+  links.forEach((item) => {
+    item.classList.remove("selected");
+  });
+  link.classList.add("selected");
+}
