@@ -12,6 +12,7 @@
 
     <link href="img/logo.png" rel="icon" />
     <link href="css/style.css" rel="stylesheet" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,10 +27,11 @@
         <div class="opciones-header">
 
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
-            <a href="" class="nosotros">NOSOTROS</a>
+            <a href="nosotros.php" class="nosotros">NOSOTROS</a>
 
             <a href="" class="noticias">NOTICIAS</a>
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
     </section>
     <script src="js/headerjs.js"></script>
+    <script src="js/script.js"></script>

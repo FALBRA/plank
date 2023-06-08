@@ -55,6 +55,7 @@ body {
     text-shadow: 0 0 10px white;
     transform: scale(1.1);
 }
+
 .header .opciones-header a.neon {
     text-shadow: 0 0 10px white;
     transform: scale(1.1);
@@ -150,15 +151,17 @@ body {
 
 @keyframes moveDown {
     0% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
+
     50% {
-      transform: translateY(10px);
+        transform: translateY(10px);
     }
+
     100% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
-  }
+}
 
 .principal_imagen img {
     max-width: 330px;
@@ -247,14 +250,15 @@ body {
 /*-------------------FIN SERVICIOS POPULARES*------------------*/
 
 /*BIENVENIDOS*/
-.linea_separacion{
-    
+.linea_separacion {
+
     border: none;
     width: 100%;
     height: 1px;
     background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
     margin: 20px 0;
 }
+
 .bienvenidos {
 
     display: flex;
@@ -281,18 +285,114 @@ body {
     float: right;
     padding: 10px 9px 10px 10px;
 }
-.footer-copy{
+
+.footer-copy {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.footer-copy p{
+
+.footer-copy p {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
     font-size: 0.83em;
 }
+
 /*--------------------fin footer----------------*/
 /*--------------------fin index-----------------------------*/
+
+
+/*QUIENES SOMOS */
+
+.nosotros_opciones {
+    margin-top: 10px;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.nosotros_opciones h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nosotros_opciones-plank {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.quienes_somos {
+    margin: 0px 20px 0px 20px;
+}
+
+.quienes_somos a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactanos {
+    margin: 0px 20px 0px 20px;
+
+}
+
+.contactanos a {
+    text-decoration: none;
+    color: white;
+}
+
+.quienes_somos-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1% 10% 1% 10%;
+    gap: 20px;
+    background-color: #000000;
+
+
+
+}
+
+.somos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.somos h1 {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin: 30px 0px 20px 0px;
+
+}
+
+.somos-texto {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+}
+
+.quienes_somos-imagen{
+    display: flex;
+    justify-content: center;
+}
+.quienes_somos-imagen img{
+    width: 350px;
+}
+
+
+
+
+/*--------------FIN QUIENES SOMOS -----------------*/
+
+/*CARROUSEL DE IMAGENES*/
