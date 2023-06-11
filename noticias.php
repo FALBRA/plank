@@ -23,7 +23,7 @@ include("header.php");
 
         </div>
         <div class="container">
-        <h1>NOTICIAS</h1>
+        <h1>NOTICIAS MAS RECIENTES</h1>
         <header>
             <nav>
                 <span class="cat" onclick="buscar('Tecnología')">Tecnología</span>
