@@ -17,6 +17,6 @@
     <div class="footer-copy">
             <p><i class="fa-regular fa-copyright"></i> 2023 PLANK S.T.</p>
     </div>
+    <script src="js/news.js"></script>
 </body>
-
 </html>

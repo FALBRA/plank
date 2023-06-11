@@ -12,6 +12,7 @@
 
     <link href="img/logo.png" rel="icon" />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/stylenews.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
         <div class="opciones-header">
             <a href="" class="servicios">SERVICIOS</a>
             <a href="" class="plank">PLANK</a>
-            <a href="" class="noticias">NOTICIAS</a>
+            <a href="noticias.php" class="noticias">NOTICIAS</a>
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
     </section>
