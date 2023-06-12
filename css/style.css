@@ -26,8 +26,10 @@ body {
     max-width: 50px;
     float: right;
     padding: 10px 20px 10px 5px;
-
-
+    transition: transform 0.2s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
 }
 
 .header .opciones-header {
@@ -56,6 +58,10 @@ body {
     transform: scale(1.1);
 }
 .header .opciones-header a.neon {
+    text-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
+.header .opciones-header a.noti {
     text-shadow: 0 0 10px white;
     transform: scale(1.1);
 }

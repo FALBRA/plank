@@ -28,7 +28,7 @@
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
             <a href="" class="nosotros">NOSOTROS</a>
 
-            <a href="" class="noticias">NOTICIAS</a>
+            <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
     </section>
