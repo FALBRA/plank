@@ -1,0 +1,170 @@
+/*START filtro y encabezado*/
+.filtro-buscador {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buscador {
+  text-align: center;
+}
+
+.servicios-plak {
+  margin-bottom: 20px;
+}
+
+.servicios-plak h1 {
+  font-size: 24px;
+  margin: 2px;
+}
+
+.servicios-plak p {
+  font-size: 16px;
+  color: #888;
+  margin: 2px;
+}
+
+.filtro-botones {
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.filtro-botones :hover{
+  transform: scale(1.1);
+}
+
+.filtro-botones a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: white;
+  color: #171717;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.filtro-botones a.selected {
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+.filtro-botones a.selected:hover {
+  transform: scale(1.1);
+}
+
+.filtro-botones a.selected::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 8px;
+  background-color: #171717;
+  box-shadow: 0 0 5px white;
+  z-index: -1;
+  animation: neon-border 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-border {
+  0% {
+    box-shadow: 0 0 5px white;
+  }
+  100% {
+    box-shadow: 0 0 7px white;
+  }
+}
+
+.filtro-barra input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/*END filtro y encabezado*/
+
+/*START Todos los servicios*/
+.todos-servicios {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servicio {
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.servicio-imagen img {
+  width: 300px;
+}
+
+.servicio-nombre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicio-nombre h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 105%;
+}
+
+.servicio-nombre li {
+  display: inline;
+}
+
+.servicio-descripcion h2 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 90%;
+}
+
+.servicio-opciones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicio-opciones .icono img {
+  width: 60px;
+}
+
+.servicio-opciones .informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transition: transform 0.2s;
+}
+
+.servicio-opciones .informacion a {
+  color: black;
+  text-decoration: none;
+  border-color: black;
+  border-style: solid;
+  margin: 4px;
+  padding: 0px 5px 0px 5px;
+  box-shadow: 2px 2px;
+}
+
+.servicio-opciones .informacion :hover{
+  transform: scale(1.1);
+}
+
+/*END Todos los servicios*/

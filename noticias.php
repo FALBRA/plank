@@ -1,6 +1,7 @@
 <?php
 include("header.php");
 ?>
+
     <section class="index">
         <div class="principal">
             <div class="principal_redes">
@@ -78,4 +79,3 @@ include("header.php");
 
 <?php
 include("footer.php");
-?>
