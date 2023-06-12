@@ -16,9 +16,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script src="js/loader.js"></script>
 </head>
 
 <body>
+    <div class="loader" id="loader"></div>
     <section class="header">
         <div class="logo" onclick="window.location.href = 'index.php'">
             <img src="img/logo.png" alt="" srcset="">
@@ -33,3 +35,4 @@
         </div>
     </section>
     <script src="js/headerjs.js"></script>
+    
