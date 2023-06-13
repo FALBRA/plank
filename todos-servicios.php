@@ -55,7 +55,7 @@ include("header.php");
             </div>
             <div class="informacion">
                 <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a href="servicios/reparacion.php">Más información</a>
             </div>
         </div>
     </div>
