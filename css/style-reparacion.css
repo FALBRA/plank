@@ -1,0 +1,93 @@
+.encabezado-reparacion{
+    background-color: #171717;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado h1{
+    margin: 1%;
+}
+.linea_separacion-reparacion{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
+    margin: 0%;
+}
+.encabezado p{
+    margin: 1%;
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.bot-reparacion img{
+    width: 90%;
+}
+.descripcion-reparacion{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 7%;
+}
+.emotes-reparacion{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.compu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.compu i{
+    font-size: 50px;
+}
+.compu p{
+    margin: 0%;
+}
+.lap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lap i{
+    font-size: 50px;
+}
+.lap p{
+    margin: 0%;
+}
+.cel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cel i{
+    font-size: 50px;
+}
+.cel p{
+    margin: 0%;
+}
+.otro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otro i{
+    font-size: 50px;
+}
+.otro p{
+    margin: 0%;
+}
