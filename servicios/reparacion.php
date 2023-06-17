@@ -37,7 +37,135 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
+<section class="reparaciones-ofrecidas">
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Formateos:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Solucionamos problemas de rendimiento y errores frecuentes mediante un formateo seguro y completo.</h2>
+        </div>
+    </div>
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Booteo:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Reparamos dispositivos que no se inician correctamente o se reinician constantemente, restaurando su funcionalidad normal.</h2>
+        </div>
+    </div>
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Cambios de componentes:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Reemplazamos pantallas rotas, baterías agotadas y otros componentes defectuosos con piezas de alta calidad.</h2>
+        </div>
+    </div>
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Mantenimiento de hardware:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Mantenemos tu hardware en óptimas condiciones para prevenir problemas mayores en el futuro.</h2>
+        </div>
+    </div>
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Optimización de dispositivos:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Mejoramos la velocidad y eficiencia de tus dispositivos eliminando programas innecesarios y malware.</h2>
+        </div>
+    </div>
+    <div class="reparaciones">
+        <div class="reparacion-nombre">
+            <h1>Otros:</h1>
+        </div>
+        <div class="reparacion-imagen">
+            <img src="../img/servicios/servicio.jpg" alt="">
+        </div>
+        <div class="reparacion-descripcion">
+            <h2>Nuestro equipo repara desde los problemas más comunes hasta las situaciones más complejas, estamos preparados para ofrecerte soluciones eficientes y confiables.</h2>
+        </div>
+    </div>
+</section>
+<section class="importante-preguntas">
+    <div class="importante">
+        <h1>IMPORTANTE</h1>
+        <p>El precio de la reparación varia dependiendo de:</p>
+        <li>La ubicación del cliente.</li>
+        <li>Complejidad del trabajo.</li>
+        <li>Tipo de equipo a reparar.</li>
+        <li>Material utilizado.</li>
+    </div>
+    <div class="preguntas">
 
+    </div>
+</section>
+<section class="solicitud">
+    <div class="container">
+        <h2>Formulario de Reparación</h2>
+        <form action="procesar_formulario.php" method="post">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <input type="text" id="direccion" name="direccion" placeholder="Dirección para recoger el equipo" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="equipo" name="equipo" placeholder="Equipo a reparar" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="marca_modelo" name="marca_modelo" placeholder="Marca y modelo" required>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <textarea id="problema" name="problema" rows="4" placeholder="Descripción detallada del problema" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="metodo_pago">Método de Pago:</label>
+                <select id="metodo_pago" name="metodo_pago" required>
+                    <option value="">Seleccionar método de pago</option>
+                    <option value="Tarjeta de Crédito">Pago en persona</option>
+                    <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="google_maps">Dirección en Google Maps:</label>
+                <div class="google-maps"></div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
+            </div>
+        </form>
+    </div>
+</section>
+<script src="../js/reparacion.js"></script>
 <?php
 include("footer-servicio.php");
 ?>

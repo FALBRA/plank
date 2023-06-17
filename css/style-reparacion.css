@@ -1,41 +1,50 @@
-.encabezado-reparacion{
+/*-------------------------Start encabezado--------------------------*/
+.encabezado-reparacion {
     background-color: #171717;
 }
-.encabezado{
+
+.encabezado {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.encabezado h1{
+
+.encabezado h1 {
     margin: 1%;
 }
-.linea_separacion-reparacion{
+
+.linea_separacion-reparacion {
     border: none;
     width: 100%;
     height: 1px;
     background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
     margin: 0%;
 }
-.encabezado p{
+
+.encabezado p {
     margin: 1%;
 }
-.bot{
+
+.bot {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
 }
-.bot-reparacion img{
+
+.bot-reparacion img {
     width: 90%;
 }
-.descripcion-reparacion{
+
+.descripcion-reparacion {
     margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 0%;
     margin-right: 7%;
 }
-.emotes-reparacion{
+
+.emotes-reparacion {
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -43,51 +52,151 @@
     align-items: center;
     gap: 3rem;
 }
-.compu{
+
+.compu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.compu i{
+
+.compu i {
     font-size: 50px;
 }
-.compu p{
+
+.compu p {
     margin: 0%;
 }
-.lap{
+
+.lap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.lap i{
+
+.lap i {
     font-size: 50px;
 }
-.lap p{
+
+.lap p {
     margin: 0%;
 }
-.cel{
+
+.cel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cel i{
+
+.cel i {
     font-size: 50px;
 }
-.cel p{
+
+.cel p {
     margin: 0%;
 }
-.otro{
+
+.otro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.otro i{
+
+.otro i {
     font-size: 50px;
 }
-.otro p{
+
+.otro p {
     margin: 0%;
 }
+
+/*-------------------------End encabezado--------------------------*/
+/*------------------------Start Reparaciones-----------------------*/
+.reparaciones-ofrecidas {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.reparaciones {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.reparacion-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.reparacion-nombre h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 105%;
+}
+
+.reparacion-imagen img {
+    width: 300px;
+}
+
+.reparacion-descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reparacion-descripcion h2 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 90%;
+}
+
+/*-----------------------End Reparaciones--------------------------*/
+/*-----------------------Start importante y preguntas-----------------*/
+.importante-preguntas {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    gap: 3rem;
+}
+
+.importante {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.importante h1 {
+    margin: 1%;
+}
+
+.importante p {
+    font-size: 110%;
+}
+
+.importante li {
+    margin-left: 5%;
+}
+
+/*-----------------------End Importante y preguntas---------------------*/
+/*------------------------start solicitud-servicio---------------------------*/
+.solicitud {
+    background-color: #171717;
+    color: white;
+}
+
+
+/*---------------------------end solicitud servicio---------------------------*/
