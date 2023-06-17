@@ -121,45 +121,49 @@ include("header-servicio.php");
 <section class="solicitud">
     <div class="container">
         <h2>Formulario de Reparación</h2>
-        <form action="procesar_formulario.php" method="post">
-            <div class="form-row">
-                <div class="form-group">
+        <form action="#" method="post" class="formulario">
+            <div class="nombre-correo-celular">
+                <div class="nombre">
                     <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
                 </div>
-                <div class="form-group">
+                <div class="correo">
                     <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
                 </div>
-                <div class="form-group">
+                <div class="celular">
                     <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
                 </div>
             </div>
-            <div class="form-group full-width">
-                <input type="text" id="direccion" name="direccion" placeholder="Dirección para recoger el equipo" required>
-            </div>
-            <div class="form-row">
-                <div class="form-group">
-                    <input type="text" id="equipo" name="equipo" placeholder="Equipo a reparar" required>
+            <div class="map-rest">
+                <div class="map">
+                    <label for="map">Dirección en Google Maps:</label>
+                    <div id="google-map"></div>
                 </div>
-                <div class="form-group">
-                    <input type="text" id="marca_modelo" name="marca_modelo" placeholder="Marca y modelo" required>
+                <div class="rest">
+                    <div class="direccion">
+                        <input type="text" id="direccion" name="direccion" placeholder="Dirección para recoger el equipo" required>
+                    </div>
+                    <div class="equipo-reparar">
+                        <div class="equipo">
+                            <input type="text" id="equipo" name="equipo" placeholder="Equipo a reparar" required>
+                        </div>
+                        <div class="reparar">
+                            <input type="text" id="marca_modelo" name="marca_modelo" placeholder="Marca y modelo" required>
+                        </div>
+                    </div>
+                    <div class="descripcion">
+                        <textarea id="problema" name="problema" rows="4" placeholder="Descripción detallada del problema" required></textarea>
+                    </div>
                 </div>
             </div>
-            <div class="form-group full-width">
-                <textarea id="problema" name="problema" rows="4" placeholder="Descripción detallada del problema" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="metodo_pago">Método de Pago:</label>
-                <select id="metodo_pago" name="metodo_pago" required>
+            <div class="combo-box-metodo-pago">
+                <label for="metodo-pago">Método de Pago:</label>
+                <select id="metodo-pago" name="metodo-pago" required>
                     <option value="">Seleccionar método de pago</option>
                     <option value="Tarjeta de Crédito">Pago en persona</option>
                     <option value="Transferencia Bancaria">Transferencia Bancaria</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="google_maps">Dirección en Google Maps:</label>
-                <div class="google-maps"></div>
-            </div>
-            <div class="form-group">
+            <div class="boton-enviar-formulario">
                 <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
             </div>
         </form>
