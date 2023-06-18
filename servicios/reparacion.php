@@ -166,7 +166,27 @@ include("header-servicio.php");
             <div class="boton-enviar-formulario">
                 <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
             </div>
+            <div class="recordar">
+                <i class="fa-solid fa-exclamation-circle"></i>
+                <p>En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
+            </div>
         </form>
+    </div>
+</section>
+<section class="comentarios">
+    <h2>COMENTARIOS DE CLIENTES</h2>
+    <div class="usuario">
+        <div class="foto">
+            <div class="circulo foto"></div>
+        </div>
+        <div class="usuario-comentario">
+            <div class="nombre-usuario">
+                <p>nombre de cliente</p>
+            </div>
+            <div class="comentario">
+
+            </div>
+        </div>
     </div>
 </section>
 <script src="../js/reparacion.js"></script>

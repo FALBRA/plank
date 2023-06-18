@@ -209,7 +209,6 @@
 .formulario {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2%;
 }
 
 .nombre-correo-celular {
@@ -328,4 +327,9 @@
     box-shadow: 0 0 5px white;
 }
 
+.recordar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 /*---------------------------end solicitud servicio---------------------------*/
