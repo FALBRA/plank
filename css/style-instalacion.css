@@ -1,0 +1,135 @@
+/*-------------------------Start encabezado--------------------------*/
+.encabezado-reparacion {
+    background-color: #171717;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado h1 {
+    margin: 1%;
+}
+
+.linea_separacion-reparacion {
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
+    margin: 0%;
+}
+
+.encabezado p {
+    margin: 1%;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.bot-reparacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bot-reparacion img {
+    width: 70%;
+}
+
+.descripcion-reparacion {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 7%;
+}
+
+.emotes-reparacion {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.programas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.programas i {
+    font-size: 50px;
+}
+
+.programas p {
+    margin: 0%;
+}
+
+.antivirus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.antivirus i {
+    font-size: 50px;
+}
+
+.antivirus p {
+    margin: 0%;
+}
+
+.camara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camara i {
+    font-size: 50px;
+}
+
+.camara p {
+    margin: 0%;
+}
+
+.repetidores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.repetidores i {
+    font-size: 50px;
+}
+
+.repetidores p {
+    margin: 0%;
+}
+
+.otro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otro i {
+    font-size: 50px;
+}
+
+.otro p {
+    margin: 0%;
+}
+
+/*-------------------------End encabezado--------------------------*/

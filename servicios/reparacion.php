@@ -118,7 +118,7 @@ include("header-servicio.php");
 
     </div>
 </section>
-<section class="solicitud">
+<section class="solicitud" id="contratar">
     <div class="container">
         <h2>Formulario de Reparación</h2>
         <form action="#" method="post" class="formulario">
