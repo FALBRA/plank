@@ -57,48 +57,63 @@
     gap: 3rem;
 }
 
-.compu {
+.programas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.compu i {
+.programas i {
     font-size: 50px;
 }
 
-.compu p {
+.programas p {
     margin: 0%;
 }
 
-.lap {
+.antivirus {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.lap i {
+.antivirus i {
     font-size: 50px;
 }
 
-.lap p {
+.antivirus p {
     margin: 0%;
 }
 
-.cel {
+.camara {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.cel i {
+.camara i {
     font-size: 50px;
 }
 
-.cel p {
+.camara p {
+    margin: 0%;
+}
+
+.repetidores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.repetidores i {
+    font-size: 50px;
+}
+
+.repetidores p {
     margin: 0%;
 }
 
@@ -116,7 +131,6 @@
 .otro p {
     margin: 0%;
 }
-
 /*-------------------------End encabezado--------------------------*/
 /*------------------------Start Reparaciones-----------------------*/
 .reparaciones-ofrecidas {
@@ -261,13 +275,13 @@
     border-radius: 5px;
 }
 
-.equipo-reparar {
+.equipo-programa-instalar {
     display: flex;
     gap: 1rem;
 }
 
-.equipo input[type="text"],
-.reparar input[type="text"] {
+.equipo-programa input[type="text"],
+.instalar input[type="text"] {
     width: 253px;
     padding: 10px;
     font-size: 16px;

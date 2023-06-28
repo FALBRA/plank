@@ -1,96 +1,90 @@
 <?php
 include("header-servicio.php");
 ?>
-<link rel="stylesheet" href="../css/style-reparacion.css">
+<link rel="stylesheet" href="../css/style-instalacion.css">
 <section class="encabezado-reparacion">
     <div class="encabezado">
-        <h1>Reparacion</h1>
+        <h1>Instalación</h1>
         <hr class="linea_separacion-reparacion">
-        <p>Reparación confiable y a domicilio de dispositivos tecnológicos. ¡Confíe en nosotros para restaurar su tecnología al máximo!</p>
+        <p>Instalación confiable y a domicilio. "Conecta, protege y potencia tu mundo tecnológico con nuestras instalaciones"</p>
     </div>
     <div class="bot">
         <div class="bot-reparacion">
-            <img src="../img/servicios/reparacion/botReparacion.png" alt="">
+            <img src="../img/servicios/instalacion/botInstalacion.png" alt="">
         </div>
         <div class="descripcion-reparacion">
-            <p>Entendemos la importancia de mantener tus dispositivos en óptimas condiciones y que tu comodidad son importantes. Es por eso que ofrecemos un servicio de reparación a domicilio. ¡estamos aquí para ayudarte!</p>
+            <p>Ofrecemos servicios eficientes para satisfacer todas tus necesidades.</p>
+            <p>Ya sea que requieras la instalación de programas, antivirus, cámaras de seguridad o repetidores de Wi-Fi, nuestro equipo está preparado para brindarte una solución integral.</p>
             <div class="emotes-reparacion">
-                <div class="compu">
-                    <i class="fa-solid fa-computer"></i>
-                    <p>Computadoras</p>
+                <div class="programas">
+                    <i class="fa-solid fa-cogs"></i>
+                    <p>Programas</p>
                 </div>
-                <div class="lap">
-                    <i class="fa-solid fa-laptop"></i>
-                    <p>Laptops</p>
+                <div class="antivirus">
+                    <i class="fa-solid fa-shield-virus"></i>
+                    <p>Antivirus</p>
                 </div>
-                <div class="cel">
-                    <i class="fa-solid fa-mobile-alt"></i>
-                    <p>Celulares</p>
+                <div class="camara">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Cámaras</p>
+                </div>
+                <div class="repetidores">
+                    <i class="fa-solid fa-wifi"></i>
+                    <p>Repetidores</p>
                 </div>
                 <div class="otro">
                     <i class="fa-solid fa-ellipsis-h"></i>
                     <p>Otros</p>
                 </div>
             </div>
-            <p>Reparamos desde los problemas más comunes hasta las situaciones más complejas.</p>
-            <p>Aquí hay un vistazo a las reparaciones que ofrecemos:</p>
+            <p>Instalación a domicilio o donde lo requieras.</p>
+            <p>Aquí hay un vistazo a las instalaciones que ofrecemos:</p>
         </div>
     </div>
 </section>
 <section class="reparaciones-ofrecidas">
     <div class="reparaciones">
         <div class="reparacion-nombre">
-            <h1>Formateos:</h1>
+            <h1>Programas:</h1>
         </div>
         <div class="reparacion-imagen">
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
-            <h2>Solucionamos problemas de rendimiento y errores frecuentes mediante un formateo seguro y completo.</h2>
+            <h2>Instalación y configuración de programas que necesites, asegurándonos de que todo funcione correctamente.</h2>
         </div>
     </div>
     <div class="reparaciones">
         <div class="reparacion-nombre">
-            <h1>Booteo:</h1>
+            <h1>Antivirus:</h1>
         </div>
         <div class="reparacion-imagen">
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
-            <h2>Reparamos dispositivos que no se inician correctamente o se reinician constantemente, restaurando su funcionalidad normal.</h2>
+            <h2>Instalación y configuración de programas antivirus que te protegerán contra amenazas cibernéticas.</h2>
         </div>
     </div>
     <div class="reparaciones">
         <div class="reparacion-nombre">
-            <h1>Cambios de componentes:</h1>
+            <h1>Cámaras:</h1>
         </div>
         <div class="reparacion-imagen">
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
-            <h2>Reemplazamos pantallas rotas, baterías agotadas y otros componentes defectuosos con piezas de alta calidad.</h2>
+            <h2>Instalación de cámaras, configuración y puesta en marcha, para que puedas monitorear y proteger tu entorno de manera efectiva.</h2>
         </div>
     </div>
     <div class="reparaciones">
         <div class="reparacion-nombre">
-            <h1>Mantenimiento de hardware:</h1>
+            <h1>Repetidores de WIFI:</h1>
         </div>
         <div class="reparacion-imagen">
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
-            <h2>Mantenemos tu hardware en óptimas condiciones para prevenir problemas mayores en el futuro.</h2>
-        </div>
-    </div>
-    <div class="reparaciones">
-        <div class="reparacion-nombre">
-            <h1>Optimización de dispositivos:</h1>
-        </div>
-        <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
-        </div>
-        <div class="reparacion-descripcion">
-            <h2>Mejoramos la velocidad y eficiencia de tus dispositivos eliminando programas innecesarios y malware.</h2>
+            <h2>Instalación y configuración de repetidores Wi-Fi que amplificarán y mejorarán la cobertura de tu red inalámbrica.</h2>
         </div>
     </div>
     <div class="reparaciones">
@@ -101,18 +95,19 @@ include("header-servicio.php");
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
-            <h2>Nuestro equipo repara desde los problemas más comunes hasta las situaciones más complejas, estamos preparados para ofrecerte soluciones eficientes y confiables.</h2>
+            <h2>Nos encargamos de todas tus necesidades de instalación, asegurándonos de que todos los equipos y sistemas funcionen perfectamente.</h2>
         </div>
     </div>
 </section>
 <section class="importante-preguntas">
     <div class="importante">
         <h1>IMPORTANTE</h1>
-        <p>El precio de la reparación varia dependiendo de:</p>
-        <li>La ubicación del cliente.</li>
-        <li>Complejidad del trabajo.</li>
-        <li>Tipo de equipo a reparar.</li>
-        <li>Material utilizado.</li>
+        <p>El precio de la instalación varia dependiendo de:</p>
+        <li>Complejidad de la instalación.</li>
+        <li>Tamaño y alcance.</li>
+        <li>Requerimientos personalizados.</li>
+        <li>Costo de los materiales.</li>
+        <li>Ubicación geográfica.</li>
     </div>
     <div class="preguntas">
 
@@ -120,7 +115,7 @@ include("header-servicio.php");
 </section>
 <section class="solicitud" id="contratar">
     <div class="container">
-        <h2>Formulario de Reparación</h2>
+        <h2>Formulario de Instalación</h2>
         <form action="#" method="post" class="formulario">
             <div class="nombre-correo-celular">
                 <div class="nombre">
@@ -140,18 +135,18 @@ include("header-servicio.php");
                 </div>
                 <div class="rest">
                     <div class="direccion">
-                        <input type="text" id="direccion" name="direccion" placeholder="Dirección para recoger el equipo" required>
+                        <input type="text" id="direccion" name="direccion" placeholder=" Dirección del lugar donde realizar las instalación" required>
                     </div>
-                    <div class="equipo-reparar">
-                        <div class="equipo">
-                            <input type="text" id="equipo" name="equipo" placeholder="Equipo a reparar" required>
+                    <div class="equipo-programa-instalar">
+                        <div class="equipo-programa">
+                            <input type="text" id="equipo" name="equipo" placeholder="Equipo o programa a instalar" required>
                         </div>
-                        <div class="reparar">
+                        <div class="instalar">
                             <input type="text" id="marca_modelo" name="marca_modelo" placeholder="Marca y modelo" required>
                         </div>
                     </div>
                     <div class="descripcion">
-                        <textarea id="problema" name="problema" rows="4" placeholder="Descripción detallada del problema" required></textarea>
+                        <textarea id="problema" name="problema" rows="4" placeholder="Pequeña descripción " required></textarea>
                     </div>
                 </div>
             </div>
@@ -189,7 +184,6 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
-<script src="../js/reparacion.js"></script>
 <?php
 include("footer-servicio.php");
 ?>
