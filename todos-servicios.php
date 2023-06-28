@@ -87,7 +87,7 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
+                <a href="servicios/instalacion.php#contratar">Contratar</a>
                 <a href="servicios/instalacion.php">Más información</a>
             </div>
         </div>
@@ -121,7 +121,7 @@ include("header.php");
             </div>
             <div class="informacion">
                 <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a href="servicios/desarrollo-web.php">Más información</a>
             </div>
         </div>
     </div>
