@@ -6,16 +6,20 @@
     justify-content: center;
     align-items: center;
 }
-.arriba h1{
+
+.arriba h1 {
     margin-bottom: 1%;
 }
-.arriba hr{
+
+.arriba hr {
     margin-top: 0%;
     margin-bottom: 0%;
 }
-.arriba p{
+
+.arriba p {
     margin-top: 1%;
 }
+
 /*-------------------------------END arriba-----------------------*/
 /*------------------------Start Paquetes Desarrollo Web-----------------------*/
 .paquetes {
@@ -67,58 +71,133 @@
     font-size: 90%;
 }
 
-.desarrollo-web-beneficio{
+.desarrollo-web-beneficio {
     display: flex;
     flex-direction: column;
     margin-block-start: 10px;
     margin-block-end: 10px;
 }
-.desarrollo-web-beneficio .negrita{
+
+.desarrollo-web-beneficio .negrita {
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 100%;
 }
-.desarrollo-web-beneficio h2{
+
+.desarrollo-web-beneficio h2 {
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 90%;
 }
-.desarrollo-web-precio h2{
+
+.desarrollo-web-precio h2 {
     display: flex;
     justify-content: flex-end;
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 90%;
 }
+
 /*-----------------------End Paquetes Desarrollo Web--------------------------*/
+/*------------------------Start carrusel trabajos anteriores-----------------------------*/
+
+/*------------------------End carrusel trabajos anteriores-----------------------------*/
+/*--------------------------Start proceso de desarrollo----------------------------------*/
+.proceso-desarrollo {
+    margin: 10px;
+}
+
+.proceso-desarrollo h2 {
+    margin: 10px;
+}
+
+.timeline {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0rem;
+}
+
+.event {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.event .space{
+    margin: 11.5px;
+}
+.linea-horizontal{
+    border: none;
+    width: 105%;
+    height: 1px;
+    background: white;
+}
+.event:hover .tooltip {
+    display: block;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/*--------------------------END proceso de desarrollo----------------------------------*/
 /*------------------------Start comentarios-------------------------------*/
-.comentarios{
+.comentarios {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-.comentarios h2{
+
+.comentarios h2 {
     margin: 10px;
 }
-.usuario{
+
+.usuario {
     display: flex;
     gap: 1rem;
     margin: 10px;
 }
-.foto{
+
+.foto {
     width: 5%;
 }
-.foto img{
+
+.foto img {
     width: 53px;
 }
-.usuario-comentario{
+
+.usuario-comentario {
     display: flex;
     flex-direction: column;
 }
-.nombre-usuario p{
+
+.nombre-usuario p {
     margin: 0%;
 }
-.comentario{
+
+.comentario {
     margin: 0%;
     background: #171717;
     width: 100%;
@@ -127,10 +206,12 @@
     display: flex;
     align-items: center;
 }
-.comentario p{
+
+.comentario p {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /*-------------------------end comentarios--------------------------------*/
