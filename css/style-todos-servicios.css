@@ -30,6 +30,11 @@
 
 .filtro-botones {
   margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.filtro-botones :hover{
+  transform: scale(1.1);
 }
 
 .filtro-botones a {
@@ -42,6 +47,41 @@
   color: #171717;
   text-decoration: none;
   font-size: 14px;
+}
+
+.filtro-botones a.selected {
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+.filtro-botones a.selected:hover {
+  transform: scale(1.1);
+}
+
+.filtro-botones a.selected::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 8px;
+  background-color: #171717;
+  box-shadow: 0 0 5px white;
+  z-index: -1;
+  animation: neon-border 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-border {
+  0% {
+    box-shadow: 0 0 5px white;
+  }
+  100% {
+    box-shadow: 0 0 7px white;
+  }
 }
 
 .filtro-barra input[type="text"] {
@@ -110,6 +150,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: transform 0.2s;
 }
 
 .servicio-opciones .informacion a {
@@ -120,6 +161,10 @@
   margin: 4px;
   padding: 0px 5px 0px 5px;
   box-shadow: 2px 2px;
+}
+
+.servicio-opciones .informacion :hover{
+  transform: scale(1.1);
 }
 
 /*END Todos los servicios*/

@@ -11,14 +11,14 @@ include("header.php");
             <hr class="linea_separacion">
         </div>
         <div class="filtro-botones">
-            <a href="">Todos</a>
-            <a href="">Reparación</a>
-            <a href="">Instalación</a>
-            <a href="">Desarrollo Web</a>
-            <a href="">Casas Inteligentes</a>
-            <a href="">Arduino</a>
-            <a href="">Consejería</a>
-            <a href="">IA's</a>
+            <a href="#" onclick="toggleSelected(event)">Todos</a>
+            <a href="#" onclick="toggleSelected(event)">Reparación</a>
+            <a href="#" onclick="toggleSelected(event)">Instalación</a>
+            <a href="#" onclick="toggleSelected(event)">Desarrollo Web</a>
+            <a href="#" onclick="toggleSelected(event)">Casas Inteligentes</a>
+            <a href="#" onclick="toggleSelected(event)">Arduino</a>
+            <a href="#" onclick="toggleSelected(event)">Consejería</a>
+            <a href="#" onclick="toggleSelected(event)">IA's</a>
         </div>
         <div class="filtro-barra">
             <input type="text" id="busqueda" placeholder="Buscar servicio...">
@@ -54,8 +54,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a href="servicios/reparacion.php#contratar">Contratar</a>
+                <a href="servicios/reparacion.php">Más información</a>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ include("header.php");
             </div>
             <div class="informacion">
                 <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a href="servicios/instalacion.php">Más información</a>
             </div>
         </div>
     </div>

@@ -1,8 +1,8 @@
-    <hr class="linea_separacion">
+<hr class="linea_separacion">
     <section class="footer">
         <div></div>
         <div class="footer-logo">
-            <img src="img/logo bn.png" alt="" srcset="">
+            <img src="../img/logo bn.png" alt="" srcset="">
         </div>
         <div class="footer-phone">
             <p><i class="fa-solid fa-phone"></i> +51 912 841 899</p>
@@ -17,6 +17,6 @@
     <div class="footer-copy">
             <p><i class="fa-regular fa-copyright"></i> 2023 PLANK S.T.</p>
     </div>
-    <script src="js/news.js"></script>
 </body>
+
 </html>
