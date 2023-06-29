@@ -91,3 +91,46 @@
     font-size: 90%;
 }
 /*-----------------------End Paquetes Desarrollo Web--------------------------*/
+/*------------------------Start comentarios-------------------------------*/
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.comentarios h2{
+    margin: 10px;
+}
+.usuario{
+    display: flex;
+    gap: 1rem;
+    margin: 10px;
+}
+.foto{
+    width: 5%;
+}
+.foto img{
+    width: 53px;
+}
+.usuario-comentario{
+    display: flex;
+    flex-direction: column;
+}
+.nombre-usuario p{
+    margin: 0%;
+}
+.comentario{
+    margin: 0%;
+    background: #171717;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.comentario p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-------------------------end comentarios--------------------------------*/
