@@ -158,56 +158,58 @@ include("header-servicio.php");
 
 </section>
 <section class="proceso-desarrollo">
-    <h2>Proceso de Desarrollo</h2>
-    <div class="timeline">
-        <div class="event">
-            <div class="term">Recopilación de requisitos:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción de la recopilación de requisitos.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Planificación:</div>
-            <div class="tooltip">Descripción de la planificación.</div>
-        </div>
-        <div class="event">
-            <div class="term">Diseño UI y UX:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción del diseño UI y UX.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Desarrollo frontend:</div>
-            <div class="tooltip">Descripción del desarrollo frontend.</div>
-        </div>
-        <div class="event">
-            <div class="term">Desarrollo backend:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción del desarrollo backend.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Integración y pruebas:</div>
-            <div class="tooltip">Descripción de la integración y pruebas.</div>
-        </div>
-        <div class="event">
-            <div class="term">Implementación:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción de la implementación.</div>
+    <div class="desarrollo">
+        <h2>Proceso de Desarrollo</h2>
+        <div class="timeline">
+            <div class="event">
+                <div class="term">Recopilación de requisitos:</div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="space"></div>
+                <div class="tooltip">Descripción de la Recopilación de requisitos.</div>
+            </div>
+            <div class="event">
+                <div class="space"></div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="term">Planificación:</div>
+                <div class="tooltip">Descripción de la planificación.</div>
+            </div>
+            <div class="event">
+                <div class="term">Diseño UI y UX:</div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="space"></div>
+                <div class="tooltip">Descripción del diseño UI y UX.</div>
+            </div>
+            <div class="event">
+                <div class="space"></div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="term">Desarrollo frontend:</div>
+                <div class="tooltip">Descripción del desarrollo frontend.</div>
+            </div>
+            <div class="event">
+                <div class="term">Desarrollo backend:</div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="space"></div>
+                <div class="tooltip">Descripción del desarrollo backend.</div>
+            </div>
+            <div class="event">
+                <div class="space"></div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="term">Integración y pruebas:</div>
+                <div class="tooltip">Descripción de la integración y pruebas.</div>
+            </div>
+            <div class="event">
+                <div class="term">Implementación:</div>
+                <div class="circle">?</div>
+                <hr class="linea-horizontal">
+                <div class="space"></div>
+                <div class="tooltip">Descripción de la implementación.</div>
+            </div>
         </div>
     </div>
 </section>

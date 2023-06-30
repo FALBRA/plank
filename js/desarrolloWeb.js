@@ -1,10 +1,18 @@
-const events = document.querySelectorAll('.event');
-    events.forEach(event => {
-      const tooltip = event.querySelector('.tooltip');
-      event.addEventListener('mouseenter', () => {
-        tooltip.style.display = 'block';
-      });
-      event.addEventListener('mouseleave', () => {
-        tooltip.style.display = 'none';
-      });
-    });
+const circles = document.querySelectorAll('.circle');
+circles.forEach(circle => {
+  const event = circle.parentNode;
+  const tooltip = event.querySelector('.tooltip');
+  
+  circle.addEventListener('click', (event) => {
+    event.stopPropagation();
+    tooltip.style.display = 'block';
+  });
+  
+  tooltip.addEventListener('click', (event) => {
+    event.stopPropagation();
+  });
+  
+  document.addEventListener('click', () => {
+    tooltip.style.display = 'none';
+  });
+});
