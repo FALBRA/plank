@@ -1,5 +1,3 @@
-
-
 /*QUIENES SOMOS */
 
 .nosotros_opciones {
@@ -33,18 +31,20 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 button {
-  background: none;
-  border: 0;
-  color: inherit;
-  /* cursor: default; */
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  -webkit-user-select: none; /* for button */
-   -webkit-appearance: button; /* for input */
-     -moz-user-select: none;
-      -ms-user-select: none;
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-user-select: none;
+    /* for button */
+    -webkit-appearance: button;
+    /* for input */
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .quienes_somos button {
@@ -110,27 +110,32 @@ button {
 /*--------------FIN QUIENES SOMOS -----------------*/
 
 /*CONTACTANOS*/
-.contactanos{
+.contactanos {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contactanos_info{
-    display:grid;
+
+.contactanos_info {
+    display: grid;
     grid-template-columns: auto auto;
-    gap:5px;
+    gap: 5px;
 }
-.info_contacto{
+
+.info_contacto {
     background-color: #171717;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px; /* Ancho del textarea */
-    height: 80px; /* Alto del textarea */
+    width: 320px;
+    /* Ancho del textarea */
+    height: 80px;
+    /* Alto del textarea */
 
 }
-.contactanos h1{
+
+.contactanos h1 {
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 100%;
@@ -138,11 +143,15 @@ button {
 
 .contactanos_redes-icono {
     margin: 20px;
-font-size:200%;
-display:grid;
-grid-template-columns: auto auto auto auto;
-gap:50px;
+    font-size: 250%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
 
+}
+
+.contactanos_redes-icono a {
+    color: white;
 }
 
 
@@ -151,46 +160,106 @@ gap:50px;
 
 /*------------CONTACTANOS--------------------*/
 /*FORMULARIO DE CONTACTO*/
-.formulario_contacto{
+.formulario_contacto {
     background-color: #171717;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+
 }
+
+.imagen_formulario img {
+    width: 250px;
+}
+
 .formulario {
-    width: 200px; /* Ancho del campo de entrada */
-    height: 30px; /* Alto del campo de entrada */
-    padding: 5px; /* Espacio interno */
-    border: 1px solid #ccc; /* Borde */
-    background-color: #f9f9f9; /* Color de fondo */
-    color: #333; /* Color del texto */
-    
-  }
-  
-  select {
-    width: 427px; /* Ancho del select */
-    height: 40px; /* Alto del select */
-    padding: 5px; /* Espacio interno */
-    border: 1px solid #ccc; /* Borde */
-    background-color: #f9f9f9; /* Color de fondo */
-    color: #333; /* Color del texto */
-  }
-  
-  textarea {
-    width: 416px; /* Ancho del textarea */
-    height: 100px; /* Alto del textarea */
-    padding: 5px; /* Espacio interno */
-    border: 1px solid #ccc; /* Borde */
-    background-color: #f9f9f9; /* Color de fondo */
-    color: #333; /* Color del texto */
-  }
-  
-  input[type="submit"] {
-    width: 100px; /* Ancho del botón de envío */
-    height: 30px; /* Alto del botón de envío */
-    border: none; /* Sin borde */
-  }
+    width: 300px;
+    /* Ancho del campo de entrada */
+    height: 30px;
+    /* Alto del campo de entrada */
+    padding: 5px;
+    /* Espacio interno */
+    border: 1px solid #ccc;
+    /* Borde */
+    background-color: #f9f9f9;
+    /* Color de fondo */
+    color: #333;
+    /* Color del texto */
+
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.formulario-contenido h1 {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    width: 630px;
+    /* Ancho del select */
+    height: 40px;
+    /* Alto del select */
+    padding: 5px;
+    /* Espacio interno */
+    border: 1px solid #ccc;
+    /* Borde */
+    background-color: #f9f9f9;
+    /* Color de fondo */
+    color: #333;
+    /* Color del texto */
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+textarea {
+    width: 616px;
+    /* Ancho del textarea */
+    height: 100px;
+    /* Alto del textarea */
+    padding: 5px;
+    /* Espacio interno */
+    border: 1px solid #ccc;
+    /* Borde */
+    background-color: #f9f9f9;
+    /* Color de fondo */
+    color: #000000;
+    /* Color del texto */
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.btn-enviar {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+
+
 
 
 /*----------------FORMULARIO DE CONTACTO---------------------*/
@@ -207,22 +276,24 @@ gap:50px;
 .container {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
 }
-.nuestros_servicios-titulo{
+
+
+.nuestros_servicios-titulo {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-.wgh-slider {
-    position: relative;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
+.nuestros_servicios-titulo h1 {
+    font-weight: bold;
+    font-size: 150%;
 }
 
+ 
 .wgh-slider__viewport {
     position: relative;
     height: 100%;
