@@ -99,9 +99,87 @@
 }
 
 /*-----------------------End Paquetes Desarrollo Web--------------------------*/
-/*------------------------Start carrusel trabajos anteriores-----------------------------*/
+/*------------------------Start slider trabajos anteriores-----------------------------*/
+.trabajos-anteriores {
+    margin: 10px;
+}
 
-/*------------------------End carrusel trabajos anteriores-----------------------------*/
+.body-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.slider {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 2%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide.prev {
+    display: block;
+    left: -100%;
+}
+
+.slide.next {
+    display: block;
+    left: 100%;
+}
+
+.controls {
+    text-align: center;
+    margin: 5px;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*------------------------End slider trabajos anteriores-----------------------------*/
 /*--------------------------Start proceso de desarrollo----------------------------------*/
 .proceso-desarrollo {
     background-color: #171717;
@@ -172,6 +250,7 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 /*--------------------------END proceso de desarrollo----------------------------------*/

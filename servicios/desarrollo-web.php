@@ -155,7 +155,30 @@ include("header-servicio.php");
 </section>
 <section class="trabajos-anteriores">
     <h2>Trabajos Anteriores</h2>
-
+    <div class="body-slider">
+        <div class="controls">
+            <button class="prev">&lt;</button>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="Imagen 4">
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="next">&gt;</button>
+        </div>
+    </div>
 </section>
 <section class="proceso-desarrollo">
     <div class="desarrollo">
@@ -166,49 +189,49 @@ include("header-servicio.php");
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="space"></div>
-                <div class="tooltip">Descripción de la Recopilación de requisitos.</div>
+                <div class="tooltip"> Identificar y documentar las necesidades, objetivos y funcionalidades del proyecto web.</div>
             </div>
             <div class="event">
                 <div class="space"></div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="term">Planificación:</div>
-                <div class="tooltip">Descripción de la planificación.</div>
+                <div class="tooltip">Establecer las actividades, recursos y cronograma del proyecto, definiendo la estructura del sitio y las tecnologías a utilizar.</div>
             </div>
             <div class="event">
                 <div class="term">Diseño UI y UX:</div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="space"></div>
-                <div class="tooltip">Descripción del diseño UI y UX.</div>
+                <div class="tooltip">Crear una interfaz atractiva y funcional que cumpla con las expectativas de los usuarios, enfocándose en la apariencia visual y la experiencia de usuario.</div>
             </div>
             <div class="event">
                 <div class="space"></div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="term">Desarrollo frontend:</div>
-                <div class="tooltip">Descripción del desarrollo frontend.</div>
+                <div class="tooltip">Implementar la interfaz de usuario utilizando HTML, CSS y JavaScript, asegurando la compatibilidad y accesibilidad del sitio en diferentes dispositivos.</div>
             </div>
             <div class="event">
                 <div class="term">Desarrollo backend:</div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="space"></div>
-                <div class="tooltip">Descripción del desarrollo backend.</div>
+                <div class="tooltip">Construir la lógica y funcionalidades del servidor de la página web utilizando lenguajes de programación como Python, PHP o Java, gestionando bases de datos y la integración de servicios externos.</div>
             </div>
             <div class="event">
                 <div class="space"></div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="term">Integración y pruebas:</div>
-                <div class="tooltip">Descripción de la integración y pruebas.</div>
+                <div class="tooltip">Verificar que todos los componentes del sitio funcionen correctamente, realizando pruebas de enlaces, navegación, formularios, rendimiento y seguridad.</div>
             </div>
             <div class="event">
                 <div class="term">Implementación:</div>
                 <div class="circle">?</div>
                 <hr class="linea-horizontal">
                 <div class="space"></div>
-                <div class="tooltip">Descripción de la implementación.</div>
+                <div class="tooltip">Llevar el sitio web al entorno de producción, configurando el servidor, migrando archivos y bases de datos, y realizando pruebas finales antes de su lanzamiento público.</div>
             </div>
         </div>
     </div>
