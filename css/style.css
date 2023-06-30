@@ -51,6 +51,8 @@ body {
     float: right;
     font-size: 120%;
     transition: transform 0.2s;
+   
+        font-weight: bold;
 }
 
 .header .opciones-header a:hover {

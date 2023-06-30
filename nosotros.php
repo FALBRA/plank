@@ -8,11 +8,6 @@ include("header.php");
 <section class="nosotros_opciones">
 
     <h1>Conoce más de PLANK</h1>
-
-
-
-
-
     <div class="nosotros_opciones-plank">
         <div class="quienes_somos" id="quienes-somos">
             <button onclick="quienes_somos()"><i class="fa-solid fa-users"></i>&nbsp;&nbsp;&nbsp;Quienes somos</button>
@@ -21,9 +16,6 @@ include("header.php");
             <button onclick="contactanos()"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;Contáctanos</button>
         </div>
     </div>
-
-
-
 </section>
 
 <section id="quienes">
@@ -48,6 +40,7 @@ include("header.php");
 
         </div>
     </section>
+    <hr class="linea_separacion">
 
     <section class="nuestros_servicios">
         <div class="nuestros_servicios-titulo">
@@ -55,7 +48,7 @@ include("header.php");
         </div>
         <div class="carrousel_servicios">
             <div class="container">
-                <div class="wgh-slider">
+                <div class="">
                     <input class="wgh-slider-target" type="radio" id="slide-1" name="slider" />
                     <input class="wgh-slider-target" type="radio" id="slide-2" name="slider" />
                     <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked" />
@@ -66,15 +59,15 @@ include("header.php");
                             <div class="wgh-slider__container">
                                 <div class="wgh-slider-item">
                                     <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/logo bn.png" alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://f4.bcbits.com/img/a3905613628_16.jpg">IMG 2</a><span>PLANK</span></figcaption>
+                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/servicios/servicios/desarrollo-web.jpg" alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="">Desaroollo Web</a></figcaption>
                                         </figure>
                                         <label class="wgh-slider-item__trigger" for="slide-1" title="Show product 1"></label>
                                     </div>
                                 </div>
                                 <div class="wgh-slider-item">
                                     <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/logo.png" alt="The 5th Exotic" />
+                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/servicios/servicios/reparacion.jpg" alt="The 5th Exotic" />
                                             <figcaption class="wgh-slider-item-figure__caption"><a href="https://f4.bcbits.com/img/a3905613628_16.jpg">IMG 1</a><span>PLANK</span></figcaption>
                                         </figure>
                                         <label class="wgh-slider-item__trigger" for="slide-2" title="Show product 2"></label>
@@ -144,25 +137,29 @@ include("header.php");
         </div>
 
     </section>
+    <section class="formulario_contacto">
+        <div class="formulario-contenido">
+            <h1>FORMULARIO DE CONTACTO</h1>
+            <form class="" action="procesar_formulario.php" method="POST">
+                <input class="formulario" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                <input class="formulario" type="text" id="numero" name="numero" placeholder="Número" required><br><br>
+
+                <select class="formulario_comsulta" id="opciones" name="Consulta">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </select><br><br>
+
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Mensaje" required></textarea><br><br>
+
+                <button class="enviar">Enviar</button>
+            </form>
+        </div>
+    
+    </section>
 </section>
-<section class="formulario_contacto">
-    <h1>FORMULARIO DE CONTACTO</h1>
-    <form class="" action="procesar_formulario.php" method="POST">
-        <input class="formulario" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
 
-        <input class="formulario" type="text" id="numero" name="numero" placeholder="Número" required><br><br>
-
-        <select class="formulario_comsulta" id="opciones" name="Consulta">
-            <option value="opcion1">Opción 1</option>
-            <option value="opcion2">Opción 2</option>
-            <option value="opcion3">Opción 3</option>
-        </select><br><br>
-
-        <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Mensaje" required></textarea><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
-</section>
 
 
 <?php
