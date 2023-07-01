@@ -1,6 +1,8 @@
 <?php
 include("header-servicio.php");
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <link rel="stylesheet" href="../css/style-desarrollo-web.css">
 <div class="arriba">
     <h1>Desarrollo Web</h1>
@@ -153,33 +155,37 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
-<section class="trabajos-anteriores">
-    <h2>Trabajos Anteriores</h2>
-    <div class="body-slider">
-        <div class="controls">
-            <button class="prev">&lt;</button>
-        </div>
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slide">
-                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="Imagen 1">
-                </div>
-                <div class="slide">
-                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="Imagen 2">
-                </div>
-                <div class="slide">
-                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="Imagen 3">
-                </div>
-                <div class="slide">
-                    <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="Imagen 4">
+<div class="body-swiper">
+    <section class="trabajos-anteriores">
+        <h2>Trabajos Anteriores</h2>
+        <div class="separacion">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior5.JPG" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="controls">
-            <button class="next">&gt;</button>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 <section class="proceso-desarrollo">
     <div class="desarrollo">
         <h2>Proceso de Desarrollo</h2>
@@ -252,6 +258,7 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="../js/desarrolloWeb.js"></script>
 <?php
 include("footer-servicio.php");
