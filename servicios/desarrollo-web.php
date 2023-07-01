@@ -155,6 +155,48 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
+<section class="formulario-contrato-desarrollo-web">
+    <div class="titulo">
+        <h2>SOLICITUD DE SERVICIO:</h2>
+    </div>
+    <div class="container-formulario">
+        <form action="#" method="post" class="formulario">
+            <div class="nombre-correo-numero">
+                <div class="nombre">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
+                </div>
+                <div class="correo">
+                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                </div>
+                <div class="celular">
+                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
+                </div>
+            </div>
+            <div class="empresa-descripcion">
+                <div class="empresa">
+                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa (opcional)" >
+                </div>
+                <div class="descripcion">
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa y su actividad (opcional)" >
+                </div>
+            </div>
+            <div class="objetivo-publico">
+                <div class="objetivo">
+                    <textarea id="objetivo" name="objetivo" rows="4" placeholder="Objetivos de la página web" ></textarea>
+                </div>
+                <div class="publico">
+                    <textarea id="publico" name="publico" rows="4" placeholder="Público objetivo" ></textarea>
+                </div>
+            </div>
+            <div class="paquetes-escogidos">
+
+            </div>
+            <div class="boton-enviar">
+
+            </div>
+        </form>
+    </div>
+</section>
 <div class="body-swiper">
     <section class="trabajos-anteriores">
         <h2>Trabajos Anteriores</h2>

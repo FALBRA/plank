@@ -194,6 +194,10 @@
     position: relative;
     z-index: 1;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.circle:hover{
+    transform: rotate(45deg);
 }
 
 .linea-horizontal {
