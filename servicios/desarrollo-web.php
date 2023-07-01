@@ -189,55 +189,57 @@ include("header-servicio.php");
 <section class="proceso-desarrollo">
     <div class="desarrollo">
         <h2>Proceso de Desarrollo</h2>
-        <div class="timeline">
-            <div class="event">
-                <div class="term">Recopilación de requisitos:</div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="space"></div>
-                <div class="tooltip"> Identificar y documentar las necesidades, objetivos y funcionalidades del proyecto web.</div>
-            </div>
-            <div class="event">
-                <div class="space"></div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="term">Planificación:</div>
-                <div class="tooltip">Establecer las actividades, recursos y cronograma del proyecto, definiendo la estructura del sitio y las tecnologías a utilizar.</div>
-            </div>
-            <div class="event">
-                <div class="term">Diseño UI y UX:</div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="space"></div>
-                <div class="tooltip">Crear una interfaz atractiva y funcional que cumpla con las expectativas de los usuarios, enfocándose en la apariencia visual y la experiencia de usuario.</div>
-            </div>
-            <div class="event">
-                <div class="space"></div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="term">Desarrollo frontend:</div>
-                <div class="tooltip">Implementar la interfaz de usuario utilizando HTML, CSS y JavaScript, asegurando la compatibilidad y accesibilidad del sitio en diferentes dispositivos.</div>
-            </div>
-            <div class="event">
-                <div class="term">Desarrollo backend:</div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="space"></div>
-                <div class="tooltip">Construir la lógica y funcionalidades del servidor de la página web utilizando lenguajes de programación como Python, PHP o Java, gestionando bases de datos y la integración de servicios externos.</div>
-            </div>
-            <div class="event">
-                <div class="space"></div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="term">Integración y pruebas:</div>
-                <div class="tooltip">Verificar que todos los componentes del sitio funcionen correctamente, realizando pruebas de enlaces, navegación, formularios, rendimiento y seguridad.</div>
-            </div>
-            <div class="event">
-                <div class="term">Implementación:</div>
-                <div class="circle">?</div>
-                <hr class="linea-horizontal">
-                <div class="space"></div>
-                <div class="tooltip">Llevar el sitio web al entorno de producción, configurando el servidor, migrando archivos y bases de datos, y realizando pruebas finales antes de su lanzamiento público.</div>
+        <div class="borde">
+            <div class="timeline">
+                <div class="event">
+                    <div class="term">Recopilación de requisitos:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip"> Identificar y documentar las necesidades, objetivos y funcionalidades del proyecto web.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Planificación:</div>
+                    <div class="tooltip">Establecer las actividades, recursos y cronograma del proyecto, definiendo la estructura del sitio y las tecnologías a utilizar.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Diseño UI y UX:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Crear una interfaz atractiva y funcional que cumpla con las expectativas de los usuarios, enfocándose en la apariencia visual y la experiencia de usuario.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Desarrollo frontend:</div>
+                    <div class="tooltip">Implementar la interfaz de usuario utilizando HTML, CSS y JavaScript, asegurando la compatibilidad y accesibilidad del sitio en diferentes dispositivos.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Desarrollo backend:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Construir la lógica y funcionalidades del servidor de la página web utilizando lenguajes de programación como Python, PHP o Java, gestionando bases de datos y la integración de servicios externos.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Integración y pruebas:</div>
+                    <div class="tooltip">Verificar que todos los componentes del sitio funcionen correctamente, realizando pruebas de enlaces, navegación, formularios, rendimiento y seguridad.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Implementación:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Llevar el sitio web al entorno de producción, configurando el servidor, migrando archivos y bases de datos, y realizando pruebas finales antes de su lanzamiento público.</div>
+                </div>
             </div>
         </div>
     </div>

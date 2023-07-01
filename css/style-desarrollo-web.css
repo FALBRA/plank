@@ -143,6 +143,7 @@
 /*--------------------------Start proceso de desarrollo----------------------------------*/
 .proceso-desarrollo {
     background-color: #171717;
+    border-radius: 5px;
 }
 
 .desarrollo {
@@ -151,12 +152,17 @@
 }
 
 .desarrollo h2 {
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
     margin: 10px;
 }
-
-.timeline {
+.borde{
     padding: 10px 0px 20px 0px;
+}
+.timeline {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4) ;
+    padding: 15px 0px;
     display: flex;
     justify-content: center;
     align-items: center;

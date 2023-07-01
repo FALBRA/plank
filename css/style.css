@@ -259,7 +259,14 @@ body {
 .servicio_popular img {
     width: 300px;
 }
-
+.servicio_popular-imagen{
+    height: 215px;
+    transition: transform 0.2s ease-in-out; /* Agrega una transición suave */
+}
+.servicio_popular-imagen:hover{
+    transform: scale(1.03); /* Aumenta el tamaño de la imagen al 110% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4) ;
+}
 .servicio_popular-nombre {
     display: flex;
     align-items: center;
@@ -296,20 +303,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
 }
 
-.servicio_popular-opciones .informacion a {
-    color: black;
+.servicio_popular-opciones .informacion .contratar {
+    color: white;
+    background-color: #171717;
     text-decoration: none;
-    border-color: black;
+    border-color: #171717;
     border-style: solid;
     margin: 4px;
     padding: 0px 5px 0px 5px;
-    box-shadow: 2px 2px;
-
+    box-shadow: 2px 2px 0px #171717;
+    transition: transform 0.2s ease-in-out;
 }
 
+.servicio_popular-opciones .informacion .contratar:hover{
+    transform: scale(1.1);
+}
+.servicio_popular-opciones .informacion .info {
+    color: black;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    margin: 4px;
+    padding: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 0px #171717;
+    transition: transform 0.2s ease-in-out;
+}
+
+.servicio_popular-opciones .informacion .info:hover{
+    transform: scale(1.1);
+}
 /*-------------------FIN SERVICIOS POPULARES*------------------*/
 
 /*BIENVENIDOS*/
