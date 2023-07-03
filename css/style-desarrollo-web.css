@@ -99,6 +99,104 @@
 }
 
 /*-----------------------End Paquetes Desarrollo Web--------------------------*/
+/*--------------------------Start formulario------------------------------------*/
+.formulario-contrato-desarrollo-web{
+    background-color: #171717;
+    color: white;
+}
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.nombre-correo-numero{
+    display: flex;
+    justify-content: center;
+}
+.nombre,
+.correo,
+.celular {
+    margin: 10px;
+}
+.nombre input[type="text"],
+.correo input[type="email"],
+.celular input[type="tel"] {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.empresa-descripcion{
+    display: flex;
+    justify-content: center;
+}
+.empresa,
+.descripcion{
+    margin: 10px;
+}
+.empresa input[type="text"]{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.descripcion input[type="text"]{
+    width: 545px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.objetivo-publico{
+    display: flex;
+    justify-content: center;
+}
+.objetivo,
+.publico{
+    margin: 10px;
+}
+.objetivo textarea,
+.publico textarea{
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    resize: vertical;
+    overflow: auto;
+    min-height: 77px;
+}
+.paquetes-escogidos{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-enviar{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.boton-enviar input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.boton-enviar input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 5px white;
+}
+/*-----------------------------End formulario------------------------------------*/
 /*------------------------Start slider trabajos anteriores-----------------------------*/
 .trabajos-anteriores{
     margin: 10px;

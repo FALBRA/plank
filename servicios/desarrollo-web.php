@@ -156,10 +156,8 @@ include("header-servicio.php");
     </div>
 </section>
 <section class="formulario-contrato-desarrollo-web">
-    <div class="titulo">
-        <h2>SOLICITUD DE SERVICIO:</h2>
-    </div>
     <div class="container-formulario">
+        <h2>SOLICITUD DE SERVICIO:</h2>
         <form action="#" method="post" class="formulario">
             <div class="nombre-correo-numero">
                 <div class="nombre">
@@ -174,25 +172,47 @@ include("header-servicio.php");
             </div>
             <div class="empresa-descripcion">
                 <div class="empresa">
-                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa (opcional)" >
+                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa (opcional)">
                 </div>
                 <div class="descripcion">
-                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa y su actividad (opcional)" >
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa y su actividad (opcional)">
                 </div>
             </div>
             <div class="objetivo-publico">
                 <div class="objetivo">
-                    <textarea id="objetivo" name="objetivo" rows="4" placeholder="Objetivos de la página web" ></textarea>
+                    <textarea id="objetivo" name="objetivo" rows="4" placeholder="Objetivos de la página web"></textarea>
                 </div>
                 <div class="publico">
-                    <textarea id="publico" name="publico" rows="4" placeholder="Público objetivo" ></textarea>
+                    <textarea id="publico" name="publico" rows="4" placeholder="Público objetivo"></textarea>
                 </div>
             </div>
             <div class="paquetes-escogidos">
+                <label for="opcion1">Paquete 1</label>
+                <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
 
+                <label for="opcion2">Paquete 2</label>
+                <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+
+                <label for="opcion3">Paquete 3</label>
+                <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+
+                <label for="opcion4">Paquete 4</label>
+                <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
+
+                <label for="opcion1">Paquete 5</label>
+                <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
+
+                <label for="opcion2">Paquete 6</label>
+                <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+
+                <label for="opcion3">Paquete 7</label>
+                <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+
+                <label for="opcion4">Paquete 8</label>
+                <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
             </div>
             <div class="boton-enviar">
-
+                <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
             </div>
         </form>
     </div>
