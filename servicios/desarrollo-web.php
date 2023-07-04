@@ -1,6 +1,8 @@
 <?php
 include("header-servicio.php");
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <link rel="stylesheet" href="../css/style-desarrollo-web.css">
 <div class="arriba">
     <h1>Desarrollo Web</h1>
@@ -153,61 +155,166 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
-<section class="trabajos-anteriores">
-    <h2>Trabajos Anteriores</h2>
-
+<section class="formulario-contrato-desarrollo-web">
+    <div class="container-formulario">
+        <h2>SOLICITUD DE SERVICIO:</h2>
+        <form action="#" method="post" class="formulario">
+            <div class="nombre-correo-numero">
+                <div class="nombre">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
+                </div>
+                <div class="correo">
+                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                </div>
+                <div class="celular">
+                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
+                </div>
+            </div>
+            <div class="empresa-descripcion">
+                <div class="empresa">
+                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa (opcional)">
+                </div>
+                <div class="descripcion">
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa y su actividad (opcional)">
+                </div>
+            </div>
+            <div class="objetivo-publico">
+                <div class="objetivo">
+                    <textarea id="objetivo" name="objetivo" rows="4" placeholder="Objetivos de la página web"></textarea>
+                </div>
+                <div class="publico">
+                    <textarea id="publico" name="publico" rows="4" placeholder="Público objetivo"></textarea>
+                </div>
+            </div>
+            <div class="paquetes-checkbox">
+                <p>escoge alguno de los paquetes que ofrecemos:</p>
+                <div class="paquetes-escogidos">
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete1">Etiqueta 1</label>
+                        <input type="checkbox" id="paquete1" name="paquete1" value="paquete1">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete2">Etiqueta 2</label>
+                        <input type="checkbox" id="paquete2" name="paquete2" value="paquete2">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete3">Etiqueta 3</label>
+                        <input type="checkbox" id="paquete3" name="paquete3" value="paquete3">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete4">Etiqueta 4</label>
+                        <input type="checkbox" id="paquete4" name="paquete4" value="paquete4">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete5">Etiqueta 5</label>
+                        <input type="checkbox" id="paquete5" name="paquete5" value="paquete5">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete6">Etiqueta 6</label>
+                        <input type="checkbox" id="paquete6" name="paquete6" value="paquete6">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete7">Etiqueta 7</label>
+                        <input type="checkbox" id="paquete7" name="paquete7" value="paquete7">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete8">Etiqueta 8</label>
+                        <input type="checkbox" id="paquete8" name="paquete8" value="paquete8">
+                    </div>
+                </div>
+            </div>
+            <div class="boton-enviar">
+                <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
+            </div>
+        </form>
+    </div>
 </section>
+<div class="body-swiper">
+    <section class="trabajos-anteriores">
+        <h2>Trabajos Anteriores</h2>
+        <div class="separacion">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
+                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior5.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 <section class="proceso-desarrollo">
-    <h2>Proceso de Desarrollo</h2>
-    <div class="timeline">
-        <div class="event">
-            <div class="term">Recopilación de requisitos:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción de la recopilación de requisitos.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Planificación:</div>
-            <div class="tooltip">Descripción de la planificación.</div>
-        </div>
-        <div class="event">
-            <div class="term">Diseño UI y UX:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción del diseño UI y UX.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Desarrollo frontend:</div>
-            <div class="tooltip">Descripción del desarrollo frontend.</div>
-        </div>
-        <div class="event">
-            <div class="term">Desarrollo backend:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción del desarrollo backend.</div>
-        </div>
-        <div class="event">
-            <div class="space"></div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="term">Integración y pruebas:</div>
-            <div class="tooltip">Descripción de la integración y pruebas.</div>
-        </div>
-        <div class="event">
-            <div class="term">Implementación:</div>
-            <div class="circle">?</div>
-            <hr class="linea-horizontal">
-            <div class="space"></div>
-            <div class="tooltip">Descripción de la implementación.</div>
+    <div class="desarrollo">
+        <h2>Proceso de Desarrollo</h2>
+        <div class="borde">
+            <div class="timeline">
+                <div class="event">
+                    <div class="term">Recopilación de requisitos:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip"> Identificar y documentar las necesidades, objetivos y funcionalidades del proyecto web.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Planificación:</div>
+                    <div class="tooltip">Establecer las actividades, recursos y cronograma del proyecto, definiendo la estructura del sitio y las tecnologías a utilizar.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Diseño UI y UX:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Crear una interfaz atractiva y funcional que cumpla con las expectativas de los usuarios, enfocándose en la apariencia visual y la experiencia de usuario.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Desarrollo frontend:</div>
+                    <div class="tooltip">Implementar la interfaz de usuario utilizando HTML, CSS y JavaScript, asegurando la compatibilidad y accesibilidad del sitio en diferentes dispositivos.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Desarrollo backend:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Construir la lógica y funcionalidades del servidor de la página web utilizando lenguajes de programación como Python, PHP o Java, gestionando bases de datos y la integración de servicios externos.</div>
+                </div>
+                <div class="event">
+                    <div class="space"></div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="term">Integración y pruebas:</div>
+                    <div class="tooltip">Verificar que todos los componentes del sitio funcionen correctamente, realizando pruebas de enlaces, navegación, formularios, rendimiento y seguridad.</div>
+                </div>
+                <div class="event">
+                    <div class="term">Implementación:</div>
+                    <div class="circle">?</div>
+                    <hr class="linea-horizontal">
+                    <div class="space"></div>
+                    <div class="tooltip">Llevar el sitio web al entorno de producción, configurando el servidor, migrando archivos y bases de datos, y realizando pruebas finales antes de su lanzamiento público.</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -227,6 +334,7 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="../js/desarrolloWeb.js"></script>
 <?php
 include("footer-servicio.php");

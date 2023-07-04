@@ -28,9 +28,11 @@ include("header.php");
 <section class="todos-servicios" id="lista-servicios">
 
     <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
+        <a href="servicios/reparacion.php">
+            <div class="servicio-imagen">
+                <img src="img/servicios/reparacion/servicioReparacion.jpg" alt="" srcset="">
+            </div>
+        </a>
         <div class="servicio-nombre">
             <h1>Reparación</h1>
             <ul>
@@ -54,16 +56,18 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="servicios/reparacion.php#contratar">Contratar</a>
-                <a href="servicios/reparacion.php">Más información</a>
+                <a class="contratar" href="servicios/reparacion.php#contratar">Contratar</a>
+                <a class="info" href="servicios/reparacion.php">Más información</a>
             </div>
         </div>
     </div>
 
     <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
+        <a href="servicios/instalacion.php">
+            <div class="servicio-imagen">
+                <img src="img/servicios/instalacion/servicioInstalacion.jpg" alt="" srcset="">
+            </div>
+        </a>
         <div class="servicio-nombre">
             <h1>Instalación</h1>
             <ul>
@@ -87,16 +91,18 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="servicios/instalacion.php#contratar">Contratar</a>
-                <a href="servicios/instalacion.php">Más información</a>
+                <a class="contratar" href="servicios/instalacion.php#contratar">Contratar</a>
+                <a class="info" href="servicios/instalacion.php">Más información</a>
             </div>
         </div>
     </div>
 
     <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
+        <a href="servicios/desarrollo-web.php">
+            <div class="servicio-imagen">
+                <img src="img/servicios/desarrolloWeb/servicioDesarrolloWeb.jpg" alt="" srcset="">
+            </div>
+        </a>
         <div class="servicio-nombre">
             <h1>Desarrollo Web</h1>
             <ul>
@@ -120,8 +126,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="servicios/desarrollo-web.php">Más información</a>
+                <a class="contratar" href="">Contratar</a>
+                <a class="info" href="servicios/desarrollo-web.php">Más información</a>
             </div>
         </div>
     </div>
@@ -155,8 +161,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a class="contratar" href="">Contratar</a>
+                <a class="info" href="">Más información</a>
             </div>
         </div>
     </div>
@@ -188,8 +194,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a class="contratar" href="">Contratar</a>
+                <a class="info" href="">Más información</a>
             </div>
         </div>
     </div>
@@ -221,8 +227,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a class="contratar" href="">Contratar</a>
+                <a class="info" href="">Más información</a>
             </div>
         </div>
     </div>
@@ -256,8 +262,8 @@ include("header.php");
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="informacion">
-                <a href="">Contratar</a>
-                <a href="">Más información</a>
+                <a class="contratar" href="">Contratar</a>
+                <a class="info" href="">Más información</a>
             </div>
         </div>
     </div>
