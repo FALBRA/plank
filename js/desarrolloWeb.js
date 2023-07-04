@@ -1,3 +1,15 @@
+/*------------------------Start formulario------------------------------*/
+var labels = document.getElementsByClassName('clickable-label');
+
+function toggleLabelAppearance() {
+  this.classList.toggle('label-clicked');
+}
+
+for (var i = 0; i < labels.length; i++) {
+  labels[i].addEventListener('click', toggleLabelAppearance);
+}
+
+/*-------------------------End formulario---------------------------------*/
 /*------------------------Start slider trabajos anteriores-----------------------------*/
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
@@ -5,12 +17,12 @@ var swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
   slidesPerView: "auto",
   loop: true,
-  coverflowEffect:{
-    depth:500,
-    modifer:1,
-    slidesShadows:true,
-    rotate:0,
-    stretch:0
+  coverflowEffect: {
+    depth: 500,
+    modifer: 1,
+    slidesShadows: true,
+    rotate: 0,
+    stretch: 0
   }
 })
 /*------------------------End slider trabajos anteriores-----------------------------*/

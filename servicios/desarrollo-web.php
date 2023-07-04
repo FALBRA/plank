@@ -186,39 +186,42 @@ include("header-servicio.php");
                     <textarea id="publico" name="publico" rows="4" placeholder="Público objetivo"></textarea>
                 </div>
             </div>
-            <div class="paquetes-escogidos">    
-                <label for="paquete1">
-                    <input type="checkbox" name="paquete1">
-                    paquete 1
-                </label>
-                <label for="paquete2">
-                    <input type="checkbox" name="paquete2">
-                    paquete 2
-                </label>
-                <label for="paquete3">
-                    <input type="checkbox" name="paquete3">
-                    paquete 3
-                </label>
-                <label for="paquete4">
-                    <input type="checkbox" name="paquete4">
-                    paquete 4
-                </label>
-                <label for="paquete5">
-                    <input type="checkbox" name="paquete5">
-                    paquete 5
-                </label>
-                <label for="paquete6">
-                    <input type="checkbox" name="paquete6">
-                    paquete 6
-                </label>
-                <label for="paquete7">
-                    <input type="checkbox" name="paquete7">
-                    paquete 7
-                </label>
-                <label for="paquete8">
-                    <input type="checkbox" name="paquete8">
-                    paquete 8
-                </label>
+            <div class="paquetes-checkbox">
+                <p>escoge alguno de los paquetes que ofrecemos:</p>
+                <div class="paquetes-escogidos">
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete1">Etiqueta 1</label>
+                        <input type="checkbox" id="paquete1" name="paquete1" value="paquete1">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete2">Etiqueta 2</label>
+                        <input type="checkbox" id="paquete2" name="paquete2" value="paquete2">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete3">Etiqueta 3</label>
+                        <input type="checkbox" id="paquete3" name="paquete3" value="paquete3">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete4">Etiqueta 4</label>
+                        <input type="checkbox" id="paquete4" name="paquete4" value="paquete4">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete5">Etiqueta 5</label>
+                        <input type="checkbox" id="paquete5" name="paquete5" value="paquete5">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete6">Etiqueta 6</label>
+                        <input type="checkbox" id="paquete6" name="paquete6" value="paquete6">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete7">Etiqueta 7</label>
+                        <input type="checkbox" id="paquete7" name="paquete7" value="paquete7">
+                    </div>
+                    <div class="container-paquete">
+                        <label class="clickable-label" for="paquete8">Etiqueta 8</label>
+                        <input type="checkbox" id="paquete8" name="paquete8" value="paquete8">
+                    </div>
+                </div>
             </div>
             <div class="boton-enviar">
                 <input type="submit" value="ENVIAR SOLICITUD DE SERVICIO">
