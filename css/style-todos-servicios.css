@@ -189,4 +189,25 @@
   transform: scale(1.1);
 }
 
+.servicio-proximamente{
+  position: relative;
+}
+
+.servicio-proximamente::before{
+  content: "próximamente";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: repeating-linear-gradient(
+    -45deg,
+    
+    transparent 20px,
+    #171717 20px,
+    #171717 40px
+  );
+  color: white;
+  margin: 73% 0% 0% -37%;
+  padding: 3% 70% 3% 70%;
+  transform: rotate(-45deg);
+}
 /*END Todos los servicios*/
