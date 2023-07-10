@@ -134,9 +134,9 @@ include("header.php");
 
 
 
-    <div class="servicio">
+    <div class="servicio servicio-prox">
         <div class="servicio-proximamente">
-            <div class="servicio-imagen">
+            <div class="servicio-imagen-proximamente">
                 <img src="img/servicios/servicio.jpg" alt="" srcset="">
             </div>
             <div class="servicio-nombre">
@@ -162,110 +162,116 @@ include("header.php");
                     <img src="img/logo.png" alt="" srcset="">
                 </div>
                 <div class="informacion">
-                    <a class="contratar" href="">Contratar</a>
-                    <a class="info" href="">Más información</a>
+                    <a class="contratar" href="#">Contratar</a>
+                    <a class="info" href="#">Más información</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
-        <div class="servicio-nombre">
-            <h1>Arduino</h1>
-            <ul>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-        </div>
-        <div class="servicio-descripcion">
-            <h2>Desarrollo de proyectos en Arduino como:</h2>
-            <ul>
-                <li>Hidropónico </li>
-                <li>Circuito led</li>
-                <li>etc.</li>
-            </ul>
-        </div>
-        <div class="servicio-opciones">
-            <div class="icono">
-                <img src="img/logo.png" alt="" srcset="">
+    <div class="servicio servicio-prox">
+        <div class="servicio-proximamente">
+            <div class="servicio-imagen-proximamente">
+                <img src="img/servicios/servicio.jpg" alt="" srcset="">
             </div>
-            <div class="informacion">
-                <a class="contratar" href="">Contratar</a>
-                <a class="info" href="">Más información</a>
+            <div class="servicio-nombre">
+                <h1>Arduino</h1>
+                <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
             </div>
-        </div>
-    </div>
-
-    <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
-        <div class="servicio-nombre">
-            <h1>Consejería</h1>
-            <ul>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-        </div>
-        <div class="servicio-descripcion">
-            <h2>Te brindamos consejos personalizados como:</h2>
-            <ul>
-                <li>Programas concretos</li>
-                <li>Programación </li>
-                <li>etc.</li>
-            </ul>
-        </div>
-        <div class="servicio-opciones">
-            <div class="icono">
-                <img src="img/logo.png" alt="" srcset="">
+            <div class="servicio-descripcion">
+                <h2>Desarrollo de proyectos en Arduino como:</h2>
+                <ul>
+                    <li>Hidropónico </li>
+                    <li>Circuito led</li>
+                    <li>etc.</li>
+                </ul>
             </div>
-            <div class="informacion">
-                <a class="contratar" href="">Contratar</a>
-                <a class="info" href="">Más información</a>
+            <div class="servicio-opciones">
+                <div class="icono">
+                    <img src="img/logo.png" alt="" srcset="">
+                </div>
+                <div class="informacion">
+                    <a class="contratar" href="#">Contratar</a>
+                    <a class="info" href="#">Más información</a>
+                </div>
             </div>
         </div>
     </div>
 
-
-
-    <div class="servicio">
-        <div class="servicio-imagen">
-            <img src="img/servicios/servicio.jpg" alt="" srcset="">
-        </div>
-        <div class="servicio-nombre">
-            <h1>IA's</h1>
-            <ul>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-        </div>
-        <div class="servicio-descripcion">
-            <h2>Te ayudamos usando herramientas de IA como:</h2>
-            <ul>
-                <li>ChatGPT</li>
-                <li>Leonardo AI</li>
-                <li>etc.</li>
-            </ul>
-        </div>
-        <div class="servicio-opciones">
-            <div class="icono">
-                <img src="img/logo.png" alt="" srcset="">
+    <div class="servicio servicio-prox">
+        <div class="servicio-proximamente">
+            <div class="servicio-imagen-proximamente">
+                <img src="img/servicios/servicio.jpg" alt="" srcset="">
             </div>
-            <div class="informacion">
-                <a class="contratar" href="">Contratar</a>
-                <a class="info" href="">Más información</a>
+            <div class="servicio-nombre">
+                <h1>Consejería</h1>
+                <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+            </div>
+            <div class="servicio-descripcion">
+                <h2>Te brindamos consejos personalizados como:</h2>
+                <ul>
+                    <li>Programas concretos</li>
+                    <li>Programación </li>
+                    <li>etc.</li>
+                </ul>
+            </div>
+            <div class="servicio-opciones">
+                <div class="icono">
+                    <img src="img/logo.png" alt="" srcset="">
+                </div>
+                <div class="informacion">
+                    <a class="contratar" href="#">Contratar</a>
+                    <a class="info" href="#">Más información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="servicio servicio-prox">
+        <div class="servicio-proximamente">
+            <div class="servicio-imagen-proximamente">
+                <img src="img/servicios/servicio.jpg" alt="" srcset="">
+            </div>
+            <div class="servicio-nombre">
+                <h1>IA's</h1>
+                <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+            </div>
+            <div class="servicio-descripcion">
+                <h2>Te ayudamos usando herramientas de IA como:</h2>
+                <ul>
+                    <li>ChatGPT</li>
+                    <li>Leonardo AI</li>
+                    <li>etc.</li>
+                </ul>
+            </div>
+            <div class="servicio-opciones">
+                <div class="icono">
+                    <img src="img/logo.png" alt="" srcset="">
+                </div>
+                <div class="informacion">
+                    <a class="contratar" href="">Contratar</a>
+                    <a class="info" href="">Más información</a>
+                </div>
             </div>
         </div>
     </div>
