@@ -117,7 +117,7 @@ include("header.php");
                             <img src="img/logo.png" alt="" srcset="">
                         </div>
                         <div class="informacion">
-                            <a class="contratar" href="#">Contratar</a>
+                            <a class="contratar" href="servicios/desarrollo-web.php#contratar">Contratar</a>
                             <a class="info" href="servicios/desarrollo-web.php">Más información</a>
                         </div>
                     </div>

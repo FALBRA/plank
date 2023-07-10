@@ -15,6 +15,7 @@ include("header-servicio.php");
             <h1>Diseño web básico:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 1</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -33,6 +34,7 @@ include("header-servicio.php");
             <h1>Desarrollo web y programación:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 2</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -51,6 +53,7 @@ include("header-servicio.php");
             <h1>Diseño responsivo:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 3</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -69,6 +72,7 @@ include("header-servicio.php");
             <h1>Integración de CMS:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 4</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -87,6 +91,7 @@ include("header-servicio.php");
             <h1>Optimización de velocidad y rendimiento:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 5</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -105,6 +110,7 @@ include("header-servicio.php");
             <h1>Seguridad y protección contra ataques:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 6</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -123,6 +129,7 @@ include("header-servicio.php");
             <h1>Integración de comercio electrónico:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 7</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -141,6 +148,7 @@ include("header-servicio.php");
             <h1>SEO básico:</h1>
         </div>
         <div class="desarrollo-web-imagen">
+            <p>Paquete 8</p>
             <img src="../img/servicios/servicio.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
@@ -155,7 +163,7 @@ include("header-servicio.php");
         </div>
     </div>
 </section>
-<section class="formulario-contrato-desarrollo-web">
+<section class="formulario-contrato-desarrollo-web" id="contratar">
     <div class="container-formulario">
         <h2>SOLICITUD DE SERVICIO:</h2>
         <form action="#" method="post" class="formulario">
@@ -190,35 +198,35 @@ include("header-servicio.php");
                 <p>escoge alguno de los paquetes que ofrecemos:</p>
                 <div class="paquetes-escogidos">
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete1">Etiqueta 1</label>
+                        <label class="clickable-label" for="paquete1">Paquete 1</label>
                         <input type="checkbox" id="paquete1" name="paquete1" value="paquete1">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete2">Etiqueta 2</label>
+                        <label class="clickable-label" for="paquete2">Paquete 2</label>
                         <input type="checkbox" id="paquete2" name="paquete2" value="paquete2">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete3">Etiqueta 3</label>
+                        <label class="clickable-label" for="paquete3">Paquete 3</label>
                         <input type="checkbox" id="paquete3" name="paquete3" value="paquete3">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete4">Etiqueta 4</label>
+                        <label class="clickable-label" for="paquete4">Paquete 4</label>
                         <input type="checkbox" id="paquete4" name="paquete4" value="paquete4">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete5">Etiqueta 5</label>
+                        <label class="clickable-label" for="paquete5">Paquete 5</label>
                         <input type="checkbox" id="paquete5" name="paquete5" value="paquete5">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete6">Etiqueta 6</label>
+                        <label class="clickable-label" for="paquete6">Paquete 6</label>
                         <input type="checkbox" id="paquete6" name="paquete6" value="paquete6">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete7">Etiqueta 7</label>
+                        <label class="clickable-label" for="paquete7">Paquete 7</label>
                         <input type="checkbox" id="paquete7" name="paquete7" value="paquete7">
                     </div>
                     <div class="container-paquete">
-                        <label class="clickable-label" for="paquete8">Etiqueta 8</label>
+                        <label class="clickable-label" for="paquete8">Paquete 8</label>
                         <input type="checkbox" id="paquete8" name="paquete8" value="paquete8">
                     </div>
                 </div>

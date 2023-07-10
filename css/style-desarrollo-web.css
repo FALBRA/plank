@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1%;
+    margin: 0 1% 1% 1%;
 }
 
 .desarrollo-web-nombre h1 {
@@ -54,11 +54,21 @@
     margin-block-end: 0px;
     font-size: 105%;
 }
-
+.desarrollo-web-imagen{
+    display: flex;
+    flex-direction: column;
+}
 .desarrollo-web-imagen img {
     width: 300px;
 }
-
+.desarrollo-web-imagen p{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0 5px 0 0;
+    background-color: #171717;
+    color: #fff;
+}
 .desarrollo-web-descripcion {
     display: flex;
     align-items: center;
