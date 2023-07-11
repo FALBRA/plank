@@ -137,7 +137,7 @@ include("header.php");
     <div class="servicio servicio-prox">
         <div class="servicio-proximamente">
             <div class="servicio-imagen-proximamente">
-                <img src="img/servicios/servicio.jpg" alt="" srcset="">
+                <img src="img/servicios/proximamente.jpg" alt="" srcset="">
             </div>
             <div class="servicio-nombre">
                 <h1>Casas Inteligentes</h1>
@@ -172,7 +172,7 @@ include("header.php");
     <div class="servicio servicio-prox">
         <div class="servicio-proximamente">
             <div class="servicio-imagen-proximamente">
-                <img src="img/servicios/servicio.jpg" alt="" srcset="">
+                <img src="img/servicios/proximamente.jpg" alt="" srcset="">
             </div>
             <div class="servicio-nombre">
                 <h1>Arduino</h1>
@@ -207,7 +207,7 @@ include("header.php");
     <div class="servicio servicio-prox">
         <div class="servicio-proximamente">
             <div class="servicio-imagen-proximamente">
-                <img src="img/servicios/servicio.jpg" alt="" srcset="">
+                <img src="img/servicios/proximamente.jpg" alt="" srcset="">
             </div>
             <div class="servicio-nombre">
                 <h1>Consejería</h1>
@@ -244,7 +244,7 @@ include("header.php");
     <div class="servicio servicio-prox">
         <div class="servicio-proximamente">
             <div class="servicio-imagen-proximamente">
-                <img src="img/servicios/servicio.jpg" alt="" srcset="">
+                <img src="img/servicios/proximamente.jpg" alt="" srcset="">
             </div>
             <div class="servicio-nombre">
                 <h1>IA's</h1>

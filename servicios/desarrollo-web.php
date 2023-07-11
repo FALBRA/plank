@@ -16,7 +16,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 1</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Diseño de una página web atractiva y funcional con un diseño personalizado y adaptado a la identidad de la marca.</h2>
@@ -35,7 +35,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 2</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Desarrollo de la estructura técnica del sitio web utilizando lenguajes de programación y tecnologías web.</h2>
@@ -54,7 +54,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 3</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb//paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Adaptación del diseño y la funcionalidad del sitio web para que se vea y funcione correctamente en dispositivos móviles y tablets.</h2>
@@ -73,7 +73,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 4</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Implementación de un CMS para permitir al cliente administrar y actualizar fácilmente el contenido del sitio web.</h2>
@@ -92,7 +92,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 5</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Optimización de imágenes, compresión de archivos y ajuste de configuraciones para un mejor rendimiento.</h2>
@@ -111,7 +111,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 6</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Implementación de medidas de seguridad, como certificados SSL, protección contra ataques de hackers y actualizaciones de seguridad regulares.</h2>
@@ -130,7 +130,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 7</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Configuración de una tienda en línea con carrito de compras, pasarelas de pago y gestión de inventario.</h2>
@@ -149,7 +149,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 8</p>
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Optimización del sitio web para mejorar su visibilidad en los motores de búsqueda, incluyendo investigación de palabras clave, etiquetas meta y optimización de contenido.</h2>
