@@ -48,7 +48,7 @@ include("header-servicio.php");
             <h1>Programas:</h1>
         </div>
         <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/instalacion/servicioInstalacion.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
             <h2>Instalación y configuración de programas que necesites, asegurándonos de que todo funcione correctamente.</h2>
@@ -59,7 +59,7 @@ include("header-servicio.php");
             <h1>Antivirus:</h1>
         </div>
         <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/instalacion/servicioInstalacion.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
             <h2>Instalación y configuración de programas antivirus que te protegerán contra amenazas cibernéticas.</h2>
@@ -70,7 +70,7 @@ include("header-servicio.php");
             <h1>Cámaras:</h1>
         </div>
         <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/instalacion/servicioInstalacion.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
             <h2>Instalación de cámaras, configuración y puesta en marcha, para que puedas monitorear y proteger tu entorno de manera efectiva.</h2>
@@ -81,7 +81,7 @@ include("header-servicio.php");
             <h1>Repetidores de WIFI:</h1>
         </div>
         <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/instalacion/servicioInstalacion.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
             <h2>Instalación y configuración de repetidores Wi-Fi que amplificarán y mejorarán la cobertura de tu red inalámbrica.</h2>
@@ -92,7 +92,7 @@ include("header-servicio.php");
             <h1>Otros:</h1>
         </div>
         <div class="reparacion-imagen">
-            <img src="../img/servicios/servicio.jpg" alt="">
+            <img src="../img/servicios/instalacion/servicioInstalacion.jpg" alt="">
         </div>
         <div class="reparacion-descripcion">
             <h2>Nos encargamos de todas tus necesidades de instalación, asegurándonos de que todos los equipos y sistemas funcionen perfectamente.</h2>
@@ -135,7 +135,7 @@ include("header-servicio.php");
                 </div>
                 <div class="rest">
                     <div class="direccion">
-                        <input type="text" id="direccion" name="direccion" placeholder=" Dirección del lugar donde realizar las instalación" required>
+                        <input type="text" id="direccion" name="direccion" placeholder=" Dirección del lugar donde realizar la instalación" required>
                     </div>
                     <div class="equipo-programa-instalar">
                         <div class="equipo-programa">
