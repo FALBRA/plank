@@ -4,7 +4,7 @@ include("header-servicio.php");
 <link rel="stylesheet" href="../css/style-reparacion.css">
 <section class="encabezado-reparacion">
     <div class="encabezado">
-        <h1>Reparacion</h1>
+        <h1>Reparación</h1>
         <hr class="linea_separacion-reparacion">
         <p>Reparación confiable y a domicilio de dispositivos tecnológicos. ¡Confíe en nosotros para restaurar su tecnología al máximo!</p>
     </div>

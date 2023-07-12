@@ -34,7 +34,7 @@
 
 
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
-            <a href="nosotros.php" class="nosotros">NOSOTROS</a>
+            <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
 
             <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
 

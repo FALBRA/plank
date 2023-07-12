@@ -10,6 +10,17 @@ if (currentURL.includes('todos-servicios.php')) {
 }
 
 // Obtenemos el enlace correspondiente a "SERVICIOS"
+const serviciosLinkNosotros = document.getElementById('nosotros');
+
+// Obtenemos la URL actual
+const currentURLNosotros = window.location.href;
+
+// Verificamos si estamos en la página "todos-servicios.php"
+if (currentURLNosotros.includes('nosotros.php')) {
+  serviciosLinkNosotros.classList.add('noso');
+}
+
+// Obtenemos el enlace correspondiente a "SERVICIOS"
 const serviciosLinkNoticias = document.getElementById('serviciosNoticias');
 
 // Obtenemos la URL actual

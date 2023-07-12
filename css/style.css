@@ -68,7 +68,10 @@ body {
     text-shadow: 0 0 10px white;
     transform: scale(1.1);
 }
-
+.header .opciones-header a.noso {
+    text-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
 
 /*fin header*/
 
