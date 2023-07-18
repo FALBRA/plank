@@ -133,6 +133,10 @@ body {
 /*END loader*/
 
 /*index*/
+.index{
+    position: relative;
+    z-index: 0;
+}
 .index .principal {
     background-color: #171717;
     display: grid;
@@ -415,4 +419,159 @@ body {
 }
 
 /*--------------------fin footer----------------*/
+/*--------------------start modal login-------------------*/
+.modal-login{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.modal-login-content{
+    background-color: #ececec;
+    margin: auto;
+    padding: 0 1% 1% 1%;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    color: #171717;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-login-content .logo-modal{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content img{
+    height: 70px;
+    width: 70px;
+}
+.modal-login-content h2{
+    color: #171717;
+    margin: 0;
+    font-size: 80%;
+}
+.modal-login-content .h2-bajo-logo{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .boton-continuar-google{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .boton-continuar-google button{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-login-content .boton-continuar-google button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-login-content .fa-brands{
+    margin: 2% 0 2% 50%;
+}
+.modal-login-content .linea_separacion-modal{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(5, 5, 5), transparent);
+    margin: 3% 0;
+}
+.modal-login-content .h2-inicio-form{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #000000;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login label{
+    margin: 1% 0;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login input{
+    background: #fff;
+    text-decoration: none;
+    border-color: #7e7e7e;
+    border-style: solid;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .forgot{
+    text-decoration: none;
+    margin: 2% 0;
+    color: rgb(0, 41, 82);
+    font-size: 90%;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion button{
+    margin: 1%;
+    width: 40%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+}
+.modal-login-content .registrate{
+    margin: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.modal-login-content .registrate .a-registrate{
+    text-decoration: none;
+    color: rgb(0, 41, 82);
+}
+/*--------------------end modal login---------------------*/
 /*--------------------fin index-----------------------------*/

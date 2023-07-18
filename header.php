@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>plankST</title>
 
     <link href="img/logo.png" rel="icon" />
@@ -30,18 +28,16 @@
         </div>
         <div class="opciones-header">
 
-           
-
-
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
             <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
 
             <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
 
-            <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
+            <a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
     </section>
     <script src="js/headerjs.js"></script>
 
-    
-
+    <?php
+    include("modal-login.php");
+    ?>
