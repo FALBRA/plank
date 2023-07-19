@@ -133,6 +133,10 @@ body {
 /*END loader*/
 
 /*index*/
+.index{
+    position: relative;
+    z-index: 0;
+}
 .index .principal {
     background-color: #171717;
     display: grid;
@@ -239,15 +243,15 @@ body {
 
 @keyframes moveDown {
     0% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 
     50% {
-        transform: translateY(10px);
+        transform: translateY(5px);
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 }
 
@@ -415,6 +419,427 @@ body {
 }
 
 /*--------------------fin footer----------------*/
+/*--------------------start modal login-------------------*/
+.modal-login{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-login-content{
+    background-color: #ececec;
+    margin: auto;
+    padding: 0 1% 1% 1%;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    color: #171717;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-login-content .logo-modal{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content img{
+    height: 70px;
+    width: 70px;
+}
+.modal-login-content h2{
+    color: #171717;
+    margin: 0;
+    font-size: 80%;
+}
+.modal-login-content .h2-bajo-logo{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .boton-continuar-google{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .boton-continuar-google button{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-login-content .boton-continuar-google button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-login-content .fa-brands{
+    margin: 2% 0 2% 50%;
+}
+.modal-login-content .linea_separacion-modal{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(5, 5, 5), transparent);
+    margin: 3% 0;
+}
+.modal-login-content .h2-inicio-form{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #000000;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login label{
+    margin: 1% 0;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login input{
+    background: #fff;
+    text-decoration: none;
+    border-color: #7e7e7e;
+    border-style: solid;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .forgot{
+    text-decoration: none;
+    margin: 2% 0;
+    color: rgb(0, 41, 82);
+    font-size: 90%;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion{
+    display: flex;
+    justify-content: center;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion button{
+    margin: 1%;
+    width: 40%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-login-content .form-modal-login-conteiner .form-modal-login .boton-inicio-sesion button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+}
+.modal-login-content .registrate{
+    margin: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.modal-login-content .registrate .a-registrate{
+    text-decoration: none;
+    color: rgb(0, 41, 82);
+}
+/*--------------------end modal login---------------------*/
+/*---------------------start registro cliente modal-------------------------*/
+.modal-register{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-register-content{
+    background-color: #ececec;
+    margin: auto;
+    padding: 0 1% 1% 1%;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-register {
+    color: #171717;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-register:hover,
+.close-registerse:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-register-content .logo-register-content{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .logo-register-content img{
+    height: 70px;
+    width: 70px;
+}
+.modal-register-content h2{
+    color: #171717;
+    margin: 0;
+    font-size: 80%;
+}
+.modal-register-content .h2-bajo-logo{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .boton-continuar-google{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .boton-continuar-google button{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-register-content .boton-continuar-google button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-register-content .fa-brands{
+    margin: 2% 0 2% 50%;
+}
+.modal-register-content .linea_separacion-modal{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(5, 5, 5), transparent);
+    margin: 3% 0;
+}
+.modal-register-content .h2-inicio-form{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .form-modal-register-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .form-modal-register-conteiner .form-modal-register{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #000000;
+}
+.modal-register-content .form-modal-register-conteiner .form-modal-register label{
+    margin: 1% 0;
+}
+.modal-register-content .form-modal-register-conteiner .form-modal-register input{
+    background: #fff;
+    text-decoration: none;
+    border-color: #7e7e7e;
+    border-style: solid;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.modal-register-content .form-modal-register-conteiner .form-modal-register .boton-registrate{
+    display: flex;
+    justify-content: center;
+}
+.modal-register-content .form-modal-register-conteiner .form-modal-register .boton-registrate button{
+    margin: 3% 1% 1% 1%;
+    width: 40%;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.modal-register-content .form-modal-register-conteiner .form-modal-register .boton-registrate button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+}
+.modal-register-content .inicia-sesion{
+    margin: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.modal-register-content .inicia-sesion .a-inicia-sesion{
+    text-decoration: none;
+    color: rgb(0, 41, 82);
+}
+/*---------------------end registro cliente modal-------------------------*/
+/*------------------------start confirmar cuenta----------------------------*/
+.confirm-cuenta{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-confirm-cuenta-content{
+    background-color: #ececec;
+    margin: auto;
+    padding: 0 1% 1% 1%;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-confirm-cuenta {
+    color: #171717;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-confirm-cuenta:hover,
+.close-confirm-cuenta:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo-confirm-cuenta{
+    display: flex;
+    justify-content: center;
+}
+.logo-confirm-cuenta img{
+    height: 70px;
+    width: 70px;
+}
+.h2-bajo-logo-confirm-cuenta{
+    display: flex;
+    justify-content: center;
+    color: #171717;
+    margin: 0;
+    font-size: 97%;
+}
+.p-bajo-h2{
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    color: #171717;
+    font-size: 88%;
+    font-weight: bold;
+}
+.form-modal-confirm-cuenta-container{
+    display: flex;
+    justify-content: center;
+}
+.form-modal-confirm-cuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #171717;
+}
+.row_codigo-verificacion{
+    margin: 8% 0;
+    display: flex;
+    align-items: center;
+}
+.row_codigo-verificacion input{
+    background: #fff;
+    text-decoration: none;
+    border-color: #7e7e7e;
+    border-style: solid;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.form-modal-confirm-cuenta button{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.form-modal-confirm-cuenta button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-confirm-cuenta-content .otro-codigo{
+    margin: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.modal-confirm-cuenta-content .otro-codigo h2{
+    color: #171717;
+    font-size: 90%;
+}
+.modal-confirm-cuenta-content .otro-codigo .a-otro-codigo{
+    text-decoration: none;
+    color: rgb(0, 41, 82);
+    font-size: 100%;
+}
+/*------------------------end confirmar cuenta----------------------------*/
 /*--------------------fin index-----------------------------*/
 
 
