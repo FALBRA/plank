@@ -14,7 +14,7 @@
                 <input type="text" id="email" placeholder="ejemplo@host.com" required>
                 <label for="password">Contraseña</label>
                 <input type="text" id="password" placeholder="contraseña" required>
-                <div class="boton-registrate"><button type="submit">Regístrate</button></div>
+                <div class="boton-registrate"><button id="registrate" type="submit">Regístrate</button></div>
             </form>
         </div>
         <div class="inicia-sesion">
@@ -23,4 +23,28 @@
         </div>
     </div>
 </section>
+
+
+<section id="confirm-cuenta" class="confirm-cuenta">
+    <div class="modal-confirm-cuenta-content">
+        <span class="close-confirm-cuenta">&times;</span>
+        <div class="logo-confirm-cuenta"><img src="img/logo.png" alt=""></div>
+        <h2 class="h2-bajo-logo-confirm-cuenta">Confirma tu cuenta</h2>
+        <p class="p-bajo-h2">Se ha enviado un código a tu correo (e******@g****). Introdúcelo a continuación para confirmar tu cuenta</p>
+        <div class="form-modal-confirm-cuenta-container">
+            <form class="form-modal-confirm-cuenta" action="">
+                <div class="row_codigo-verificacion">
+                    <label for="codigo">Código de verificación:</label>
+                    <input type="text" id="codigo" required>
+                </div>
+                <button type="submit">Confirmar cuenta </button>
+            </form>
+        </div>
+        <div class="otro-codigo">
+            <h2>Si no recibiste el código</h2>
+            <a id="otro-cod" href="#" class="a-otro-codigo"> has clic aqui</a>
+        </div>
+    </div>
+</section>
+
 <script src="js/modal-register.js"></script>

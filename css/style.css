@@ -602,7 +602,7 @@ body {
 }
 
 .close-register:hover,
-.cloclose-registerse:focus {
+.close-registerse:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -722,4 +722,122 @@ body {
     color: rgb(0, 41, 82);
 }
 /*---------------------end registro cliente modal-------------------------*/
+/*------------------------start confirmar cuenta----------------------------*/
+.confirm-cuenta{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-confirm-cuenta-content{
+    background-color: #ececec;
+    margin: auto;
+    padding: 0 1% 1% 1%;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-confirm-cuenta {
+    color: #171717;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-confirm-cuenta:hover,
+.close-confirm-cuenta:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo-confirm-cuenta{
+    display: flex;
+    justify-content: center;
+}
+.logo-confirm-cuenta img{
+    height: 70px;
+    width: 70px;
+}
+.h2-bajo-logo-confirm-cuenta{
+    display: flex;
+    justify-content: center;
+    color: #171717;
+    margin: 0;
+    font-size: 97%;
+}
+.p-bajo-h2{
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    color: #171717;
+    font-size: 88%;
+    font-weight: bold;
+}
+.form-modal-confirm-cuenta-container{
+    display: flex;
+    justify-content: center;
+}
+.form-modal-confirm-cuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #171717;
+}
+.row_codigo-verificacion{
+    margin: 8% 0;
+    display: flex;
+    align-items: center;
+}
+.row_codigo-verificacion input{
+    background: #fff;
+    text-decoration: none;
+    border-color: #7e7e7e;
+    border-style: solid;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.form-modal-confirm-cuenta button{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    border-color: #171717;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #171717;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+.form-modal-confirm-cuenta button:hover{
+    color: #fff;
+    background: #171717;
+    text-decoration: none;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 2px 2px 0px #000000;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.modal-confirm-cuenta-content .otro-codigo{
+    margin: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.modal-confirm-cuenta-content .otro-codigo h2{
+    color: #171717;
+    font-size: 90%;
+}
+.modal-confirm-cuenta-content .otro-codigo .a-otro-codigo{
+    text-decoration: none;
+    color: rgb(0, 41, 82);
+    font-size: 100%;
+}
+/*------------------------end confirmar cuenta----------------------------*/
 /*--------------------fin index-----------------------------*/
