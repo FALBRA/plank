@@ -42,14 +42,14 @@ body {
     justify-content: flex-end;
 
     display: grid;
-    grid-template-columns: 15% 15% 15% 5%;
+    grid-template-columns: 20% 20% 20% 5%;
 }
 
 .header .opciones-header a {
     color: white;
     text-decoration: none;
     float: right;
-    font-size: 120%;
+    font-size: 100%;
     transition: transform 0.2s;
    
         font-weight: bold;
@@ -389,8 +389,10 @@ body {
 .footer {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 20% 10% auto auto 20%;
+    grid-template-columns:  auto auto auto;
     max-height: 140px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer .footer-logo img {
@@ -428,6 +430,8 @@ body {
     background-color: black;
     color: white;
     font-family: 'Balsamiq Sans', cursive;
+    margin:0px;
+    
 }
 
 /*header*/
@@ -494,7 +498,73 @@ body {
     text-shadow: 0 0 10px white;
     transform: scale(1.1);
 }
+/*Menù lateral*/
+#btn-menu{
+    display: none;
 
+}
+
+.btn-menu{
+
+float: right;
+background-color: aqua;
+display: flex;
+align-items: center;
+font-size: 130%;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+#btn-menu:checked ~ .principal_imagen img{
+    opacity: 1;
+    visibility: visible;
+}
 
 /*fin header*/
 
@@ -557,19 +627,25 @@ body {
 
 /*index*/
 .index .principal {
-   
+   background-color: #171717;
+    display: flex;
+flex-direction:column;
+    margin-top: 5px;
+    padding: 20px;
+    height: 400px;
 }
 
 .principal_redes {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    align-content: flex-end;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-left: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    flex-direction: row;
+    order: 3;
+    display: none;
+    
 }
 
 .principal_redes a {
@@ -582,24 +658,25 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: center;
+    align-items: center;
+
     justify-content: center;
-    align-items: flex-start;
-    margin-left: 40px;
+    margin-left: 0px;
+    order: 2;
 }
 
 .principal_titulo h1 {
-    margin-block-start: 40px;
+    margin-block-start: 0px;
     margin-block-end: 0px;
-    font-size: Clamp(24px, 5vw, 55px);
+    font-size: Clamp(25px, 5vw, 55px);
 
 }
 
 .principal_titulo h2 {
     margin-block-start: 0px;
     margin-block-end: 30px;
-    font-size: 250%;
-    font-weight: 100;
+    font-size: Clamp(15px, 5vw, 55px);
+
 
 
 }
@@ -610,7 +687,7 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-bottom: 60px;
-    font-size: 150%;
+    font-size: 100%;
     padding: 5px 10px 5px 10px;
     display: flex;
     flex-wrap: nowrap;
@@ -633,6 +710,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    order:1;
 }
 
 @keyframes moveDown {
@@ -766,7 +844,7 @@ body {
     width: 100%;
     height: 1px;
     background: linear-gradient(to right, transparent, rgb(188, 188, 188), transparent);
-    margin: 20px 0;
+    margin: 2px 0;
 }
 
 .bienvenidos {
@@ -794,9 +872,7 @@ body {
 }
 
 .footer .footer-logo img {
-    max-width: 40px;
-    float: right;
-    padding: 10px 9px 10px 10px;
+   
     display: none;
 }
 .footer .footer-logo  {
@@ -810,10 +886,13 @@ body {
     justify-content: center;
 
 }
+.footer p{
+    margin: 20px 5px 20px 5px;
+}
 
 .footer-copy p {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-right: 0px;
     margin-left: 0px;
     font-size: 0.83em;
