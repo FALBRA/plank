@@ -9,11 +9,17 @@
         <hr class="linea_separacion-modal">
         <h2 class="h2-inicio-form">Regístrate con una nueva cuenta</h2>
         <div class="form-modal-register-conteiner">
-            <form class="form-modal-register" action="">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="ejemplo@host.com" required>
-                <label for="password">Contraseña</label>
-                <input type="text" id="password" placeholder="contraseña" required>
+            <form class="form-modal-register" method="POST" action="php/registro-clientes.php">
+                <label for="nombre-completo">Nombre completo:</label>
+                <input type="text" id="nombre-completo" placeholder="Nombres y apellidos completos" name="nombre-completo" required>
+                <label for="celular">Nùmero de celular:</label>
+                <input type="number" id="celular" placeholder="000 000 000" name="celular" required>
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" placeholder="ejemplo@host.com" name="correo" required>
+                <label for="nickname">Nombre de Usuario:</label>
+                <input type="text" id="nickname" placeholder="Nickname" name="nickname" required>
+                <label for="pass">Contraseña:</label>
+                <input type="password" id="pass" placeholder="Contraseña123" name="pass" required>
                 <div class="boton-registrate"><button id="registrate" type="submit">Regístrate</button></div>
             </form>
         </div>

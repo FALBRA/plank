@@ -10,10 +10,10 @@
         <h2 class="h2-inicio-form">Inicia sesión con tu email y contraseña</h2>
         <div class="form-modal-login-conteiner">
             <form class="form-modal-login" action="">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="ejemplo@host.com" required>
+                <label for="correo">Email</label>
+                <input type="email" id="correo" placeholder="ejemplo@host.com" required>
                 <label for="password">Contraseña</label>
-                <input type="text" id="password" placeholder="contraseña" required>
+                <input type="password" id="password" placeholder="contraseña" required>
                 <a href="" class="forgot">¿Olvidaste tu contraseña?</a>
                 <div class="boton-inicio-sesion"><button type="submit">Iniciar sesión</button></div>
             </form>
