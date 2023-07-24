@@ -9,12 +9,27 @@
         <hr class="linea_separacion-modal">
         <h2 class="h2-inicio-form">Regístrate con una nueva cuenta</h2>
         <div class="form-modal-register-conteiner">
-            <form class="form-modal-register" action="">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="ejemplo@host.com" required>
-                <label for="password">Contraseña</label>
-                <input type="text" id="password" placeholder="contraseña" required>
-                <div class="boton-registrate"><button id="registrate" type="submit">Regístrate</button></div>
+            <form class="form-modal-register" method="POST" action="php/registro-clientes.php">
+                <label for="nombre-completo">Nombre completo:</label>
+                <input type="text" id="nombre-completo" placeholder="Nombres y apellidos completos" name="nombre-completo" required>
+                <span id="mensaje-nombre"></span>
+
+                <label for="celular">Nùmero de celular:</label>
+                <input type="number" id="celular" placeholder="000 000 000" name="celular" required>
+                <span id="mensaje-celular"></span>
+
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" placeholder="ejemplo@host.com" name="correo" required>
+                <span id="mensaje-correo"></span>
+
+                <label for="nickname">Nombre de Usuario:</label>
+                <input type="text" id="nickname" placeholder="Nickname" name="nickname" required>
+                <span id="mensaje-nickname"></span>
+
+                <label for="pass">Contraseña:</label>
+                <input type="password" id="pass" placeholder="Contraseña123" name="pass" required>
+
+                <div class="boton-registrate"><button id="" type="submit" >Regístrate</button></div>
             </form>
         </div>
         <div class="inicia-sesion">
@@ -22,6 +37,7 @@
             <a id="returnLogin" href="#" class="a-inicia-sesion">Inicia sesión</a>
         </div>
     </div>
+
 </section>
 
 
@@ -47,4 +63,5 @@
     </div>
 </section>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/modal-register.js"></script>

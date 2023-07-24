@@ -45,3 +45,6 @@ registrate.addEventListener("click", () => {
   modalRegister.style.display = "none";
   modalConfirmCuenta.style.display = "block";
 });
+
+
+// script verificar
