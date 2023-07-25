@@ -30,8 +30,30 @@
 
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
             <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
-
             <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
+
+            <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
+        </div>
+
+        <div class="btn-menu btn-menu-head">
+            <label for="btn-menu" class="btn-menu"><i class="fa-solid fa-bars cerrado"></i> </label>
+        </div>
+        <label for="" class="cerrar"></label>
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
+                    <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
+                    <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
+                    <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+            </div>
+        </div>
+    </section>
+    <script src="js/headerjs.js"></script>
+
 
             <a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
@@ -41,3 +63,4 @@
     <?php
     include("modal-login.php");
     ?>
+
