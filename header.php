@@ -27,9 +27,11 @@
             <img src="img/logo.png" alt="" srcset="">
         </div>
         <div class="opciones-header">
+
             <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
             <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
             <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
+
             <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
         </div>
 
@@ -51,3 +53,14 @@
         </div>
     </section>
     <script src="js/headerjs.js"></script>
+
+
+            <a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </section>
+    <script src="js/headerjs.js"></script>
+
+    <?php
+    include("modal-login.php");
+    ?>
+
