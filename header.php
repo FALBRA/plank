@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc6355aea6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             <img src="img/logo.png" alt="" srcset="">
         </div>
         <input type="checkbox" id="btn-menu">
-        <label for="btn-menu" class="icon-menu">&#9776;</label>
+        <label for="btn-menu" class="icon-menu" id="menu-label"><i class="fa-solid fa-align-justify"></i></label>
         <nav class="opciones-header">
             <ul>
                 <li><a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a></li>
