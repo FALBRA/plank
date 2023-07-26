@@ -17,50 +17,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
-    <script src="js/loader.js"></script>
 </head>
 
 <body>
-    <div class="loader" id="loader"></div>
     <section class="header">
         <div class="logo" onclick="window.location.href = 'index.php'">
             <img src="img/logo.png" alt="" srcset="">
         </div>
-        <div class="opciones-header">
-
-            <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
-            <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
-            <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
-
-            <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
-        </div>
-
-        <div class="btn-menu btn-menu-head">
-            <label for="btn-menu" class="btn-menu"><i class="fa-solid fa-bars cerrado"></i> </label>
-        </div>
-        <label for="" class="cerrar"></label>
         <input type="checkbox" id="btn-menu">
-        <div class="container-menu">
-            <div class="cont-menu">
-                <nav>
-                    <a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a>
-                    <a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a>
-                    <a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a>
-                    <a href="" class="usuario"><i class="fa-solid fa-user"></i></a>
-                </nav>
-                <label for="btn-menu">✖️</label>
-            </div>
-        </div>
-    </section>
-    <script src="js/headerjs.js"></script>
+        <label for="btn-menu" class="icon-menu">&#9776;</label>
+        <nav class="opciones-header">
+            <ul>
+                <li><a href="todos-servicios.php" class="servicios" id="serviciosLink">SERVICIOS</a></li>
+                <li><a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a></li>
+                <li><a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a></li>
 
+                <li><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
 
-            <a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a>
-        </div>
     </section>
     <script src="js/headerjs.js"></script>
 
     <?php
     include("modal-login.php");
     ?>
-

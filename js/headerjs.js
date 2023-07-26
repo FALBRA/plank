@@ -30,3 +30,9 @@ const currentURLNoticias = window.location.href;
 if (currentURLNoticias.includes('noticias.php')) {
   serviciosLinkNoticias.classList.add('noti');
 }
+
+function toggleMenu() {
+  var menu = document.querySelector('.opciones-header');
+  menu.classList.toggle('active');
+
+}
