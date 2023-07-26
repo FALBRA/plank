@@ -12,3 +12,19 @@ function mostrarMas() {
         boton.textContent = 'Leer más';
     }
 }
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const checkbox = document.getElementById('btn-rs');
+    const labelIcon = document.querySelector('#menu-label-rs i');
+  
+    checkbox.addEventListener('click', function () {
+      if (checkbox.checked) {
+        labelIcon.className = 'fa-solid fa-chart-gantt';
+      } else {
+        labelIcon.className = 'fa-solid fa-chart-bar';
+      }
+    });
+  });

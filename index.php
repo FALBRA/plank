@@ -3,13 +3,17 @@ include("header.php");
 ?>
 <section class="index">
     <div class="principal">
+        <input type="checkbox" id="btn-rs">
+        <label for="btn-rs" class="icon-rs" id="menu-label-rs"><i class="fa-solid fa-chart-bar"></i></label>
         <div class="principal_redes">
-            <a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="" class="email"><i class="fa-regular fa-envelope"></i></a>
-            <a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <ul>
+                <li><a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="" class="email"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
         </div>
         <div class="principal_titulo">
             <h1>Soluciones tecnológicas</h1>
