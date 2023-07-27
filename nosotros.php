@@ -20,25 +20,54 @@ include("header.php");
 
 <section id="quienes">
     <section class="quienes_somos-contenido">
+        <div class="quienes_somos-imagen somos">
+            <img src="img/nosotros2.png" alt="">
+        </div>
         <div class="somos">
             <h1>Misión</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <p>
+                    En PLANK, nuestra misión es ser líderes en brindar soluciones tecnológicas innovadoras y de vanguardia
+                    en la ciudad de Huánuco, Perú. Nos comprometemos a satisfacer las necesidades y superar las expectativas
+                    de nuestros clientes, ofreciendo productos y servicios de alta calidad, confiables y personalizados.
+                    Buscamos contribuir al desarrollo tecnológico de nuestra región y fomentar el talento local para generar
+                    un impacto positivo en la sociedad y el entorno empresarial.
+                </p>
+            </div>
         </div>
         <div class="somos">
             <h1>Visión</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <p>
+                    En PLANK, aspiramos a expandir nuestra presencia y posicionarnos como un referente en soluciones
+                    tecnológicas a nivel nacional. Buscamos ser reconocidos por nuestra excelencia en el servicio al cliente,
+                    la innovación constante y la búsqueda de nuevas oportunidades de negocio. Deseamos consolidar una
+                    cultura corporativa basada en el trabajo en equipo, la ética profesional y el desarrollo integral de
+                    nuestro talento humano. Nuestra visión es convertirnos en un actor clave en el impulso de la
+                    transformación digital en Huánuco y el resto del país, colaborando en el crecimiento sostenible y
+                    mejorando la calidad de vida de las personas a través de la tecnología.
+                </p>
+            </div>
 
         </div>
         <div class="somos">
             <h1>Valores</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <ul>
+                    <li><p>Trabajo en equipo.</p></li>
+                    <li><p>Confianza</p></li>
+                    <li><p>Responsabilidad social</p></li>
+                    <li><p>Flexibilidad y adaptabilidad</p></li>
+                    <li><p>Transparencia</p></li>
+                    <li><p>Pasión por la tecnología</p></li>
+                    <li><p>Innovación</p></li>
+                    <li><p>Excelencia</p></li>
+                </ul>
+            </div>
 
         </div>
 
-        <div class="quienes_somos-imagen somos">
-            <img src="img/nosotros2.png" alt="">
 
-        </div>
     </section>
     <hr class="linea_separacion">
 
@@ -156,7 +185,7 @@ include("header.php");
                 <button class="enviar">Enviar</button>
             </form>
         </div>
-    
+
     </section>
 </section>
 

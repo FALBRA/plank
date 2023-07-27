@@ -63,47 +63,70 @@ button {
 }
 
 .quienes_somos-contenido {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 1% 10% 1% 10%;
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     background-color: #000000;
-
-
-
+    margin: 2% 2%;
 }
 
 .somos {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
     align-items: center;
+    background-color: #171717;
+    border-radius: 10px;
+    width: 49%;
 }
 
 .somos h1 {
-    margin-block-start: 0%;
-    margin-block-end: 0%;
-    margin: 30px 0px 20px 0px;
+    margin: 4% 0 0 0;
 
 }
 
-.somos-texto {
-    width: 500px;
-    height: 300px;
-    background-color: white;
+.somos .somos-texto {
+    margin: 4%;
+    background-color: #fff;
+    color: #171717;
+    border-radius: 5px;
+    width: 89%;
+}
+
+.somos .somos-texto p {
+    margin: 2%;
+    text-align: justify;
 }
 
 .quienes_somos-imagen {
     display: flex;
     justify-content: center;
+    background-color: #000000;
+    animation: moveUpDown 3s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .quienes_somos-imagen img {
+    transform: scaleX(-1);
     width: 350px;
 }
 
+.somos .somos-texto ul {
+    padding-inline-end: 40px;
+}
 
 
 
@@ -293,7 +316,7 @@ textarea {
     font-size: 150%;
 }
 
- 
+
 .wgh-slider__viewport {
     position: relative;
     height: 100%;
