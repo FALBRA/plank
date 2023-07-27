@@ -25,6 +25,38 @@
 
 .quienes_somos {
     margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quienes_somos button {
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+.contactanos_sup {
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactanos_sup button {
+    text-decoration: none;
+    color: white;
+}
+
+.espacio-libre{
+    margin: 0 0 20px 0;
+}
+
+.linea-select {
+    border: none;
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin: 20px 0 0 0;
 }
 
 input[type="submit"],
@@ -47,20 +79,6 @@ button {
     -ms-user-select: none;
 }
 
-.quienes_somos button {
-    text-decoration: none;
-    color: white;
-}
-
-.contactanos_sup {
-    margin: 0px 20px 0px 20px;
-
-}
-
-.contactanos_sup button {
-    text-decoration: none;
-    color: white;
-}
 
 .quienes_somos-contenido {
     display: flex;

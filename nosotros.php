@@ -10,10 +10,14 @@ include("header.php");
     <h1>Conoce más de PLANK</h1>
     <div class="nosotros_opciones-plank">
         <div class="quienes_somos" id="quienes-somos">
+            <div class="espacio-libre"></div>
             <button onclick="quienes_somos()"><i class="fa-solid fa-users"></i>&nbsp;&nbsp;&nbsp;Quienes somos</button>
+            <div class="linea-select" id="linea-select-quienes"></div>
         </div>
         <div class="contactanos_sup">
+            <div class="espacio-libre"></div>
             <button onclick="contactanos()"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;Contáctanos</button>
+            <div class="linea-select" id="linea-select-contactanos"></div>
         </div>
     </div>
 </section>
