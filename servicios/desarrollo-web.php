@@ -244,23 +244,18 @@ include("header-servicio.php");
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
                         <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
                         <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
                         <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
                         <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <!-- <i class="fa-solid fa-circle-arrow-left"></i> -->
                         <img src="../img/servicios/desarrolloWeb/trabajoAnterior5.JPG" alt="">
                     </div>
                 </div>

@@ -30,3 +30,23 @@ const currentURLNoticias = window.location.href;
 if (currentURLNoticias.includes('noticias.php')) {
   serviciosLinkNoticias.classList.add('noti');
 }
+
+function toggleMenu() {
+  var menu = document.querySelector('.opciones-header');
+  menu.classList.toggle('active');
+
+}
+
+//cambiar icono de hamburguesa
+document.addEventListener('DOMContentLoaded', function () {
+  const checkbox = document.getElementById('btn-menu');
+  const labelIcon = document.querySelector('#menu-label i');
+
+  checkbox.addEventListener('click', function () {
+    if (checkbox.checked) {
+      labelIcon.className = 'fa-solid fa-align-right';
+    } else {
+      labelIcon.className = 'fa-solid fa-align-justify';
+    }
+  });
+});

@@ -1,132 +1,155 @@
 <?php
 include("header.php");
-
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <link href="css/style-nosotros.css" rel="stylesheet" />
-<script src="js/nosotros.js"></script>
 
 <section class="nosotros_opciones">
 
     <h1>Conoce más de PLANK</h1>
     <div class="nosotros_opciones-plank">
         <div class="quienes_somos" id="quienes-somos">
+            <div class="espacio-libre"></div>
             <button onclick="quienes_somos()"><i class="fa-solid fa-users"></i>&nbsp;&nbsp;&nbsp;Quienes somos</button>
+            <div class="linea-select" id="linea-select-quienes"></div>
         </div>
         <div class="contactanos_sup">
+            <div class="espacio-libre"></div>
             <button onclick="contactanos()"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;Contáctanos</button>
+            <div class="linea-select" id="linea-select-contactanos"></div>
         </div>
     </div>
 </section>
 
 <section id="quienes">
     <section class="quienes_somos-contenido">
+        <div class="quienes_somos-imagen somos">
+            <img src="img/nosotros2.png" alt="">
+        </div>
         <div class="somos">
             <h1>Misión</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <p>
+                    En PLANK, nuestra misión es ser líderes en brindar soluciones tecnológicas innovadoras y de vanguardia
+                    en la ciudad de Huánuco, Perú. Nos comprometemos a satisfacer las necesidades y superar las expectativas
+                    de nuestros clientes, ofreciendo productos y servicios de alta calidad, confiables y personalizados.
+                    Buscamos contribuir al desarrollo tecnológico de nuestra región y fomentar el talento local para generar
+                    un impacto positivo en la sociedad y el entorno empresarial.
+                </p>
+            </div>
         </div>
         <div class="somos">
             <h1>Visión</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <p>
+                    En PLANK, aspiramos a expandir nuestra presencia y posicionarnos como un referente en soluciones
+                    tecnológicas a nivel nacional. Buscamos ser reconocidos por nuestra excelencia en el servicio al cliente,
+                    la innovación constante y la búsqueda de nuevas oportunidades de negocio. Deseamos consolidar una
+                    cultura corporativa basada en el trabajo en equipo, la ética profesional y el desarrollo integral de
+                    nuestro talento humano. Nuestra visión es convertirnos en un actor clave en el impulso de la
+                    transformación digital en Huánuco y el resto del país, colaborando en el crecimiento sostenible y
+                    mejorando la calidad de vida de las personas a través de la tecnología.
+                </p>
+            </div>
 
         </div>
         <div class="somos">
             <h1>Valores</h1>
-            <div class="somos-texto"></div>
+            <div class="somos-texto">
+                <ul>
+                    <li>
+                        <p>Trabajo en equipo.</p>
+                    </li>
+                    <li>
+                        <p>Confianza</p>
+                    </li>
+                    <li>
+                        <p>Responsabilidad social</p>
+                    </li>
+                    <li>
+                        <p>Flexibilidad y adaptabilidad</p>
+                    </li>
+                    <li>
+                        <p>Transparencia</p>
+                    </li>
+                    <li>
+                        <p>Pasión por la tecnología</p>
+                    </li>
+                    <li>
+                        <p>Innovación</p>
+                    </li>
+                    <li>
+                        <p>Excelencia</p>
+                    </li>
+                </ul>
+            </div>
 
         </div>
 
-        <div class="quienes_somos-imagen somos">
-            <img src="img/nosotros2.png" alt="">
 
-        </div>
     </section>
     <hr class="linea_separacion">
 
-    <section class="nuestros_servicios">
-        <div class="nuestros_servicios-titulo">
-            <h1>Nuestros Servicios</h1>
-        </div>
-        <div class="carrousel_servicios">
-            <div class="container">
-                <div class="">
-                    <input class="wgh-slider-target" type="radio" id="slide-1" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-2" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked" />
-                    <input class="wgh-slider-target" type="radio" id="slide-4" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-5" name="slider" />
-                    <div class="wgh-slider__viewport">
-                        <div class="wgh-slider__viewbox">
-                            <div class="wgh-slider__container">
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/servicios/servicios/desarrollo-web.jpg" alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="">Desaroollo Web</a></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-1" title="Show product 1"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/servicios/servicios/reparacion.jpg" alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://f4.bcbits.com/img/a3905613628_16.jpg">IMG 1</a><span>PLANK</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-2" title="Show product 2"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/nosotros.png" alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://f4.bcbits.com/img/a3905613628_16.jpg">IMG3</a><span>OLANK</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-3" title="Show product 3"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/image-4.jpg" alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://f4.bcbits.com/img/a3905613628_16.jpg">IMG4</a><span>PLANK</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-4" title="Show product 4"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="img/image-5.jpg" alt="RYSY - Traveler LP" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://picsum.photos/id/237/480/480">IMG5</a><span>PLANK</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-5" title="Show product 5"></label>
-                                    </div>
-                                </div>
-                            </div>
+    <div class="body-swiper">
+        <section class="nuestros-servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="separacion">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/servicios/reparacion/servicioReparacion.jpg" alt="">
+                            <h1 onclick="window.location.href = 'servicios/reparacion.php'">REPARACION</h1>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/servicios/instalacion/servicioInstalacion.jpg" alt="">
+                            <h1 onclick="window.location.href = 'servicios/instalacion.php'">INSTALACION</h1>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/servicios/desarrolloWeb/servicioDesarrolloWeb.jpg" alt="">
+                            <h1 onclick="window.location.href = 'servicios/desarrollo-web.php'">DESARROLLO WEB</h1>
+                        </div>
+                        <div class="swiper-slide prox">
+                            <img src="img/servicios/casasInteligentes/proximamente.jpg" alt="">
+                            <h1 class="h1-prox">PROXIMAMENTE: Casas Inteligentes</h1>
+                        </div>
+                        <div class="swiper-slide prox">
+                            <img src="img/servicios/Arduino/proximamente.jpg" alt="">
+                            <h1 class="h1-prox">PROXIMAMENTE: Arduino</h1>
+                        </div>
+                        <div class="swiper-slide prox">
+                            <img src="img/servicios/Consejeria/proximamente.jpg" alt="">
+                            <h1 class="h1-prox">PROXIMAMENTE: Consejeria</h1>
+                        </div>
+                        <div class="swiper-slide prox">
+                            <img src="img/servicios/IAs/proximamente.jpg" alt="">
+                            <h1 class="h1-prox">PROXIMAMENTE: IA's</h1>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-        </div>
-    </section>
+        </section>
+    </div>
 
 </section>
 <section id="contactanos">
     <section class="contactanos">
         <div class="contactanos_info">
             <div class="info_contacto">
-                <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;
-                <h1>Horario de atención <br>
-                    8am - 1pm / 2pm - 7pm</h1>
+                <i class="fa-solid fa-clock icono-contac" id="mostrarHorario"></i>
+                <h1 class="hide">Horario de atención <br> 8am - 1pm / 2pm - 7pm</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
-                <h1>plankservice@gmail.com</h1>
+                <i class="fa-solid fa-envelope icono-contac" id="mostrarEmail"></i>
+                <h1 class="hide">plankservice@gmail.com</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                <h1>+51 912 841 899</h1>
+                <i class="fa-solid fa-phone icono-contac" id="mostrarTelefono1"></i>
+                <h1 class="hide">+51 912 841 899</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                <h1>+51 912 841 899</h1>
+                <i class="fa-solid fa-phone icono-contac" id="mostrarTelefono2"></i>
+                <h1 class="hide">+51 912 841 899</h1>
             </div>
         </div>
         <div class="contactanos_redes-icono">
@@ -156,11 +179,12 @@ include("header.php");
                 <button class="enviar">Enviar</button>
             </form>
         </div>
-    
+
     </section>
 </section>
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/nosotros.js"></script>
 
 <?php
 include("footer.php");
