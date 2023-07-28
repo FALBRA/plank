@@ -1,5 +1,4 @@
-/*QUIENES SOMOS */
-
+/*----------------------------------------------INICIO ENCABEZADO CONOCE PLANK------------------------------*/
 .nosotros_opciones {
     margin-top: 10px;
     background-color: #171717;
@@ -79,7 +78,54 @@ button {
     -ms-user-select: none;
 }
 
+@media screen and (max-width: 768px) {
+    .nosotros_opciones {
+        padding: 0px 20px 0px 20px;
+        flex-direction: column;
+        align-items: center;
+        height: 112px;
+    }
 
+    .nosotros_opciones h1 {
+        margin: 10px 0 10px 0;
+    }
+
+    .nosotros_opciones-plank {
+        display: flex;
+    }
+
+    .quienes_somos,
+    .contactanos_sup {
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .nosotros_opciones {
+        padding: 0px 10px 0px 10px;
+        flex-direction: column;
+        align-items: center;
+        height: 104px;
+    }
+
+    .nosotros_opciones h1 {
+        margin: 10px 0 10px 0;
+        font-size: 100%;
+    }
+
+    .nosotros_opciones-plank {
+        display: flex;
+    }
+
+    .quienes_somos,
+    .contactanos_sup {
+        margin: 0px 0px 20px 0px;
+        font-size: 90%;
+    }
+}
+
+/*----------------------------------------------FIN ENCABEZADO CONOCE PLANK------------------------------*/
+/*----------------------------------------------INICIO QUIENES SOMOS ------------------------------*/
 .quienes_somos-contenido {
     display: flex;
     flex-wrap: wrap;
@@ -146,11 +192,84 @@ button {
     padding-inline-end: 40px;
 }
 
+@media screen and (max-width: 768px) {
 
+    .somos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-color: #171717;
+        border-radius: 10px;
+        width: 90%;
+    }
 
-/*--------------FIN QUIENES SOMOS -----------------*/
+    .quienes_somos-imagen {
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        animation: moveUpDown 3s ease-in-out infinite;
+    }
 
-/*CONTACTANOS*/
+    @keyframes moveUpDown {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-5px);
+        }
+    }
+
+    .quienes_somos-imagen img {
+        transform: scaleX(-1);
+        width: 200px;
+    }
+
+    .somos .somos-texto ul li p {
+        text-align: start;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .somos .somos-texto p {
+        font-size: 80%;
+    }
+
+    .quienes_somos-imagen {
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        animation: moveUpDown 3s ease-in-out infinite;
+    }
+
+    @keyframes moveUpDown {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(5px);
+        }
+    }
+
+    .quienes_somos-imagen img {
+        transform: scaleX(-1);
+        width: 200px;
+    }
+
+    .somos .somos-texto ul li p {
+        text-align: start;
+    }
+}
+
+/*----------------------------------------------FIN QUIENES SOMOS ------------------------------*/
+/*----------------------------------------------INICIO CONTACTANOS---------------------------------------*/
 .contactanos {
     margin-top: 20px;
     display: flex;
@@ -175,11 +294,22 @@ button {
     /* Alto del textarea */
 
 }
-
-.contactanos h1 {
+.contactanos h1{
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 100%;
+}
+.contactanos .contactanos_info i {
+    font-size: 150%;
+    padding: 0 5%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.contactanos .contactanos_info i:hover{
+    transform: scale(1.3);
+}
+.contactanos .hide{
+    display: none;
 }
 
 .contactanos_redes-icono {
@@ -195,12 +325,82 @@ button {
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .contactanos{
+        width: 100%;
+    }
+    .info_contacto {
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 164px;
+        /* Ancho del textarea */
+        height: 80px;
+        /* Alto del textarea */
+    }
 
+    .info_contacto i{
+        font-size: 200%;
+    }
 
+    .info_contacto h1{
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 1%;
+        text-align: center;
+        font-size: 90%;
+    }
+}
 
+@media screen and (max-width: 280px) {
+    .contactanos{
+        width: 100%;
+    }
+    .info_contacto {
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        /* Ancho del textarea */
+        height: 80px;
+        /* Alto del textarea */
+    }
 
-/*------------CONTACTANOS--------------------*/
-/*FORMULARIO DE CONTACTO*/
+    .info_contacto i{
+        font-size: 200%;
+    }
+
+    .info_contacto h1{
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 1%;
+        text-align: center;
+        font-size: 70%;
+    }
+    .contactanos_redes-icono {
+        margin: 20px;
+        font-size: 250%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+    
+    }
+    
+    .contactanos_redes-icono a {
+        color: white;
+    }
+}
+
+/*----------------------------------------------FIN CONTACTANOS---------------------------------------*/
+/*----------------------------------------FORMULARIO DE CONTACTO---------------------*/
 .formulario_contacto {
     background-color: #171717;
     padding: 10px;
@@ -299,20 +499,28 @@ textarea {
 
 }
 
+@media screen and (max-width: 768px) {
+    .formulario-contenido{
+        width: 90%;
+    }
+    .formulario-contenido h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 100%;
+    }
+    .formulario-contenido .formulario{
+        width: 95%;
+    }
+    .formulario_comsulta{
+        width: 98%;
+    }
+    .formulario-contenido #mensaje{
+        width: 94%;
+    }
+}
 
-
-
-
-/*----------------FORMULARIO DE CONTACTO---------------------*/
-
-
-
-
-
-
-
-/*CARROUSEL DE IMAGENES*/
-
+/*----------------------------------------FORMULARIO DE CONTACTO---------------------*/
+/*-------------------------------------INICIO CARROUSEL -----------------------------------*/
 .container {
     position: relative;
     width: 100%;
@@ -377,7 +585,7 @@ textarea {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
-.swiper-slide h1{
+.swiper-slide h1 {
     background-color: #fff;
     color: #171717;
     margin: 0;
@@ -387,9 +595,114 @@ textarea {
     border: 1px solid rgb(255, 255, 255);
 }
 
-.swiper-wrapper .h1-prox{
+.swiper-wrapper .h1-prox {
     background-color: #171717;
     color: #fff;
     border: 1px solid rgb(49, 49, 49);
 }
-/*-------------------FIN CARROUSEL ---------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    .nuestros-servicios h2 {
+        margin: 10px;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .swiper {
+        width: 90%;
+        height: 210px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 250px;
+        height: 200px;
+        border-radius: 5px 5px 0 0;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    }
+
+    .swiper-slide h1 {
+        background-color: #fff;
+        color: #171717;
+        margin: 0;
+        width: 240px;
+        padding: 0 5px;
+        border-radius: 0 0 5px 5px;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 63%;
+    }
+
+    .swiper-wrapper .h1-prox {
+        background-color: #171717;
+        color: #fff;
+        border: 1px solid rgb(49, 49, 49);
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .nuestros-servicios h2 {
+        margin: 10px;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .swiper {
+        width: 90%;
+        height: 150px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 180px;
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 180px;
+        height: 130px;
+        border-radius: 5px 5px 0 0;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    }
+
+    .swiper-slide h1 {
+        background-color: #fff;
+        color: #171717;
+        margin: 0;
+        width: 170px;
+        padding: 0 5px;
+        border-radius: 0 0 5px 5px;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 63%;
+    }
+
+    .swiper-wrapper .h1-prox {
+        background-color: #171717;
+        color: #fff;
+        border: 1px solid rgb(49, 49, 49);
+    }
+
+}
+
+/*-------------------------------------FIN CARROUSEL -----------------------------------*/

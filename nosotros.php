@@ -136,21 +136,20 @@ include("header.php");
     <section class="contactanos">
         <div class="contactanos_info">
             <div class="info_contacto">
-                <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;
-                <h1>Horario de atención <br>
-                    8am - 1pm / 2pm - 7pm</h1>
+                <i class="fa-solid fa-clock icono-contac" id="mostrarHorario"></i>
+                <h1 class="hide">Horario de atención <br> 8am - 1pm / 2pm - 7pm</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
-                <h1>plankservice@gmail.com</h1>
+                <i class="fa-solid fa-envelope icono-contac" id="mostrarEmail"></i>
+                <h1 class="hide">plankservice@gmail.com</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                <h1>+51 912 841 899</h1>
+                <i class="fa-solid fa-phone icono-contac" id="mostrarTelefono1"></i>
+                <h1 class="hide">+51 912 841 899</h1>
             </div>
             <div class="info_contacto">
-                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                <h1>+51 912 841 899</h1>
+                <i class="fa-solid fa-phone icono-contac" id="mostrarTelefono2"></i>
+                <h1 class="hide">+51 912 841 899</h1>
             </div>
         </div>
         <div class="contactanos_redes-icono">
