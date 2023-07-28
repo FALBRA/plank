@@ -1,6 +1,6 @@
 <hr class="linea_separacion">
+<div class="final-footer">
     <section class="footer">
-        <div></div>
         <div class="footer-logo">
             <img src="../img/logo bn.png" alt="" srcset="">
         </div>
@@ -15,8 +15,11 @@
         <div></div>
     </section>
     <div class="footer-copy">
-            <p><i class="fa-regular fa-copyright"></i> 2023 PLANK S.T.</p>
+        <p><i class="fa-regular fa-copyright"></i> 2023 PLANK S.T.</p>
     </div>
+</div>
+
+<script src="../js/news.js"></script>
 </body>
 
 </html>
