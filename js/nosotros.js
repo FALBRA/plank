@@ -1,4 +1,4 @@
-window.onload = function()  {
+window.onload = function () {
     var x = document.getElementById("contactanos");
     var y = document.getElementById("quienes");
     var selectLineaQuienes = document.getElementById("linea-select-quienes");
@@ -31,3 +31,19 @@ function quienes_somos() {
     selectLineaQuienes.style.display = "block";
     selectLineaContactanos.style.display = "none";
 }
+/*------------------------Start slider trabajos anteriores-----------------------------*/
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    coverflowEffect: {
+        depth: 500,
+        modifer: 1,
+        slidesShadows: true,
+        rotate: 0,
+        stretch: 0
+    }
+})
+/*------------------------End slider trabajos anteriores-----------------------------*/
