@@ -26,7 +26,7 @@ include("header-servicio.php");
             <h2>Presencia en línea profesional, mejora de la imagen de marca, navegación intuitiva.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $500 a $1,500</h2>
+            <h2>Desde S/.500 a S/.1,500</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -45,7 +45,7 @@ include("header-servicio.php");
             <h2>Funcionalidades personalizadas, interactividad.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $1,000 a $3,000</h2>
+            <h2>Desde S/.1,000 a S/.3,000</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -64,7 +64,7 @@ include("header-servicio.php");
             <h2>Experiencia de usuario consistente en todos los dispositivos, mayor alcance de audiencia.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $500 a $1,500</h2>
+            <h2>Desde S/.500 a S/.1,500</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -83,7 +83,7 @@ include("header-servicio.php");
             <h2>Autonomía para el cliente, actualizaciones sencillas, mayor flexibilidad en la gestión de contenido.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $800 a $2,000</h2>
+            <h2>Desde S/.800 a S/.2,000</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -102,7 +102,7 @@ include("header-servicio.php");
             <h2>Experiencia de usuario mejorada, menor tasa de rebote.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $300 a $800.</h2>
+            <h2>Desde S/.300 a S/.800.</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -121,7 +121,7 @@ include("header-servicio.php");
             <h2>Protección de datos, confianza del cliente, cumplimiento de normas de seguridad en línea.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $500 a $1,500.</h2>
+            <h2>Desde S/.500 a S/.1,500.</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -140,7 +140,7 @@ include("header-servicio.php");
             <h2>Oportunidad de ventas en línea, ampliación del alcance de mercado, automatización de procesos comerciales.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $1,500 a $5,000</h2>
+            <h2>Desde S/.1,500 a S/.5,000</h2>
         </div>
     </div>
     <div class="desarrollo-web-basico">
@@ -159,7 +159,7 @@ include("header-servicio.php");
             <h2>Mejor posicionamiento en motores de búsqueda, aumento del tráfico orgánico, generación de clientes potenciales.</h2>
         </div>
         <div class="desarrollo-web-precio">
-            <h2>Desde $500 a $1,500.</h2>
+            <h2>Desde S/.500 a S/.1,500.</h2>
         </div>
     </div>
 </section>
@@ -180,10 +180,10 @@ include("header-servicio.php");
             </div>
             <div class="empresa-descripcion">
                 <div class="empresa">
-                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa (opcional)">
+                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa">
                 </div>
                 <div class="descripcion">
-                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa y su actividad (opcional)">
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Breve descripción de la empresa">
                 </div>
             </div>
             <div class="objetivo-publico">
@@ -195,7 +195,7 @@ include("header-servicio.php");
                 </div>
             </div>
             <div class="paquetes-checkbox">
-                <p>escoge alguno de los paquetes que ofrecemos:</p>
+                <p>Escoge alguno de los paquetes que ofrecemos:</p>
                 <div class="paquetes-escogidos">
                     <div class="container-paquete">
                         <label class="clickable-label" for="paquete1">Paquete 1</label>
@@ -332,7 +332,7 @@ include("header-servicio.php");
                 <p>nombre de cliente</p>
             </div>
             <div class="comentario">
-                <p>comentario,comentario,comentario,comentario,comentario,comentario,comentario,comentario,</p>
+                <p>comentario comentario comentario comentario comentario comentario comentario comentario </p>
             </div>
         </div>
     </div>
