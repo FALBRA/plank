@@ -13,8 +13,8 @@ include("header-servicio.php");
             <img src="../img/servicios/instalacion/botInstalacion.png" alt="">
         </div>
         <div class="descripcion-reparacion">
-            <p>Ofrecemos servicios eficientes para satisfacer todas tus necesidades.</p>
-            <p>Ya sea que requieras la instalación de programas, antivirus, cámaras de seguridad o repetidores de Wi-Fi, nuestro equipo está preparado para brindarte una solución integral.</p>
+            <p class="ocultar">Ofrecemos servicios eficientes para satisfacer todas tus necesidades.</p>
+            <p class="ocultar">Ya sea que requieras la instalación de programas, antivirus, cámaras de seguridad o repetidores de Wi-Fi, nuestro equipo está preparado para brindarte una solución integral.</p>
             <div class="emotes-reparacion">
                 <div class="programas">
                     <i class="fa-solid fa-cogs"></i>
@@ -165,7 +165,7 @@ include("header-servicio.php");
     </div>
     <div class="recordar">
         <i class="fa-solid fa-exclamation-circle"></i>
-        <p>En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
+        <p class="p-recordar">En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
     </div>
 </section>
 <section class="comentarios">
@@ -179,11 +179,12 @@ include("header-servicio.php");
                 <p>nombre de cliente</p>
             </div>
             <div class="comentario">
-                <p>comentario,comentario,comentario,comentario,comentario,comentario,comentario,comentario,</p>
+                <p>comentario comentario comentario comentario comentario comentario comentario comentario</p>
             </div>
         </div>
     </div>
 </section>
+<script src="../js/instalacion.js"></script>
 <?php
 include("footer-servicio.php");
 ?>

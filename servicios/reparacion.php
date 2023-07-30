@@ -13,7 +13,7 @@ include("header-servicio.php");
             <img src="../img/servicios/reparacion/botReparacion.png" alt="">
         </div>
         <div class="descripcion-reparacion">
-            <p>Entendemos la importancia de mantener tus dispositivos en óptimas condiciones y que tu comodidad son importantes. Es por eso que ofrecemos un servicio de reparación a domicilio. ¡estamos aquí para ayudarte!</p>
+            <p class="ocultar">Entendemos la importancia de mantener tus dispositivos en óptimas condiciones y que tu comodidad son importantes. Es por eso que ofrecemos un servicio de reparación a domicilio. ¡estamos aquí para ayudarte!</p>
             <div class="emotes-reparacion">
                 <div class="compu">
                     <i class="fa-solid fa-computer"></i>
@@ -170,7 +170,7 @@ include("header-servicio.php");
     </div>
     <div class="recordar">
         <i class="fa-solid fa-exclamation-circle"></i>
-        <p>En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
+        <p class="p-recordar">En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
     </div>
 </section>
 <section class="comentarios">
@@ -184,7 +184,7 @@ include("header-servicio.php");
                 <p>nombre de cliente</p>
             </div>
             <div class="comentario">
-                <p>comentario,comentario,comentario,comentario,comentario,comentario,comentario,comentario,</p>
+                <p>comentario comentario comentario comentario comentario comentario comentario</p>
             </div>
         </div>
     </div>

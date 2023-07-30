@@ -53,6 +53,7 @@ body {
 
 .header .opciones-header ul {
     display: flex;
+    align-items: center;
     gap: 1rem;
     list-style: none;
     padding: 0 1%;
