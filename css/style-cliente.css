@@ -58,20 +58,19 @@
     align-items: center;
     gap: 3rem;
 }
-#btn-option{
-    display: none;
-}
-.actividad-option label{
+.actividad-option i{
     cursor: pointer;
     position: absolute;
     top: 125px;
     right: 5%;
-}
-.actividad-option label i{
     background-color: #fff;
     color: #171717;
     padding: 4px 10px;
     border-radius: 15px;
+}
+.actividad,
+.option{
+    display: none;
 }
 .actividad{
     display: flex;
@@ -82,16 +81,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;transform: translatex(105%);
-    transition: all 3s;
-}
-
-#btn-option:checked~.actividad{
     display: none;
-}
-#btn-option:checked~.option{
-    display: flex;
-    transform: translateY(0%);
 }
 
 /*--------------------------------------End encabezado cliente-------------------------------------*/
+/*-------------------------------------Start opciones content--------------------------------------*/
+.opciones-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 10px;
+    display: none;
+}
+.container-opciones-content{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+.titulo-opciones{
+    background-color: #171717;
+    border: 2px solid rgb(255, 255, 255);
+    width: 57%;
+}
+.opciones-content h2{
+    text-align: center;
+}
+/*-------------------------------------End opciones content--------------------------------------*/
