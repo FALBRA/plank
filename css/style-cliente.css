@@ -1,0 +1,97 @@
+/*--------------------------------------Start encabezado cliente-------------------------------------*/
+.encabezado-cliente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.encabezado-cleinte-container{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.perfil,
+.actividad-option{
+    background-color: #171717;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+}
+.perfil{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.foto{
+    width: 98px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    animation: moveRightLeft 7s ease-in-out infinite;
+}
+@keyframes moveRightLeft {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+}
+.foto img{
+    width: 80px;
+    height: 80px;
+}
+.actividad-option{
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#btn-option{
+    display: none;
+}
+.actividad-option label{
+    cursor: pointer;
+    position: absolute;
+    top: 125px;
+    right: 5%;
+}
+.actividad-option label i{
+    background-color: #fff;
+    color: #171717;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+.actividad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;transform: translatex(105%);
+    transition: all 3s;
+}
+
+#btn-option:checked~.actividad{
+    display: none;
+}
+#btn-option:checked~.option{
+    display: flex;
+    transform: translateY(0%);
+}
+
+/*--------------------------------------End encabezado cliente-------------------------------------*/
