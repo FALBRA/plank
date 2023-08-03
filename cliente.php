@@ -30,7 +30,7 @@ include("header.php");
             <div class="reparacion">
                 <h2>REPARACION</h2>
             </div>
-            <div class="insyalacion">
+            <div class="instalacion">
                 <h2>INSTALACION</h2>
             </div>
             <div class="desarrollo-web">
@@ -38,6 +38,7 @@ include("header.php");
             </div>
         </div>
         <div class="contenido-servicio-cliente">
+
             <div class="contenido-reparacion">
                 <div class="reparacion-actual">
                     <div class="no-reparacion-actual">
@@ -45,6 +46,39 @@ include("header.php");
                     </div>
                     <div class="si-reparacion-actual">
                         <h1>Reparacion actual</h1>
+                        <div class="estado-reparacion">
+                            <div class="etapa cero">
+                                <p>0%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">solicitud enviada</p>
+                            </div>
+                            <div class="etapa veinte">
+                                <p>20%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">reparación iniciada</p>
+                            </div>
+                            <div class="etapa cuarenta">
+                                <p>40%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">reparación en proceso</p>
+                            </div>
+                            <div class="etapa sesenta">
+                                <p>60%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">reparación finalizada</p>
+                            </div>
+                            <div class="etapa ochenta">
+                                <p>80%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">equipo en camino</p>
+                            </div>
+                            <div class="etapa cien">
+                                <p>100%</p>
+                                <i class="fa-solid fa-question"></i>
+                                <p class="opa">entregado</p>
+                            </div>
+                        </div>
+                        <div class="linea"></div>
                     </div>
                 </div>
                 <div class="cantidad-reparaciones">
@@ -54,8 +88,27 @@ include("header.php");
                     <h1>Tu cantidad de comentarios disponibles: 0</h1>
                 </div>
                 <div class="comentarios-reparacion">
-                    <h1>Tus comentarios +</h1>
-
+                    <h1>Tus comentarios:</h1>
+                    <form action="" method="" class="formulario-escribir-comentaio">
+                        <div class="escribir-comentario">
+                            <input type="text" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required>
+                        </div>
+                        <div class="boton-enviar-comentario">
+                            <input type="submit" value="Comentar">
+                        </div>
+                    </form>
+                    <form action="" method="" class="ver-editar-eliminar-comentario">
+                        <div class="vista-comentario">
+                            <input type="text" id="vista-comentario-cliente" name="vista-comentario-cliente" placeholder="comentario" required>
+                        </div>
+                        <div class="editar-eliminar-fecha-comentario">
+                            <p>Fecha: 00/00/0000</p>
+                            <div class="edir-elim">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -66,6 +119,7 @@ include("header.php");
             <div class="contenido-desarrollo-web">
 
             </div>
+
         </div>
     </div>
 </section>

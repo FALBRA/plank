@@ -85,13 +85,203 @@
 }
 
 /*--------------------------------------End encabezado cliente-------------------------------------*/
+/*--------------------------------------Start vista servicios cliente--------------------------------------------*/
+.vista-servicios-cliente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-vista-servicios-cliente{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.selector-servicio-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 40%;
+}
+.reparacion,
+.instalacion,
+.desarrollo-web{
+    width: 90%;
+    background-color: #171717;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.reparacion:hover,
+.instalacion:hover,
+.desarrollo-web:hover{
+    transform: scale(1.1);
+}
+.contenido-servicio-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #171717;
+    width: 58%;
+}
+.contenido-reparacion{
+    width: 90%;
+    padding: 2% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+.reparacion-actual{
+    display: flex;
+    flex-direction: column;
+}
+.no-reparacion-actual h1{
+    margin: 5px 0;
+    font-size: 140%;
+    display: none;
+}
+.si-reparacion-actual{
+    display: flex;
+    flex-direction: column;
+}
+.si-reparacion-actual h1{
+    margin: 5px 0;
+    font-size: 140%;
+}
+.estado-reparacion{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.estado-reparacion .etapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16%;
+}
+.estado-reparacion .etapa p{
+    margin: 5px 0;
+    color: #171717;
+}
+.estado-reparacion .etapa i{
+    background-color: #171717;
+    color: #fff;
+    z-index: 1;
+    padding: 2px 5px;
+    border-radius: 15px;
+}
+.estado-reparacion .etapa .opa{
+    color: #fff;
+    background-color: #171717;
+    border-radius: 5px;
+    display: none;
+}
+
+.linea{
+    border: none;
+    width: 53%;
+    height: 2px;
+    background: #171717;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 298px;
+    right: 3%; 
+    z-index: 0;
+}
+
+.cantidad-reparaciones h1{
+    margin: 5px 0;
+    font-size: 140%;
+}
+.cantidad-comentarios-disponibles h1{
+    margin: 5px 0;
+    font-size: 140%;
+}
+.comentarios-reparacion{
+    background-color: black;
+    border-radius: 5px;
+    padding: 0 10px 10px 10px;
+}
+.comentarios-reparacion h1{
+    margin: 5px 0;
+    font-size: 140%;
+}
+.formulario-escribir-comentaio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+.escribir-comentario input[type="text"]{
+    width: 390px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.boton-enviar-comentario input[type="submit"]{
+    color: #fff;
+    background-color: #171717;
+    text-decoration: none;
+    border-color: #fff;
+    border-style: solid;
+    padding: 2px 5px 2px 5px;
+    box-shadow: 2px 2px 0px #fff;
+    transition: transform 0.2s ease-in-out;
+}
+.boton-enviar-comentario input[type="submit"]:hover{
+    transform: scale(1.07);
+}
+.ver-editar-eliminar-comentario{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+.vista-comentario input[type="text"]{
+    width: 337px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.editar-eliminar-fecha-comentario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.editar-eliminar-fecha-comentario p{
+    margin: 0;
+    font-size: 85%;
+}
+.editar-eliminar-fecha-comentario .edir-elim{
+    display: flex;
+}
+.editar-eliminar-fecha-comentario .edir-elim i{
+    background-color: #fff;
+    color: #171717;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 5px 5px;
+}
+
+/*--------------------------------------End vista servicios cliente--------------------------------------------*/
 /*-------------------------------------Start opciones content--------------------------------------*/
 .opciones-content{
     width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     top: 200px;
     left: 10px;
     display: none;
