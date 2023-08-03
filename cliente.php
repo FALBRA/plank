@@ -27,13 +27,13 @@ include("header.php");
 <section class="vista-servicios-cliente">
     <div class="container-vista-servicios-cliente">
         <div class="selector-servicio-cliente">
-            <div class="reparacion">
+            <div class="reparacion" data-active="false" onclick="activarDiv(this), mostrarContenido('reparacion')">
                 <h2>REPARACION</h2>
             </div>
-            <div class="instalacion">
+            <div class="instalacion" data-active="false" onclick="activarDiv(this), mostrarContenido('instalacion')">
                 <h2>INSTALACION</h2>
             </div>
-            <div class="desarrollo-web">
+            <div class="desarrollo-web" data-active="false" onclick="activarDiv(this), mostrarContenido('desarrollo-web')">
                 <h2>DESARROLLO WEB</h2>
             </div>
         </div>
@@ -84,14 +84,14 @@ include("header.php");
                 <div class="cantidad-reparaciones">
                     <h1>Tu cantidad de reparaciones: 0</h1>
                 </div>
-                <div class="cantidad-comentarios-disponibles">
+                <div class="cantidad-comentarios-disponibles-reparacion">
                     <h1>Tu cantidad de comentarios disponibles: 0</h1>
                 </div>
                 <div class="comentarios-reparacion">
                     <h1>Tus comentarios:</h1>
                     <form action="" method="" class="formulario-escribir-comentaio">
                         <div class="escribir-comentario">
-                            <input type="text" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required>
+                            <textarea type="textarea" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required></textarea>
                         </div>
                         <div class="boton-enviar-comentario">
                             <input type="submit" value="Comentar">
@@ -99,7 +99,7 @@ include("header.php");
                     </form>
                     <form action="" method="" class="ver-editar-eliminar-comentario">
                         <div class="vista-comentario">
-                            <input type="text" id="vista-comentario-cliente" name="vista-comentario-cliente" placeholder="comentario" required>
+                            <textarea id="vista-comentario-cliente" name="vista-comentario-cliente" placeholder="comentario" required></textarea>
                         </div>
                         <div class="editar-eliminar-fecha-comentario">
                             <p>Fecha: 00/00/0000</p>
@@ -113,11 +113,67 @@ include("header.php");
             </div>
 
             <div class="contenido-instalacion">
-
+                <div class="cantidad-instalaciones">
+                    <h1>Tu cantidad de instalaciones: 0</h1>
+                </div>
+                <div class="cantidad-comentarios-disponibles-instalacion">
+                    <h1>Tu cantidad de comentarios disponibles: 0</h1>
+                </div>
+                <div class="comentarios-instalacion">
+                    <h1>Tus comentarios:</h1>
+                    <form action="" method="" class="formulario-escribir-comentaio">
+                        <div class="escribir-comentario">
+                            <textarea type="textarea" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required></textarea>
+                        </div>
+                        <div class="boton-enviar-comentario">
+                            <input type="submit" value="Comentar">
+                        </div>
+                    </form>
+                    <form action="" method="" class="ver-editar-eliminar-comentario">
+                        <div class="vista-comentario">
+                            <textarea id="vista-comentario-cliente" name="vista-comentario-cliente" placeholder="comentario" required></textarea>
+                        </div>
+                        <div class="editar-eliminar-fecha-comentario">
+                            <p>Fecha: 00/00/0000</p>
+                            <div class="edir-elim">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
 
             <div class="contenido-desarrollo-web">
-
+                <div class="cantidad-desarrollo-web">
+                    <h1>Tu cantidad de desarrollo web: 0</h1>
+                </div>
+                <div class="cantidad-comentarios-disponibles-desarrollo-web">
+                    <h1>Tu cantidad de comentarios disponibles: 0</h1>
+                </div>
+                <div class="comentarios-desarrollo-web">
+                <h1>Tus comentarios:</h1>
+                    <form action="" method="" class="formulario-escribir-comentaio">
+                        <div class="escribir-comentario">
+                            <textarea type="textarea" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required></textarea>
+                        </div>
+                        <div class="boton-enviar-comentario">
+                            <input type="submit" value="Comentar">
+                        </div>
+                    </form>
+                    <form action="" method="" class="ver-editar-eliminar-comentario">
+                        <div class="vista-comentario">
+                            <textarea id="vista-comentario-cliente" name="vista-comentario-cliente" placeholder="comentario" required></textarea>
+                        </div>
+                        <div class="editar-eliminar-fecha-comentario">
+                            <p>Fecha: 00/00/0000</p>
+                            <div class="edir-elim">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
 
         </div>
