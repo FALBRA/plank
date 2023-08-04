@@ -6,8 +6,9 @@ include("header.php");
     <h1>Plank Noticias</h1>
     <p>Descrubre noticias sobre tecnologia</p>
     <hr class="linea_separacion">
+    <br>
 </div>
-
+<br>
 <div class="container">
     <header>
         <nav>
@@ -21,6 +22,7 @@ include("header.php");
             <button onclick="buscarTema()">Buscar</button>
         </div>
     </header>
+    <br>
     <div class="container-noticias">
 
     </div>
