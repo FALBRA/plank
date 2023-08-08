@@ -60,7 +60,16 @@
         echo '
             <script>
                 window.location = "../index.php";
-            </script>
+            
+            function cambiarEstilos() {
+                // Obtener el elemento por su ID
+                const elemento = document.getElementById("modal-login");
+              
+                // Cambiar los estilos
+                elemento.style.backgroundColor = "blue";
+                elemento.style.fontSize = "24px";
+              }
+              </script>
         ';
     }else{
         echo '
