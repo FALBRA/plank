@@ -34,6 +34,7 @@
                 <li><a href="../noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a></li>
 
                 <li><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li>
+                <li><a id="logout" href="#" class="logout"><i class="fa-solid fa-right-from-bracket"></i></a></li>
             </ul>
         </nav>
 
