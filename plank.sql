@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-08-2023 a las 23:04:47
+-- Tiempo de generación: 08-08-2023 a las 23:30:57
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.2.12
 
@@ -139,6 +139,8 @@ CREATE TABLE `desarrollo_web` (
   `objetivos_desarrollo_web` text,
   `publico_desarrollo_web` text,
   `calificacion_desarrollo_web` int(11) NOT NULL,
+  `fecha-desarrollo-web` date NOT NULL,
+  `estado-desarrollo-web` tinyint(1) NOT NULL,
   `ID_cliente` int(11) NOT NULL,
   `ID_paquetes_escogidos` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -147,8 +149,8 @@ CREATE TABLE `desarrollo_web` (
 -- Volcado de datos para la tabla `desarrollo_web`
 --
 
-INSERT INTO `desarrollo_web` (`ID_desarrollo_web`, `nombre_empresa_desarrollo_web`, `descripcion_empresa_desarrollo_web`, `objetivos_desarrollo_web`, `publico_desarrollo_web`, `calificacion_desarrollo_web`, `ID_cliente`, `ID_paquetes_escogidos`) VALUES
-(1, 'Abarrotes perez', 'venta de abarrotes', 'tienda online', 'cualquier persona que quiera comprar ', 5, 1, 1);
+INSERT INTO `desarrollo_web` (`ID_desarrollo_web`, `nombre_empresa_desarrollo_web`, `descripcion_empresa_desarrollo_web`, `objetivos_desarrollo_web`, `publico_desarrollo_web`, `calificacion_desarrollo_web`, `fecha-desarrollo-web`, `estado-desarrollo-web`, `ID_cliente`, `ID_paquetes_escogidos`) VALUES
+(1, 'Abarrotes perez', 'venta de abarrotes', 'tienda online', 'cualquier persona que quiera comprar ', 5, '2023-07-20', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -212,6 +214,8 @@ CREATE TABLE `instalacion` (
   `descripcion_instalacion` text NOT NULL,
   `metodo_pago_instalacion` varchar(50) NOT NULL,
   `calificacion_instalacion` float DEFAULT NULL,
+  `fecha-instalacion` date NOT NULL,
+  `estado-instalacion` tinyint(1) NOT NULL,
   `ID_cliente` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -219,8 +223,8 @@ CREATE TABLE `instalacion` (
 -- Volcado de datos para la tabla `instalacion`
 --
 
-INSERT INTO `instalacion` (`ID_instalacion`, `direccion_instalacion`, `equipo_programa_instalacion`, `marca_modelo_instalacion`, `descripcion_instalacion`, `metodo_pago_instalacion`, `calificacion_instalacion`, `ID_cliente`) VALUES
-(1, 'Jr. Damaso Beraun 128', 'cámaras de seguridad', 'security', 'intalar camaras de seguridad en mi tienda de abarrotes', 'transferencia bancaria', 4, 1);
+INSERT INTO `instalacion` (`ID_instalacion`, `direccion_instalacion`, `equipo_programa_instalacion`, `marca_modelo_instalacion`, `descripcion_instalacion`, `metodo_pago_instalacion`, `calificacion_instalacion`, `fecha-instalacion`, `estado-instalacion`, `ID_cliente`) VALUES
+(1, 'Jr. Damaso Beraun 128', 'cámaras de seguridad', 'security', 'intalar camaras de seguridad en mi tienda de abarrotes', 'transferencia bancaria', 4, '2023-07-20', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -263,6 +267,7 @@ CREATE TABLE `reparacion` (
   `descripcion_reparacion` text NOT NULL,
   `metodo_pago_reparacion` varchar(50) NOT NULL,
   `calificacion_reparacion` float DEFAULT NULL,
+  `fecha-reparacion` date NOT NULL,
   `ID_cliente` int(11) NOT NULL,
   `ID_estado_reparacion` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -271,8 +276,8 @@ CREATE TABLE `reparacion` (
 -- Volcado de datos para la tabla `reparacion`
 --
 
-INSERT INTO `reparacion` (`ID_reparacion`, `direccion_reparacion`, `equipo_reparacion`, `marca_modelo_reparacion`, `descripcion_reparacion`, `metodo_pago_reparacion`, `calificacion_reparacion`, `ID_cliente`, `ID_estado_reparacion`) VALUES
-(1, 'Jr. Leoncio Prado 125', 'laptop', 'HP', 'pantalla azul con cofigo de error 0xc0000001', 'pago en persona', 5, 1, 6);
+INSERT INTO `reparacion` (`ID_reparacion`, `direccion_reparacion`, `equipo_reparacion`, `marca_modelo_reparacion`, `descripcion_reparacion`, `metodo_pago_reparacion`, `calificacion_reparacion`, `fecha-reparacion`, `ID_cliente`, `ID_estado_reparacion`) VALUES
+(1, 'Jr. Leoncio Prado 125', 'laptop', 'HP', 'pantalla azul con cofigo de error 0xc0000001', 'pago en persona', 5, '2023-07-19', 1, 6);
 
 -- --------------------------------------------------------
 

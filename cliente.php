@@ -1,4 +1,29 @@
 <?php
+
+session_start();
+require 'php/conexion.php';
+$user = $_SESSION['user'];
+if (!isset($user)) {
+    header("location: ../index.php");
+}
+
+$usuario = "SELECT * FROM cliente WHERE ID_cliente='$user'";
+$query_usuario = mysqli_query($conexion, $usuario);
+
+$comentario_reparacion = "SELECT * FROM comentario_reparacion WHERE ID_cliente='$user'";
+$query_comentario_reparacion = mysqli_query($conexion, $usuario);
+
+$comentario_desarrollo_web = "SELECT * FROM comentario_desarrollo_web WHERE ID_cliente='$user'";
+$query_comentario_dw = mysqli_query($conexion, $usuario);
+
+$comentario_instalacion = "SELECT * FROM comentario_instalacion WHERE ID_cliente='$user'";
+$query_comentario_instalacion = mysqli_query($conexion, $usuario);
+
+if (mysqli_num_rows($query_usuario) > 0) {
+    $usuario = mysqli_fetch_array($query_usuario);
+}
+
+
 include("header.php");
 ?>
 <link href="css/style-cliente.css" rel="stylesheet" />
@@ -7,9 +32,14 @@ include("header.php");
         <div class="perfil">
             <div class="foto">
                 <img src="img/white.png" alt="white">
+                <form action="foto-perfil.php" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="imagen" accept="image/*">
+                    <button type="submit" name="subir">Subir Imagen</button>
+                </form>
             </div>
             <div class="nickname">
-                <h1>nickname</h1>
+
+                <h1> <?php echo $usuario['nickname_cliente'] ?></h1>
             </div>
         </div>
         <div class="actividad-option">
@@ -82,10 +112,10 @@ include("header.php");
                     </div>
                 </div>
                 <div class="cantidad-reparaciones">
-                    <h1>Tu cantidad de reparaciones: 0</h1>
+                    <h1>Tu cantidad de reparaciones: <?php echo $usuario['cantidad_reparacion'] ?></h1>
                 </div>
                 <div class="cantidad-comentarios-disponibles-reparacion">
-                    <h1>Tu cantidad de comentarios disponibles: 0</h1>
+                    <h1>Tu cantidad de comentarios disponibles: </h1>
                 </div>
                 <div class="comentarios-reparacion">
                     <h1>Tus comentarios:</h1>
@@ -114,7 +144,7 @@ include("header.php");
 
             <div class="contenido-instalacion">
                 <div class="cantidad-instalaciones">
-                    <h1>Tu cantidad de instalaciones: 0</h1>
+                    <h1>Tu cantidad de instalaciones: <?php echo $usuario['cantidad_instalacion'] ?></h1>
                 </div>
                 <div class="cantidad-comentarios-disponibles-instalacion">
                     <h1>Tu cantidad de comentarios disponibles: 0</h1>
@@ -152,7 +182,7 @@ include("header.php");
                     <h1>Tu cantidad de comentarios disponibles: 0</h1>
                 </div>
                 <div class="comentarios-desarrollo-web">
-                <h1>Tus comentarios:</h1>
+                    <h1>Tus comentarios:</h1>
                     <form action="" method="" class="formulario-escribir-comentaio">
                         <div class="escribir-comentario">
                             <textarea type="textarea" id="comentario-cliente" name="comentario-cliente" placeholder="comentario" required></textarea>
@@ -179,7 +209,6 @@ include("header.php");
         </div>
     </div>
 </section>
-
 <section class="opciones-content">
     <div class="container-opciones-content">
         <div class="titulo-opciones">
