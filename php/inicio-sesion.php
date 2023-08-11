@@ -24,15 +24,14 @@ if (isset($_POST['login'])) {
     $nr  = mysqli_num_rows($queryemail);
 
     if ($nr == 1) {
-        echo"NO leyó bd";
         $id_usuario = mysqli_fetch_array($queryemail);
-        $_SESSION['user'] =  $id_usuario['nickname_cliente'];
+        $_SESSION['user'] =  $id_usuario['ID_cliente'];
         $_SESSION['auth'] = true;
         $_SESSION['start'] = time();
         $_SESSION['expire'] = $_SESSION['start'] + (1 * 60);
         $_SESSION['message-login'] = "WELCOME USER";
        
-        header("Location: ../noticias.php#user");
+        header("Location: ../cliente.php#user");
         exit(0);
     } else {
         $_SESSION['message-login-fail'] = "FAIL USER";
