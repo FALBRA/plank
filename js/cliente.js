@@ -70,3 +70,47 @@ function activarDiv(elemento) {
   }
   
 /*----------------------------End clicked selector----------------------------------------------*/
+/*----------------------------start efecto hover foto-------------------------------------------*/
+const imagen = document.getElementById('imagen-cliente');
+const texto = document.getElementById('cambiar-text');
+
+imagen.addEventListener('mouseover', () => {
+    imagen.style.opacity = 0.7;
+    texto.style.opacity = 1;
+});
+
+imagen.addEventListener('mouseout', () => {
+    imagen.style.opacity = 1;
+    texto.style.opacity= 0;
+});
+
+texto.addEventListener('mouseover', () => {
+    imagen.style.opacity = 0.7;
+    texto.style.opacity = 1;
+});
+texto.addEventListener('mouseout', () => {
+    imagen.style.opacity = 1;
+    texto.style.opacity= 0;
+});
+/*----------------------------End efecto hover foto-----------------------------------------------*/
+/*-----------------------------Start aparecer cambio de foto------------------------------------------*/
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("cambiar-text");
+    const myForm = document.getElementById("form-imagen");
+  
+    toggleButton.addEventListener("click", function () {
+      if (myForm.style.display === "none") {
+        myForm.style.display = "flex";
+      } else {
+        myForm.style.display = "none";
+      }
+    });
+  
+    document.addEventListener("click", function (event) {
+      if (!myForm.contains(event.target) && event.target !== toggleButton) {
+        myForm.style.display = "none";
+      }
+    });
+  });
+  
+/*-----------------------------Start aparecer cambio de foto------------------------------------------*/
