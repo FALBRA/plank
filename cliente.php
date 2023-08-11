@@ -31,23 +31,22 @@ include("header.php");
     <div class="encabezado-cleinte-container">
         <div class="perfil">
             <div class="foto">
-<?php 
-$imagen_perfil = "img/usuario/".$user."/perfil.jpg";
-if (!file_exists($imagen_perfil)) {
-    $imagen_perfil = "img/usuario/default.jpg";
-
-
-}
+                <?php
+                $imagen_perfil = "img/usuario/" . $user . "/perfil.jpg";
+                if (!file_exists($imagen_perfil)) {
+                    $imagen_perfil = "img/usuario/default.jpg";
+                }
 
 
 
- ?>
-                <img src="<?php echo $imagen_perfil ?>" alt="white">
+                ?>
+                <img id="imagen-cliente" src="<?php echo $imagen_perfil ?>" alt="white">
+                <div id="cambiar-text" class="cambiar-texto">Cambiar foto</div>
                 <br>
-                <form action="php/foto-perfil.php" method="POST" enctype="multipart/form-data">
+                <form action="php/foto-perfil.php" method="POST" enctype="multipart/form-data" id="form-imagen">
                     <input type="file" name="imagen" accept="image/*">
                     <button type="submit" name="save-profile">Subir Imagen</button>
-                    <button type="submit" value="" name="delete-profile" >Eliminar imagen</button>
+                    <button type="submit" value="" name="delete-profile">Eliminar imagen</button>
 
                 </form>
 
