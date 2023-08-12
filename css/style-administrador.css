@@ -1,0 +1,261 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    overflow-x: hidden;
+}
+/*--------------------------Start Header administrador--------------------------*/
+.header-administrator{
+    background-color: #fff;
+    color: #171717;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner-header-administrador{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.bienvenido-administrador h1{
+    font-size: 110%;
+}
+/*--------------------------End Header administrador--------------------------*/
+/*--------------------------Start tabla de clientes de cadaservicio--------------------------*/
+.tabla-clientes-servicios{
+    width: 100%;
+}
+.container-tabla-clientes-servicios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*--------------------------Start encabezado tabla servicios---------------------------------*/
+.encabezado{
+    text-align: center;
+}
+.encabezado h1{
+    font-size: 100%;
+    margin: 25px 0;
+}
+/*--------------------------End encabezado tabla servicios---------------------------------*/
+/*--------------------------Start tabla---------------------------------------*/
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezado-tabla{
+    display: flex;
+    gap: 0px;
+}
+.encabezado-tabla a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #171717;
+    padding: 5px 15px 3px 10px;
+    border-radius: 10px 100px 0 0;
+    border: 2px solid #fff;
+    border-bottom: 0;
+}
+.cuerpo-tabla{
+    background-color: #171717;
+}
+/*--------------------------End tabla---------------------------------------*/
+/*---------------------------Start tabla reparacion---------------------------*/
+.tabla-reparacion{
+    border: 2px solid #fff;
+    width: 100%;
+}
+.tabla-reparacion tr th,
+.tabla-reparacion tr td{
+    text-align: center;
+}
+.tabla-reparacion tr th{
+    background-color: #fff;
+    color: #171717;
+    font-size: 100%;
+}
+.tabla-reparacion tr td{
+    border: 2px solid #fff;
+}
+.fa-stack-overflow{
+    padding: 5px;
+}
+.tabla-reparacion tr th:nth-child(1),
+.tabla-reparacion tr td:nth-child(1){
+    width: 2%;
+}
+.tabla-reparacion tr th:nth-child(2),
+.tabla-reparacion tr td:nth-child(2){
+    width: 10%;
+}
+.tabla-reparacion tr th:nth-child(3),
+.tabla-reparacion tr td:nth-child(3){
+    width: 10%;
+}
+.tabla-reparacion tr th:nth-child(4),
+.tabla-reparacion tr td:nth-child(4){
+    width: 10%;
+}
+.tabla-reparacion tr th:nth-child(5),
+.tabla-reparacion tr td:nth-child(5){
+    width: 11%;
+}
+.tabla-reparacion tr th:nth-child(6),
+.tabla-reparacion tr td:nth-child(6){
+    width: 9%;
+}.tabla-reparacion tr th:nth-child(7),
+.tabla-reparacion tr td:nth-child(7){
+    width: 7%;
+}
+.tabla-reparacion tr th:nth-child(8),
+.tabla-reparacion tr td:nth-child(8){
+    width: 28%;
+}
+.tabla-reparacion tr th:nth-child(9),
+.tabla-reparacion tr td:nth-child(9){
+    width: 8%;
+}
+.tabla-reparacion tr th:nth-child(10),
+.tabla-reparacion tr td:nth-child(10){
+    width: 5%;
+}
+/*---------------------------End tabla reparacion---------------------------*/
+/*---------------------------Start tabla instalacion-------------------------*/
+.tabla-instalacion{
+    border: 2px solid #fff;
+    width: 100%;
+}
+.tabla-instalacion tr th,
+.tabla-instalacion tr td{
+    text-align: center;
+}
+.tabla-instalacion tr th{
+    background-color: #fff;
+    color: #171717;
+    font-size: 100%;
+}
+.tabla-instalacion tr td{
+    border: 2px solid #fff;
+}
+.fa-stack-overflow{
+    padding: 5px;
+}
+.tabla-instalacion tr th:nth-child(1),
+.tabla-instalacion tr td:nth-child(1){
+    width: 2%;
+}
+.tabla-instalacion tr th:nth-child(2),
+.tabla-instalacion tr td:nth-child(2){
+    width: 10%;
+}
+.tabla-instalacion tr th:nth-child(3),
+.tabla-instalacion tr td:nth-child(3){
+    width: 10%;
+}
+.tabla-instalacion tr th:nth-child(4),
+.tabla-instalacion tr td:nth-child(4){
+    width: 10%;
+}
+.tabla-instalacion tr th:nth-child(5),
+.tabla-instalacion tr td:nth-child(5){
+    width: 11%;
+}
+.tabla-instalacion tr th:nth-child(6),
+.tabla-instalacion tr td:nth-child(6){
+    width: 9%;
+}.tabla-instalacion tr th:nth-child(7),
+.tabla-instalacion tr td:nth-child(7){
+    width: 7%;
+}
+.tabla-instalacion tr th:nth-child(8),
+.tabla-instalacion tr td:nth-child(8){
+    width: 28%;
+}
+.tabla-instalacion tr th:nth-child(9),
+.tabla-instalacion tr td:nth-child(9){
+    width: 8%;
+}
+.tabla-instalacion tr th:nth-child(10),
+.tabla-instalacion tr td:nth-child(10){
+    width: 5%;
+}
+/*---------------------------End tabla instalacion-------------------------*/
+/*---------------------------Start tabla desarrollo web---------------------*/
+.tabla-desarrollo-web{
+    border: 2px solid #fff;
+    width: 100%;
+}
+.tabla-desarrollo-web tr th,
+.tabla-desarrollo-web tr td{
+    text-align: center;
+}
+.tabla-desarrollo-web tr th{
+    background-color: #fff;
+    color: #171717;
+    font-size: 100%;
+}
+.tabla-desarrollo-web tr td{
+    border: 2px solid #fff;
+}
+.tabla-desarrollo-web tr td ul{
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+.fa-stack-overflow{
+    padding: 5px;
+}
+.tabla-desarrollo-web tr th:nth-child(1),
+.tabla-desarrollo-web tr td:nth-child(1){
+    width: 2%;
+}
+.tabla-desarrollo-web tr th:nth-child(2),
+.tabla-desarrollo-web tr td:nth-child(2){
+    width: 10%;
+}
+.tabla-desarrollo-web tr th:nth-child(3),
+.tabla-desarrollo-web tr td:nth-child(3){
+    width: 11%;
+}
+.tabla-desarrollo-web tr th:nth-child(4),
+.tabla-desarrollo-web tr td:nth-child(4){
+    width: 10%;
+}
+.tabla-desarrollo-web tr th:nth-child(5),
+.tabla-desarrollo-web tr td:nth-child(5){
+    width: 10%;
+}
+.tabla-desarrollo-web tr th:nth-child(6),
+.tabla-desarrollo-web tr td:nth-child(6){
+    width: 12%;
+}
+.tabla-desarrollo-web tr th:nth-child(7),
+.tabla-desarrollo-web tr td:nth-child(7){
+    width: 12%;
+}
+.tabla-desarrollo-web tr th:nth-child(8),
+.tabla-desarrollo-web tr td:nth-child(8){
+    width: 12%;
+}
+.tabla-desarrollo-web tr th:nth-child(9),
+.tabla-desarrollo-web tr td:nth-child(9){
+    width: 16%;
+}
+.tabla-desarrollo-web tr th:nth-child(10),
+.tabla-desarrollo-web tr td:nth-child(10){
+    width: 5%;
+}
+/*---------------------------End tabla desarrollo web---------------------*/
+/*--------------------------End tabla de clientes de cadaservicio--------------------------*/
