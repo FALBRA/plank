@@ -258,4 +258,21 @@ body {
     width: 5%;
 }
 /*---------------------------End tabla desarrollo web---------------------*/
+
+/*----------------------------Start tabla proximamente----------------------*/
+.proximamente{
+    border: 2px solid #fff;
+    width: 100%;
+    position: absolute;
+    top: 222px;
+    left: 0;
+}
+.proximamente tr th{
+    text-align: center;
+    padding: 15px 0;
+}
+.proximamente tr th:nth-child(1){
+    width: 100%;
+}
+/*----------------------------End tabla proximamente-----------------------------*/
 /*--------------------------End tabla de clientes de cadaservicio--------------------------*/

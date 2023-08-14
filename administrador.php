@@ -36,20 +36,21 @@
             </div>
             <div class="tabla">
                 <div class="encabezado-tabla">
-                    <a href="">Reparación</a>
-                    <a href="">Instalación</a>
-                    <a href="">Desarrollo Web</a>
-                    <a href="">Arduino</a>
-                    <a href="">Casas Inteligentes</a>
-                    <a href="">Consultoría</a>
-                    <a href=""> IA's</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-reparacion.php')">Reparación</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-instalacion.php')">Instalación</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-desarrolloweb.php')">Desarrollo Web</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-proximamente.php')">Arduino</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-proximamente.php')">Casas Inteligentes</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-proximamente.php')">Consultoría</a>
+                    <a href="#" onclick="cargarContenido('tablas-servicios-administrador/tabla-proximamente.php')"> IA's</a>
                 </div>
-                <div class="cuerpo-tabla">
+                <div class="cuerpo-tabla" id="contenido">
                     <?php
-                        include("tablas-servicios-administrador/tabla-desarrolloweb.php");
+                        include("tablas-servicios-administrador/tabla-reparacion.php");
                     ?>
                 </div>
             </div>
         </div>
     </section>
+    <script src="js/filtro-administrador-servicios.js"></script>
 </body>
