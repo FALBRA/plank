@@ -1,4 +1,12 @@
+<?php
 
+session_start();
+require 'php/conexion.php';
+$user = $_SESSION['user'];
+if (!isset($user)) {
+    header("location: ../index.php");
+}
+?>
 <?php
 include("header.php");
 ?>
