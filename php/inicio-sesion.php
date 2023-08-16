@@ -31,7 +31,7 @@ if (isset($_POST['login'])) {
         $_SESSION['expire'] = $_SESSION['start'] + (1 * 60);
         $_SESSION['message-login'] = "WELCOME USER";
        
-        header("Location: ../cliente.php#user");
+        header("Location: ../cliente.php");
         exit(0);
     } else {
         $_SESSION['message-login-fail'] = "FAIL USER";
@@ -44,11 +44,11 @@ if (isset($_POST['login'])) {
 
 //CLOSE SESSION
 
-if (isset($_POST['close'])) {
+if (isset($_POST['logout'])) {
 
     session_start();
     session_destroy();
-    header("Location: ../login.php");
+    header("Location: ../index.php");
 
 
 }

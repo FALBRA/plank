@@ -16,7 +16,7 @@
                 <input type="password" id="password" name="password" placeholder="contraseña" required>
                 <a href="" class="forgot">¿Olvidaste tu contraseña?</a>
                 <div class="boton-inicio-sesion"><button name="login" type="submit">Iniciar sesión</button></div>
-            </form>
+            </form> 
         </div>
         <div class="registrate">
             <h2>¿Necesitas una cuenta?</h2>
