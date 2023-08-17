@@ -1,5 +1,8 @@
 <?php
+session_start();
+
 include("header.php");
+
 ?>
 <link href="css/style-todos-servicios.css" rel="stylesheet" />
 
