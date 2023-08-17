@@ -35,9 +35,11 @@ include("header.php");
         <div class="servicios_populares-servicios">
 
             <div class="servicio_popular">
-                <div class="servicio_popular-imagen">
-                    <img src="img/servicios/reparacion/servicioReparacion.jpg" alt="" srcset="">
-                </div>
+                <a href="reparacion.php">
+                    <div class="servicio_popular-imagen">
+                        <img src="img/servicios/reparacion/servicioReparacion.jpg" alt="" srcset="">
+                    </div>
+                </a>
                 <div class="servicio_popular-nombre">
                     <h1>Reparación</h1>
                     <ul>
@@ -61,15 +63,17 @@ include("header.php");
                         <img src="img/logo.png" alt="" srcset="">
                     </div>
                     <div class="informacion">
-                        <a class="contratar" href="servicios/reparacion.php#contratar">Contratar</a>
-                        <a class="info" href="servicios/reparacion.php">Más información</a>
+                        <a class="contratar" href="reparacion.php#contratar">Contratar</a>
+                        <a class="info" href="reparacion.php">Más información</a>
                     </div>
                 </div>
             </div>
             <div class="servicio_popular">
-                <div class="servicio_popular-imagen">
-                    <img src="img/servicios/instalacion/servicioInstalacion.jpg" alt="" srcset="">
-                </div>
+                <a href="instalacion.php">
+                    <div class="servicio_popular-imagen">
+                        <img src="img/servicios/instalacion/servicioInstalacion.jpg" alt="" srcset="">
+                    </div>
+                </a>
                 <div class="servicio_popular-nombre">
                     <h1>Instalación</h1>
                     <ul>
@@ -93,15 +97,17 @@ include("header.php");
                         <img src="img/logo.png" alt="" srcset="">
                     </div>
                     <div class="informacion">
-                        <a class="contratar" href="servicios/instalacion.php#contratar">Contratar</a>
-                        <a class="info" href="servicios/instalacion.php">Más información</a>
+                        <a class="contratar" href="instalacion.php#contratar">Contratar</a>
+                        <a class="info" href="instalacion.php">Más información</a>
                     </div>
                 </div>
             </div>
             <div class="servicio_popular">
-                <div class="servicio_popular-imagen">
-                    <img src="img/servicios/desarrolloWeb/servicioDesarrolloWeb.jpg" alt="" srcset="">
-                </div>
+                <a href="desarrollo-web.php">
+                    <div class="servicio_popular-imagen">
+                        <img src="img/servicios/desarrolloWeb/servicioDesarrolloWeb.jpg" alt="" srcset="">
+                    </div>
+                </a>
                 <div class="servicio_popular-nombre">
                     <h1>Desarrollo Web</h1>
                     <ul>
@@ -125,8 +131,8 @@ include("header.php");
                         <img src="img/logo.png" alt="" srcset="">
                     </div>
                     <div class="informacion">
-                        <a class="contratar" href="servicios/desarrollo-web.php#contratar">Contratar</a>
-                        <a class="info" href="servicios/desarrollo-web.php">Más información</a>
+                        <a class="contratar" href="desarrollo-web.php#contratar">Contratar</a>
+                        <a class="info" href="desarrollo-web.php">Más información</a>
                     </div>
                 </div>
             </div>
