@@ -1,9 +1,9 @@
 <?php
-include("header-servicio.php");
+include("header.php");
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-<link rel="stylesheet" href="../css/style-desarrollo-web.css">
+<link rel="stylesheet" href="css/style-desarrollo-web.css">
 <div class="arriba">
     <h1>Desarrollo Web</h1>
     <hr class="linea_separacion">
@@ -16,7 +16,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 1</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Diseño de una página web atractiva y funcional con un diseño personalizado y adaptado a la identidad de la marca.</h2>
@@ -35,7 +35,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 2</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Desarrollo de la estructura técnica del sitio web utilizando lenguajes de programación y tecnologías web.</h2>
@@ -54,7 +54,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 3</p>
-            <img src="../img/servicios/desarrolloWeb//paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb//paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Adaptación del diseño y la funcionalidad del sitio web para que se vea y funcione correctamente en dispositivos móviles y tablets.</h2>
@@ -73,7 +73,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 4</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Implementación de un CMS para permitir al cliente administrar y actualizar fácilmente el contenido del sitio web.</h2>
@@ -92,7 +92,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 5</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Optimización de imágenes, compresión de archivos y ajuste de configuraciones para un mejor rendimiento.</h2>
@@ -111,7 +111,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 6</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Implementación de medidas de seguridad, como certificados SSL, protección contra ataques de hackers y actualizaciones de seguridad regulares.</h2>
@@ -130,7 +130,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 7</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Configuración de una tienda en línea con carrito de compras, pasarelas de pago y gestión de inventario.</h2>
@@ -149,7 +149,7 @@ include("header-servicio.php");
         </div>
         <div class="desarrollo-web-imagen">
             <p>Paquete 8</p>
-            <img src="../img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
+            <img src="img/servicios/desarrolloWeb/paqueteDesarrolloWeb.jpg" alt="">
         </div>
         <div class="desarrollo-web-descripcion">
             <h2>Optimización del sitio web para mejorar su visibilidad en los motores de búsqueda, incluyendo investigación de palabras clave, etiquetas meta y optimización de contenido.</h2>
@@ -244,19 +244,19 @@ include("header-servicio.php");
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="">
+                        <img src="img/servicios/desarrolloWeb/trabajoAnterior1.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="">
+                        <img src="img/servicios/desarrolloWeb/trabajoAnterior2.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="">
+                        <img src="img/servicios/desarrolloWeb/trabajoAnterior3.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="">
+                        <img src="img/servicios/desarrolloWeb/trabajoAnterior4.JPG" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/servicios/desarrolloWeb/trabajoAnterior5.JPG" alt="">
+                        <img src="img/servicios/desarrolloWeb/trabajoAnterior5.JPG" alt="">
                     </div>
                 </div>
             </div>
@@ -325,7 +325,7 @@ include("header-servicio.php");
     <h2>COMENTARIOS DE CLIENTES</h2>
     <div class="usuario">
         <div class="foto">
-            <div class="circulo foto"><img src="../img/white.png" alt=""></div>
+            <div class="circulo foto"><img src="img/white.png" alt=""></div>
         </div>
         <div class="usuario-comentario">
             <div class="nombre-usuario">
@@ -338,7 +338,7 @@ include("header-servicio.php");
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script src="../js/desarrolloWeb.js"></script>
+<script src="js/desarrolloWeb.js"></script>
 <?php
-include("footer-servicio.php");
+include("footer.php");
 ?>
