@@ -1,3 +1,7 @@
+<?php 
+
+$sesionActiva = isset($_SESSION['user']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +24,21 @@
     <script src="https://kit.fontawesome.com/cc6355aea6.js" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    .btn-logout {
+        display: <?php echo $sesionActiva ? 'block' : 'none'; ?> !important;
+    }
+
+    .btn-login{
+        display: <?php echo $sesionActiva ? 'none' : 'block'; ?> !important;
+    }
+
+    .btn-user{
+        display: <?php echo $sesionActiva ? 'block' : 'none'; ?> !important;
+
+    }
+</style>
+
 <body>
     <section class="header">
         <div class="logo" onclick="window.location.href = 'index.php'">
@@ -33,10 +52,15 @@
                 <li><a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a></li>
                 <li><a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a></li>
 
-                <li><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li>
-                <form class="form-modal-login" action="php/inicio-sesion.php" method="POST">
-                    <button name="logout" type="submit"><i class="fa-solid fa-right-from-bracket"></i></button>
-                </form>
+              <li class="btn-login"><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li> 
+                <li class="btn-user"><a id="" href="cliente.php" class="usuario"><i class="fa-solid fa-user"></i>CLIENTE</a></li>
+
+                <li class="btn-logout">
+                    <form class="form-modal-login" action="php/inicio-sesion.php" method="POST">
+                        <button name="logout" type="submit"><i class="fa-solid fa-right-from-bracket"></i></button>
+                    </form>
+                </li>
+
             </ul>
         </nav>
 

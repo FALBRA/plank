@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include("header.php");
 ?>
 <link rel="stylesheet" href="css/style-noticias.css">
