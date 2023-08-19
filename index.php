@@ -10,13 +10,14 @@ include("header.php");
         <label for="btn-rs" class="icon-rs" id="menu-label-rs"><i class="fa-solid fa-chart-bar"></i></label>
         <div class="principal_redes">
             <ul>
-                <li><a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100092722339598&mibextid=9R9pXO" class="facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
                 <li><a href="" class="email"><i class="fa-regular fa-envelope"></i></a></li>
-                <li><a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="" class="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
+            <script src="js/whatsapp.js"></script>
         </div>
         <div class="principal_titulo">
             <h1>Soluciones tecnológicas</h1>
