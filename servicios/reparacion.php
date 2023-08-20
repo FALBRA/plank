@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include("header-servicio.php");
 ?>
 <link rel="stylesheet" href="../css/style-reparacion.css">
