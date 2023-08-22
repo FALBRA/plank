@@ -89,6 +89,29 @@ body {
     transform: scale(1.1);
 }
 
+.header .opciones-header ul .btn-logout .form-modal-login{
+    display: block;
+    padding: 0 10px;
+    width: 100%;
+}
+.header .opciones-header ul .btn-logout .form-modal-login button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.header .opciones-header ul .btn-logout .form-modal-login button i{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+    font-weight: bold;
+    font-size: 120%;
+}
+.header .opciones-header ul .btn-logout .form-modal-login button i:hover{
+    text-shadow: 0 0 10px white;
+    transform: scale(1.3);
+}
+
 /*fin header*/
 
 
@@ -1023,7 +1046,43 @@ p > a > .whatplank{
 /*--------------------fin index-----------------------------*/
 
 
+@media screen and (max-width: 836px){
+    /*header*/
+    .header {
+        display: grid;
+        grid-template-columns: 20% auto;
+        max-height: 150px;
+        align-items: center;
+    }
 
+    .header label {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 2% 0 0;
+    }
+
+    .header .opciones-header {
+        display: flex;
+        justify-content: start;
+        position: absolute;
+        top: 68px;
+        right: 0;
+        z-index: 1;
+        width: 143px;
+        transform: translateY(-140%);
+        transition: all 0.3s;
+    }
+
+    .header .opciones-header ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 10px 3px;
+    }
+
+    #btn-menu:checked~.opciones-header {
+        transform: translateY(0%);
+    }
+}
 
 
 @media screen and (max-width: 780px) {
@@ -1072,6 +1131,10 @@ p > a > .whatplank{
     #btn-menu:checked~.opciones-header {
         transform: translateY(0%);
     }
+    .logo{
+        width: 150%;
+    }
+    
 
     /*fin header*/
 
@@ -1429,6 +1492,28 @@ p > a > .whatplank{
 
 }
 
+@media screen and (max-width:414px){
+    .footer-plank{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-redes .p-footer{
+        display: none;
+    }
+    .footer-redes p{
+        margin: 10px 0;
+    }
+    .final-footer .footer-copy{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 375px) {
 
     /*header*/
@@ -1442,7 +1527,7 @@ p > a > .whatplank{
     }
 
     .header .logo img {
-        max-width: 40px;
+        max-width: 50px;
         float: right;
         padding: 10px 10px 10px 5px;
         transition: transform 0.2s;
@@ -1717,30 +1802,25 @@ p > a > .whatplank{
     /*----------FIN BIENVENIDOS---------------*/
 
     /*footer*/
-    .footer {
-        display: grid;
-        gap: 5px;
-        grid-template-columns: auto auto;
-        max-height: 140px;
-        font-size: 100%;
-        justify-items: center;
+    .footer-plank{
+        display: flex;
+        flex-direction: column;
     }
-
-    .footer .footer-logo img {
-
+    .footer-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-redes .p-footer{
         display: none;
     }
-
-    .footer .footer-logo {
-
-        display: none;
+    .footer-redes p{
+        margin: 10px 0;
     }
-
     .footer-copy {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-
     }
 
     .footer p {
@@ -1768,6 +1848,10 @@ p > a > .whatplank{
 
     .final-footer {
         background-color: #171717;
+    }
+    .final-footer .footer-copy{
+        display: flex;
+        flex-direction: column;
     }
 
     /*--------------------fin footer----------------*/

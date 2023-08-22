@@ -36,9 +36,6 @@ include("header.php");
                 if (!file_exists($imagen_perfil)) {
                     $imagen_perfil = "img/usuario/default.jpg";
                 }
-
-
-
                 ?>
                 <img id="imagen-cliente" src="<?php echo $imagen_perfil ?>" alt="white">
                 <div id="cambiar-text" class="cambiar-texto">Cambiar foto</div>
@@ -47,13 +44,9 @@ include("header.php");
                     <input type="file" name="imagen" accept="image/*">
                     <button type="submit" name="save-profile">Subir Imagen</button>
                     <button type="submit" value="" name="delete-profile">Eliminar imagen</button>
-
                 </form>
-
-
             </div>
             <div class="nickname">
-
                 <h1> <?php echo $usuario['nickname_cliente'] ?></h1>
             </div>
         </div>
