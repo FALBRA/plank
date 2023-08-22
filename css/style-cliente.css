@@ -119,7 +119,50 @@
     justify-content: center;
     display: none;
 }
+@media screen and (max-width: 780px){
+    .encabezado-cleinte-container{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .perfil,
+    .actividad-option{
+        background-color: #171717;
+        color: #fff;
+        height: 100px;
+        text-align: center;
+        width: 98%;
+    }
+    .actividad-option{
+        height: 55px;
+    }
+    .actividad-option .actividad h2{
+        margin: 0;
+    }
+    .actividad-option i{
+        top: 213px;
+    }
+}
+@media screen and (max-width: 280px){
+    .actividad-option .actividad h2{
+        font-size: 100%;
+    }
+    .actividad-option i{
+        top: 211px;
+    }
 
+    .foto form{
+        left: 17%;
+        padding: 15px;
+    }
+    .foto form input[type="file"],
+    .foto form button[type="submit"]{
+        width: 132px;
+    }
+}
 /*--------------------------------------End encabezado cliente-------------------------------------*/
 /*--------------------------------------Start vista servicios cliente--------------------------------------------*/
 /*-----------------------------------Start selector servicio cliente-------------------------------------------*/
@@ -162,6 +205,59 @@
 .desarrollo-web.clicked{
     transform: scale(1.1);
 }
+@media screen and (max-width: 780px){
+    .container-vista-servicios-cliente{
+        display: flex;
+        flex-direction: column;
+    }
+    .selector-servicio-cliente{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 70%;
+        width: 100%;
+    }
+    .reparacion,
+    .instalacion,
+    .desarrollo-web{
+        width: 29%;
+    } 
+}
+@media screen and (max-width: 631px){
+    .selector-servicio-cliente{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 504px){
+    .selector-servicio-cliente{
+        font-size: 48%;
+    }
+}
+@media screen and (max-width: 375px){
+    .selector-servicio-cliente{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 60%;
+        width: 100%;
+    }
+    .reparacion,
+    .instalacion,
+    .desarrollo-web{
+        width: 150px;
+    } 
+}
+@media screen and (max-width: 280px){
+    .selector-servicio-cliente{
+        font-size: 48%;
+    }
+    .reparacion,
+    .instalacion,
+    .desarrollo-web{
+        width: 120px;
+    } 
+}
 /*-----------------------------------END selector servicio cliente-------------------------------------------*/
 /*-------------------------------------START contenido servivio cliente--------------------------------------*/
 .contenido-servicio-cliente{
@@ -171,6 +267,31 @@
     background-color: #171717;
     width: 58%;
     border: 2px solid rgb(255, 255, 255);
+}
+@media screen and (max-width: 886px){
+    .contenido-servicio-cliente{
+        font-size: 87%;
+    }
+}
+@media screen and (max-width: 451px){
+    .contenido-servicio-cliente{
+        font-size: 79%;
+    }
+}
+@media screen and (max-width: 375px){
+    .contenido-servicio-cliente{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 375px){
+    .contenido-servicio-cliente{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 780px){
+    .contenido-servicio-cliente{
+        width: 99%;
+    }
 }
 /*---------------------------------------------START contenido reparacion---------------------------------------*/
 .contenido-reparacion{
@@ -241,7 +362,51 @@
     right: 3%; 
     z-index: 0;
 }
-
+@media screen and (max-width: 886px){
+    .linea{
+        border: none;
+        width: 53%;
+        height: 2px;
+        background: #171717;
+        margin: 0 0 0 0;
+        position: absolute;
+        top: 288px;
+        right: 3%; 
+        z-index: 0;
+    }
+}
+@media screen and (max-width: 780px){
+    .linea{
+        width: 95%;
+        top: 427px;
+        left: 3%;
+    }
+}
+@media screen and (max-width: 631px){
+    .linea{
+        top: 417px;
+    }
+}
+@media screen and (max-width: 504px){
+    .linea{
+        top: 407px;
+    }
+}
+@media screen and (max-width: 414px){
+    .linea{
+        top: 402px;
+    }
+}
+@media screen and (max-width: 375px){
+    .linea{
+        top: 471px;
+    }
+}
+@media screen and (max-width: 280px){
+    .linea{
+        top: 440px;
+    }
+}
 .cantidad-reparaciones h1{
     margin: 5px 0;
     font-size: 140%;
@@ -327,6 +492,30 @@
     margin: 0 15px;
     padding: 5px 5px;
 }
+@media screen and (max-width:844px){
+    .escribir-comentario textarea{
+        width: 337px;
+    }
+}
+@media screen and (max-width:375px){
+    .escribir-comentario textarea{
+        width: 300px;
+    }
+    .vista-comentario textarea{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 280px){
+    .escribir-comentario textarea{
+        width: 220px;
+    }
+    .vista-comentario textarea{
+        width: 220px;
+    }
+    .editar-eliminar-fecha-comentario p{
+        font-size: 130%;
+    }
+}
 /*---------------------------------------------END contenido reparacion---------------------------------------*/
 /*---------------------------------------------Start contenido intalacion---------------------------------------*/
 .contenido-instalacion{
@@ -408,5 +597,20 @@
 }
 .opciones-content h2{
     text-align: center;
+}
+@media screen and (max-width: 780px){
+    .opciones-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        z-index: 5;
+        top: 261px;
+        right: 10px;
+        display: none;
+    }
+    .titulo-opciones{
+        width: 98%;
+    }
 }
 /*-------------------------------------End opciones content--------------------------------------*/

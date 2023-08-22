@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $sesionActiva = isset($_SESSION['user']);
 ?>
@@ -29,11 +29,11 @@ $sesionActiva = isset($_SESSION['user']);
         display: <?php echo $sesionActiva ? 'block' : 'none'; ?> !important;
     }
 
-    .btn-login{
+    .btn-login {
         display: <?php echo $sesionActiva ? 'none' : 'block'; ?> !important;
     }
 
-    .btn-user{
+    .btn-user {
         display: <?php echo $sesionActiva ? 'block' : 'none'; ?> !important;
 
     }
@@ -52,8 +52,8 @@ $sesionActiva = isset($_SESSION['user']);
                 <li><a href="nosotros.php" class="nosotros" id="nosotros">NOSOTROS</a></li>
                 <li><a href="noticias.php" class="noticias" id="serviciosNoticias">NOTICIAS</a></li>
 
-              <li class="btn-login"><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li> 
-                <li class="btn-user"><a id="" href="cliente.php" class="usuario"><i class="fa-solid fa-user"></i>CLIENTE</a></li>
+                <li class="btn-login"><a id="login" href="#" class="usuario"><i class="fa-solid fa-user"></i></a></li>
+                <li class="btn-user"><a id="" href="cliente.php" class="usuario"><i class="fa-solid fa-user"></i>&nbsp;CLIENTE</a></li>
 
                 <li class="btn-logout">
                     <form class="form-modal-login" action="php/inicio-sesion.php" method="POST">
