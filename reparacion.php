@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include("header.php");
 ?>
 <link rel="stylesheet" href="css/style-reparacion.css">
@@ -121,22 +123,13 @@ include("header.php");
 <section class="solicitud" id="contratar">
     <div class="container">
         <h2>Formulario de Reparación</h2>
-        <form action="#" method="post" class="formulario">
-            <div class="nombre-correo-celular">
-                <div class="nombre">
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
-                </div>
-                <div class="correo">
-                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
-                </div>
-                <div class="celular">
-                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
-                </div>
-            </div>
+        <form action="php/formulario-reparacion.php" method="POST" class="formulario">
             <div class="map-rest">
                 <div class="map">
                     <label for="map">Dirección en Google Maps:</label>
-                    <div id="google-map"></div>
+                    <div id="google-map">
+                        
+                    </div>
                 </div>
                 <div class="rest">
                     <div class="direccion">
@@ -168,10 +161,10 @@ include("header.php");
             </div>
         </form>
     </div>
-    <div class="recordar">
+    <!--<div class="recordar">
         <i class="fa-solid fa-exclamation-circle"></i>
         <p class="p-recordar">En caso de cancelar el servicio no se le devolverá el adelanto, en caso de no reparar el equipo se le devolverá el dinero en su totalidad</p>
-    </div>
+    </div> -->
 </section>
 <section class="comentarios">
     <h2>COMENTARIOS DE CLIENTES</h2>
