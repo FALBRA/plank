@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include("header.php");
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -166,18 +168,8 @@ include("header.php");
 <section class="formulario-contrato-desarrollo-web" id="contratar">
     <div class="container-formulario">
         <h2>SOLICITUD DE SERVICIO:</h2>
-        <form action="#" method="post" class="formulario">
-            <div class="nombre-correo-numero">
-                <div class="nombre">
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
-                </div>
-                <div class="correo">
-                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
-                </div>
-                <div class="celular">
-                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
-                </div>
-            </div>
+        <form action="php/formulario-dw.php" method="post" class="formulario">
+            
             <div class="empresa-descripcion">
                 <div class="empresa">
                     <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa">

@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include("header.php");
 ?>
 <link rel="stylesheet" href="css/style-instalacion.css">
@@ -116,18 +118,8 @@ include("header.php");
 <section class="solicitud" id="contratar">
     <div class="container">
         <h2>Formulario de Instalación</h2>
-        <form action="#" method="post" class="formulario">
-            <div class="nombre-correo-celular">
-                <div class="nombre">
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo del cliente" required>
-                </div>
-                <div class="correo">
-                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
-                </div>
-                <div class="celular">
-                    <input type="tel" id="celular" name="celular" placeholder="Número de Celular" required>
-                </div>
-            </div>
+        <form action="php/formulario-instalacion.php" method="post" class="formulario">
+           
             <div class="map-rest">
                 <div class="map">
                     <label for="map">Dirección en Google Maps:</label>
